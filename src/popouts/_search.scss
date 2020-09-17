@@ -1,0 +1,55 @@
+#app-mount {
+  .container-3ayLPN {
+    background: transparent;
+    box-shadow: none;
+    .displayedNick-3xxvzU,
+    .filter-3Y_im-,
+    .header-2N-gMV {
+      color: var(--text-normal);
+    }
+    .answer-1n6g43,
+    .displayUsername-Qekxml {
+      color: var(--text-muted);
+    }
+    .option-96V44q {
+      .plusIcon-v0BTrL {
+        color: var(--text-normal);
+      }
+      &.selected-rZcOL- {
+        background: var(--white);
+        &:after {
+          background: linear-gradient(90deg, transparent, var(--white-double));
+        }
+      }
+      &:after {
+        background: transparent;
+      }
+    }
+    .react-datepicker,
+    .react-datepicker__header {
+      background: transparent;
+    }
+    .react-datepicker__month {
+      background: var(--background-secondary);
+      border-radius: 3px;
+    }
+    .react-datepicker__day {
+      border-color: var(--white);
+      background: var(--white);
+      &--selected:after {
+        background: var(--gradient);
+      }
+    }
+    .react-datepicker__day--disabled,
+    .react-datepicker__day--outside-month {
+      background: transparent;
+    }
+  }
+  .searchAnswer-3Dz2-q {
+    background: var(--white);
+    margin-left: 0;
+  }
+  .searchFilter-2ESiM3 {
+    background: var(--white);
+  }
+}

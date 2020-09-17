@@ -1,0 +1,49 @@
+#app-mount {
+  .cozy-3raOZG .header-23xsNx {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .message-2qRu38 {
+    background: transparent;
+    box-shadow: none;
+  }
+  // Attachments,pings,codeblocks ect...
+  .message-2qnXI6 {
+    background: transparent !important;
+    .reaction-1hd86g {
+      background: var(--white);
+      &.reactionMe-wv5HKu {
+        background: var(--gradient);
+        .reactionCount-2mvXRV {
+          color: var(--text-normal);
+        }
+      }
+    }
+    .wrapper-2aW0bm {
+      background: var(--background-secondary);
+    }
+    .attachment-33OFj0,
+    .wrapperAudio-1jDe0Q,
+    code {
+      background-color: var(--chat-embed);
+      border: none;
+    }
+    .embedFull-2tM8-- {
+      background-color: var(--chat-embed);
+    }
+  }
+  .hljs {
+    color: var(--text-default);
+  }
+  // Mentions
+  .mentioned-xhSam7 {
+    background: var(--gradient-20) !important;
+    &:before {
+      background: var(--gradient);
+    }
+  }
+  .wrapper-3WhCwL {
+    background: var(--gradient);
+    color: var(--text-normal);
+  }
+}

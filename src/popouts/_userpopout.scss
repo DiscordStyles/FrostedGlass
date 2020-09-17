@@ -1,0 +1,67 @@
+#app-mount .userPopout-3XzG_A {
+  box-shadow: none;
+  overflow: hidden;
+  opacity: 0;
+  animation: fadeIn 0.3s ease forwards;
+  .headerNormal-T_seeN {
+    background: transparent;
+  }
+  .headerPlaying-j0WQBV {
+    background: var(--gradient-50);
+  }
+  .headerXbox-3G-4PF {
+    background: rgba(var(--discord-xbox), 0.3);
+  }
+  .headerSpotify-zpWxgT {
+    background: rgba(var(--discord-spotify), 0.3);
+  }
+  .headerStreaming-2FjmGz {
+    background: rgba(var(--discord-twitch), 0.3);
+  }
+  .wrapper-3t9DeA::after {
+    border-radius: 3px;
+  }
+  .activityName-1IaRLn,
+  .headerTag-2pZJzA,
+  .nameNormal-2lqVQK,
+  .nameWrap-3Z4G_9,
+  .textRow-19NEd_ {
+    color: var(--text-normal);
+  }
+  .body-3iLsc4 {
+    background: transparent;
+  }
+  .role-2irmRk {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    color: var(--text-normal);
+  }
+  .roleCircle-3xAZ1j::after {
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: inherit;
+    opacity: 0.2;
+    z-index: -1;
+  }
+  .footer-1fjuF6 {
+    background: transparent;
+    border: none;
+  }
+  .quickMessage-1yeL4E {
+    background: var(--background-secondary);
+    border: none;
+    color: var(--text-normal);
+    &::placeholder {
+      color: rgba(255,255,255,0.3);
+    }
+  }
+  .protip-YaFfgO {
+    display: none;
+  }
+}

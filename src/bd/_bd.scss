@@ -1,0 +1,9 @@
+#app-mount #bd-settingspane-container {
+  h3 {
+    color: var(--text-normal);
+  }
+  .style-description {
+    color: var(--text-default);
+    border-color: var(--background-modifier-accent);
+  }
+}

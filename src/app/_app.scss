@@ -1,0 +1,66 @@
+#app-mount:before {
+  content: "";
+  background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+  position: absolute;
+  height: calc(100vh + (var(--background-image-blur) * 2));
+  width: calc(100vw + (var(--background-image-blur) * 2));
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#app-mount {
+  .layers-3iHuyZ {
+    margin: var(--window-padding);
+    overflow: hidden;
+    border-radius: var(--window-roundness);
+  }
+  .layer-3QrUeG {
+    background: var(--tint);
+  }
+  // Container shadow
+  .base-3dtUhz:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.2), transparent);
+    z-index: 1;
+    top: 48px;
+    pointer-events: none;
+    user-select: none;
+  }
+  // Bot tags
+  .botTagRegular-2HEhHi {
+    background: var(--gradient);
+    color: var(--text-normal);
+    margin-top: 0;
+  }
+  .botText-1526X_ {
+    font-weight: 600;
+  }
+  .botTagInvert-18-95s {
+    color: rgb(var(--gradient-primary));
+    .botText-1526X_ {
+      font-weight: bold;
+    }
+  }
+}
+::selection {
+  background: rgb(var(--gradient-primary));
+  color: var(--text-normal);
+}
+// Update notice
+#app-mount .app-2rEoOp::before {
+  content: "Your version of Frosted Glass is outdated. Please redownload";
+  white-space: pre-wrap;
+  display: var(--update-notice-1, block);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background: rgb(var(--discord-blurple), 0.7);
+  text-shadow: 0 2px 3px rgba(0,0,0,var(--text-shadow));
+}

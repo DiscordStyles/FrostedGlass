@@ -1,0 +1,58 @@
+#app-mount .drawerSizingWrapper-27qFHb {
+  right: 0;
+  position: absolute !important;
+  .nav-2KnmHb {
+    position: absolute;
+    padding: 0 0 0 13px;
+    top: 16px;
+    z-index: 999;
+  }
+  [class*="searchBar"] {
+    background: var(--background-secondary);
+    margin-left: 105px;
+  }
+  .contentWrapper-2txmjs {
+    display: grid;
+    grid-template-rows: auto;
+    background: transparent;
+  }
+  [aria-selected="true"] .navButton-3Mnpqt {
+    background: var(--gradient);
+  }
+  .navButton-3Mnpqt {
+    background: var(--white);
+    padding: 6px 5px 7px;
+  }
+  // GIFs
+  .categoryFadeBlurple-1j72_A {
+    background: var(--gradient-90);
+  }
+  .focused-1En8bG:after,
+  .result-3w1ZcL:hover:after {
+    box-shadow: inset 0 0 0 2px rgb(var(--gradient-primary));
+  }
+  .result-3w1ZcL {
+    background-color: var(--white) !important;
+  }
+  // Emoji
+  .emojiItemSelected-1aLkfV {
+    background: var(--white-double);
+  }
+  .categoryWrapper-UZ5YNj {
+    background: var(--background-secondary);
+  }
+  .category-3Xkx2x {
+    color: var(--text-normal);
+  }
+}
+.emojiPicker-3PwZFl {
+  box-shadow: none;
+  background: transparent;
+  animation: fadeIn 0.3s ease forwards;
+  [class*="header"] {
+    box-shadow: none;
+  }
+  .searchBar-5di9mG {
+    background: var(--background-secondary);
+  }
+}

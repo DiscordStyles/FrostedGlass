@@ -1,0 +1,29 @@
+#app-mount .root-1gCeng {
+  box-shadow: none;
+  background: transparent;
+  .action-1lSjCi {
+    background: var(--white);
+  }
+  .colorMuted-HdFt4q,
+  .colorStandard-2KCXvj,
+  .description-Bw8krY,
+  .description-QF3836,
+  .header-3ZP1MY,
+  .helpText-h3r3wC {
+    color: #fff;
+  }
+  .footer-3rDWdC {
+    background: rgba(0,0,0,0.2) !important;
+  }
+  .input-1mgnkM,
+  .input-UJ9Tr3 {
+    background: rgba(0,0,0,0.2) !important;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    &::placeholder {
+      color: rgba(255,255,255,0.5);
+    }
+  }
+}

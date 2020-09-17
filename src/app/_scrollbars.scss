@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+	width: 8px !important;
+	height: 8px !important;
+}
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+	border-color: transparent !important;
+	background: transparent !important;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px !important;
+	border: none !important;
+	background-clip: content-box !important;
+	background: var(--scrollbar-colour) !important;
+}
+::-webkit-scrollbar-corner {
+	visibility: hidden !important;
+}
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar,
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-corner,
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-track {
+	display: none !important;
+}

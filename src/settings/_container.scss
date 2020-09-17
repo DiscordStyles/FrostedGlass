@@ -1,0 +1,17 @@
+#app-mount [aria-label*="SETTINGS"] {
+  .sidebarRegionScroller-3MXcoP {
+    background-color: rgba(0,0,0,var(--left-brightness));
+  }
+  .contentRegionScroller-26nc1e {
+    background-color: rgba(0,0,0,var(--middle-brightness));
+  }
+  .multiInput-1e2xJ7 .input-cIJ7To {
+    background: transparent;
+  }
+  .description-3_Ncsb,
+  .h5-18_1nd:not(.isEnabled-24g9qA),
+  .labelDescriptor-1PqHgD,
+  .viewBody-2Qz-jg {
+    color: var(--text-normal);
+  }
+}

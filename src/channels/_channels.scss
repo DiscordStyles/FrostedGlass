@@ -1,0 +1,40 @@
+#app-mount {
+  .containerDefault-1ZnADq {
+    // Unread
+    .modeUnread-1zpFdA .content-3at_AU {
+      background: var(--white);
+    }
+    // Hover
+    .wrapper-1ucjTd:hover .content-3at_AU {
+      background: var(--background-modifier-hover);
+      .icon-1_QxNX {
+        color: var(--interactive-hover);
+      }
+    }
+    // Selected
+    &.selected-37j_iU .content-3at_AU {
+      background: var(--gradient) !important;
+      .icon-1_QxNX {
+        color: var(--text-normal);
+      }
+    }
+  }
+  .users-i_3-kL {
+    background: var(--white);
+    padding: 0 5px;
+    width: auto;
+  }
+  .total-3tKGEB {
+    background: var(--white-double);
+    padding: 0 5px;
+    width: auto;
+  }
+  .containerUserOver-1U5YnL:after {
+    background: var(--gradient-20);
+    border: 2px solid rgb(var(--gradient-primary));
+  }
+  .containerDragAfter-1F4fgZ:after,
+  .containerDragBefore-31UGCO:before {
+    background: var(--gradient);
+  }
+}

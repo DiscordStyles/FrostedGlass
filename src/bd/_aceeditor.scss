@@ -1,0 +1,59 @@
+#app-mount {
+  .editor-wrapper {
+    background: var(--background-secondary);
+  }
+  #bd-customcss-detach-container {
+    background: var(--background-secondary);
+    overflow: hidden;
+    .editor-wrapper {
+      height: calc(100% + 41px);
+    }
+  }
+  &.bd-detached-editor {
+    .winButton-iRh8-Z {
+      right: calc(30% + 20px) !important;
+    }
+  }
+  #bd-customcss-attach-controls {
+    height: auto;
+  }
+  .ace_active-line,
+  .ace_gutter-active-line,
+  .ace_selection {
+    background: var(--white-double);
+  }
+  .ace_editor {
+    background-color: transparent;
+  }
+  .ace_gutter {
+    background: var(--background-secondary);
+  }
+  .help-text,
+  span[style="font-size: 10px; margin-left: 5px;"] {
+    display: none;
+  }
+  #bd-customcss-attach-controls {
+    background: var(--background-secondary);
+    box-shadow: inset 0 0 0 100vmax var(--background-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    .checkbox-group li {
+      margin-top: 0;
+    }
+    button {
+      margin: 0 0 0 10px;
+      border-radius: 3px !important;
+      border: none !important;
+      background: var(--white);
+      color: var(--text-normal);
+      transition: 0.2s ease;
+      &:active,
+      &:hover {
+        background: var(--white-double);
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+#app-mount {
+  .notice-2FJMB4 {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    box-shadow: none;
+    .button-1MICoQ {
+      top: 0;
+      background: var(--white);
+      border-color: transparent;
+      color: #fff;
+      &:hover {
+        background: var(--white-double);
+      }
+      &:active {
+        background: var(--white-triple);
+      }
+    }
+  }
+  .dismiss-SCAH9H {
+    right: unset;
+    left: 0;
+    height: 48px;
+  }
+  .noticeStreamerMode-2TSQpg {
+    background: rgba(var(--discord-twitch), 0.6);
+  }
+}

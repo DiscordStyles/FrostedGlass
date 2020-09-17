@@ -1,0 +1,20 @@
+#app-mount {
+  .wrapper-2qzCYF.minimum-28Z35l {
+    background: var(--background-secondary);
+  }
+  .centerButton-3CaNcJ {
+    background: var(--white);
+    &:hover {
+      background: var(--white-double);
+    }
+  }
+  .controlButton-2MhVEL.leaveButton-2YnTyt {
+    background: rgba(var(--discord-red), .5);
+    &:hover {
+      background: rgb(var(--discord-red));
+    }
+  }
+  .quickSelect-3BxO0K {
+    margin-top: 10px;
+  }
+}

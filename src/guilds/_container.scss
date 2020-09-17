@@ -1,0 +1,9 @@
+&.wrapper-1Rf91z {
+  background-color: transparent;
+  .scroller-2TZvBN {
+    background-color: rgba(0,0,0,var(--serverlist-brightness));
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

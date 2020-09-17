@@ -1,0 +1,31 @@
+#app-mount .content-98HsJk {
+  .discoverHeader-1TWTqG {
+    margin: 0 0 10px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .categoryItem-3zFJns {
+    &.selected-aXhQR6 .itemInner-3gVXMG {
+      background: var(--gradient);
+    }
+  }
+  .pageWrapper-1PgVDX {
+    background: rgba(0,0,0,var(--middle-brightness));
+    .scrollerWrap-2lJEkd {
+      margin-top: 48px;
+      margin-bottom: 48px;
+    }
+  }
+  .card-3DjzTQ {
+    background: var(--background-secondary);
+    &:hover {
+      box-shadow: none;
+    }
+  }
+  .footer-2jdoRS {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

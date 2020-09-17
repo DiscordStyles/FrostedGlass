@@ -1,0 +1,12 @@
+#app-mount .sidebar-2K8pFh {
+  border-radius: 0;
+  background: rgba(0,0,0,var(--left-brightness));
+  .container-PNkimc,
+  .privateChannels-1nO12o,
+  .scroller-1JbKMe {
+    background-color: transparent;
+  }
+  [role="list"] > div[style="width: 100%; height: 84px; visibility: hidden;"] {
+    height: 120px !important;
+  }
+}

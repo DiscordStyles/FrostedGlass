@@ -1,0 +1,46 @@
+// Home button
+.tutorialContainer-1v44GL {
+  .childWrapper-anI2G9 {
+    background: var(--gradient);
+    background-color: transparent;
+  }
+  .wrapper-1BJsBx {
+    &:before {
+      content: "";
+      border-radius: 50%;
+      position: absolute;
+      background: var(--home-button-image, url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg'));
+      background-size: var(--home-button-size, cover);
+      background-position: var(--home-button-position, center);
+      height: 100%;
+      width: 100%;
+      transition: 0.2s ease;
+    }
+    &.selected-bZ3Lue:before {
+      border-radius: 30%;
+    }
+  }
+  .homeIcon-tEMBK1 {
+    display: none;
+  }
+}
+.selected-bZ3Lue .acronym-2mOFsV {
+  background: var(--white-double);
+}
+// No icon
+.acronym-2mOFsV {
+  background: var(--white);
+  &:hover {
+    background: var(--white-double);
+  }
+}
+// Add server/Discovery
+.circleIconButton-jET_ig {
+  background: var(--white);
+  color: rgb(var(--gradient-primary));
+  &.selected-ugP_am,
+  &:hover {
+    background: var(--white-double);
+    color: var(--text-normal);
+  }
+}

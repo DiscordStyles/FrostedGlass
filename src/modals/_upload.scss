@@ -1,0 +1,40 @@
+#app-mount .uploadModal-2ifh8j {
+  position: relative;
+  box-shadow: none;
+  .inner-3nWsbo {
+    margin: 0;
+    position: relative;
+    z-index: 2;
+  }
+  .footer-3mqk7D {
+    background: transparent;
+    box-shadow: none;
+    position: relative;
+    z-index: 2;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    background: var(--popout-modal-image) center/cover fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+    border-radius: 5px;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background: rgba(0,0,0,var(--popout-modal-brightness));
+    box-shadow: var(--tint);
+    z-index: 1;
+    backdrop-filter: blur(var(--popout-modal-blur));
+  }
+}

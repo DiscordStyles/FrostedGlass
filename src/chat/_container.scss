@@ -1,0 +1,26 @@
+#app-mount {
+  .content-yTz4x3:before {
+    content: none;
+  }
+  .chat-3bRxxu {
+    background: rgba(0,0,0,var(--middle-brightness));
+  }
+  .messages-3amgkR {
+    background-color: transparent;
+    text-shadow: 0 2px 5px rgba(0,0,0,var(--text-shadow));
+  }
+  .newMessagesBar-265mhP {
+    background: var(--gradient);
+    opacity: 1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  }
+  .jumpToPresentBar-G1R9s6 {
+    border-radius: 8px;
+    background-color: var(--white-double);
+    padding-bottom: 0;
+    bottom: 10px;
+    &:hover {
+      background-color: var(--white-triple);
+    }
+  }
+}

@@ -1,0 +1,78 @@
+:root {
+  // Frosted Glass variables
+  --TB-tr-roundness: var(--window-roundness);
+  --tint: rgba(var(--tint-colour), var(--tint-brightness));
+  --white-half: rgba(255,255,255,0.025);
+  --white: rgba(255,255,255,0.05);
+  --white-double: rgba(255,255,255,0.1);
+  --white-triple: rgba(255,255,255,0.15);
+  --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
+  --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
+  --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
+  --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
+  --text-shadow: 1;
+  --chat-embed: var(--background-secondary);
+
+  // Discord variables
+  --discord-green: 67,181,129;
+  --discord-yellow: 219,171,9;
+  --discord-red: 215,58,73;
+  --discord-purple: 89,54,149;
+  --discord-invisible: 117,128,142;
+  --discord-nitro: 255,115,250;
+  --discord-blurple: 114,137,218;
+  --discord-spotify: 29,185,84;
+  --discord-twitch: 89,54,149;
+  --discord-xbox: 16,124,16;
+
+  --version: 'Frosted Glass 2.0.4';
+}
+
+.theme-dark {
+  --header-primary: #fff;
+  --header-secondary: #bbb;
+  --text-normal: #fff;
+  --text-default: #ddd;
+  --text-muted: #aaa;
+  --text-link: #00b0f4;
+  --channels-default: #ddd;
+  --interactive-normal: #bbb;
+  --interactive-hover: #eee;
+  --interactive-active: #fff;
+  --interactive-muted: #777;
+  --background-primary: transparent;
+  --background-secondary: rgba(0,0,0,0.3);
+  --background-secondary-alt: transparent;
+  --background-tertiary: transparent;
+  --background-accent: #4f545c;
+  --background-floating: transparent;
+  --background-mobile-primary: #36393f;
+  --background-mobile-secondary: #2f3136;
+  --background-modifier-hover: rgba(255,255,255,0.05);
+  --background-modifier-active: rgba(255,255,255,0.07);
+  --background-modifier-selected: rgba(255,255,255,0.1);
+  --background-modifier-accent: rgba(255,255,255,0.1);
+  --background-mentioned: rgba(250,166,26,0.05);
+  --background-mentioned-hover: rgba(250,166,26,0.08);
+  --background-message-hover: rgba(4,4,5,0.07);
+  --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+  --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+  --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+  --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+  --logo-primary: #fff;
+  --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  --channeltextarea-background: rgba(255,255,255,0.05);
+  --activity-card-background: #202225;
+  --textbox-markdown-syntax: #8e9297;
+  --deprecated-card-bg: rgba(0,0,0,0.3);
+  --deprecated-card-editable-bg: rgba(0,0,0,0.3);
+  --deprecated-store-bg: #36393f;
+  --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
+  --deprecated-quickswitcher-input-placeholder: rgba(255,255,255,0.5);
+  --deprecated-text-input-bg: rgba(0,0,0,0.1);
+  --deprecated-text-input-border: rgba(0,0,0,0.3);
+  --deprecated-text-input-border-hover: #040405;
+  --deprecated-text-input-border-disabled: #202225;
+  --deprecated-text-input-prefix: #dcddde;
+  --text-link: var(--link-colour);
+}

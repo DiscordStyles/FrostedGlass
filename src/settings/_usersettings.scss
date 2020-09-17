@@ -1,0 +1,87 @@
+#app-mount #user-settings {
+  // Authorized apps
+  .authedApp-mj2Hmd {
+    background: var(--background-secondary);
+  }
+  // Connections
+  .connection-1fbD7X {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent !important;
+    box-shadow: none;
+    &[style*="rgb(0, 154, 229)"] {
+      background: rgba(0, 154, 229, 0.2) !important;
+    }
+    &[style*="rgb(2, 31, 37)"] {
+      background: rgba(2, 31, 37, 0.3) !important;
+    }
+    &[style*="rgb(255, 69, 0)"] {
+      background: rgba(255, 69, 0, 0.2) !important;
+    }
+    &[style*="rgb(29, 185, 84)"] {
+      background: rgba(29, 185, 84, 0.2) !important;
+    }
+    &[style*="rgb(24, 35, 50)"] {
+      background: rgba(24, 35, 50, 0.4) !important;
+    }
+    &[style*="rgb(89, 54, 149)"] {
+      background: rgba(89, 54, 149, 0.3) !important;
+    }
+    .integration-3kMeY4 {
+      background: var(--white);
+      border: none;
+    }
+    &[style*="rgb(29, 161, 242)"] {
+      background: rgba(29, 161, 242, 0.2) !important;
+    }
+    &[style*="rgb(203, 33, 32)"] {
+      background: rgba(203, 33, 32, 0.2) !important;
+    }
+  }
+  .connectionHeader-2MDqhu {
+    background: transparent;
+    border: none;
+    margin-bottom: 0;
+  }
+  .connectionDelete-2Odoln {
+    border: none;
+    background: var(--white);
+    transition: 0.2s ease;
+    &:after,
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 2px;
+      height: 16px;
+    }
+    &:before {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    &:after {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    span {
+      display: none;
+    }
+    &:hover {
+      background: var(--white-double);
+    }
+    &:active {
+      background: var(--white-triple);
+    }
+  }
+  // Keybinds
+  .card-FDVird:before {
+    border-color: transparent;
+    background: var(--white);
+  }
+  // Game Activity
+  .game-1ipmAa {
+    box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+  }
+  // Language
+  .item-3eFBNF {
+    box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
+  }
+}

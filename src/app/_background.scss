@@ -1,0 +1,57 @@
+#app-mount {
+  .layers-3iHuyZ:before {
+    content: "";
+    background: var(--background-image);
+    background-position: var(--background-image-position, center);
+    background-size: var(--background-image-size, cover);
+    background-repeat: var(--background-image-repeat, no-repeat);
+    height: calc(100vh + (var(--background-image-blur) * 2));
+    width: calc(100vw + (var(--background-image-blur) * 2));
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    filter: blur(var(--background-image-blur));
+    pointer-events: none;
+    user-select: none;
+  }
+  [role="menu"],
+  .autocompleteInner-zh20B_,
+  .container-3ayLPN,
+  .container-enaOkj,
+  .contextMenu-HLZMGh:not(.scroller-2FKFPG),
+  .emojiPicker-3PwZFl,
+  .messagesPopoutWrap-1MQ1bW,
+  .modal-yWgWj-:not(.slide-2pHaq5),
+  .root-1gCeng:not(.fullscreenOnMobile-1bD22y),
+  .root-SR8cQa,
+  .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
+  .userPopout-3XzG_A,
+  section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb,
+  .quickswitcher-3JagVE,
+  .root-1gCeng.wrapper-2ZbzR9,
+  .modalRoot-1Kx4Hb,
+  .container-3JTnYm.thin-1ybCId.scrollerBase-289Jih {
+    overflow: hidden !important;
+    position: relative;
+    border-radius: 3px;
+    &:before {
+      content: "";
+      background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
+      background-position: var(--popout-modal-position, center);
+      background-size: var(--popout-modal-size, cover);
+      background-attachment: var(--popout-modal-attachment, fixed);
+      background-repeat: var(--popout-modal-repeat, no-repeat);
+      box-shadow: inset 0 0 0 100vmax rgba(0,0,0,var(--popout-modal-brightness));
+      height: calc(100% + var(--popout-modal-blur) * 5);
+      width: calc(100% + var(--popout-modal-blur) * 5);
+      top: calc(var(--popout-modal-blur) / -1 * 2.5);
+      left: calc(var(--popout-modal-blur) / -1 * 2.5);
+      position: absolute;
+      filter: blur(var(--popout-modal-blur));
+      pointer-events: none;
+      user-select: none;
+      z-index: -1;
+    }
+  }
+}

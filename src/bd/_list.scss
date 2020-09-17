@@ -1,0 +1,42 @@
+#app-mount {
+  .bd-addon-card {
+    background: var(--background-secondary);
+    border-color: transparent;
+  }
+  .bd-addon-header {
+    border: none;
+    padding: 0;
+  }
+  .bd-addon-description {
+    margin: 0;
+    padding: 10px 0;
+    color: var(--text-normal);
+  }
+  .bd-card-footer {
+    border: none;
+    padding: 10px 0 7px;
+    button {
+      background: var(--gradient);
+    }
+  }
+  .bd-addon-links {
+    font-size: 0;
+  }
+  .bda-link {
+    font-size: 10px;
+    margin-right: 10px;
+    background: var(--white);
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: var(--text-normal);
+    text-decoration: none;
+    transition: 0.2s ease;
+    &:hover {
+      background: var(--white-double);
+    }
+    &:active {
+      background: var(--white-triple);
+    }
+  }
+}
