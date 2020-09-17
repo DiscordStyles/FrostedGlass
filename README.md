@@ -3,7 +3,7 @@ Display your picture of choice with adjustable blur and brightness. Dark theme i
 
 - - -
 BetterDiscord Download: [https://betterdiscord.net/ghdl?id=3359](https://betterdiscord.net/ghdl?id=3359)  
-Powercord Install: `cd powercord/src/powercord/themes && git clone https://github.com/DiscordStyles/FrostedGlass`
+Powercord Install: `git clone https://github.com/DiscordStyles/FrostedGlass`
 - - -
 
 Server chat + User popout
