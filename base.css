@@ -1,28 +1,32 @@
 :root {
   --TB-tr-roundness: var(--window-roundness);
+  --TB-position-top: calc(var(--window-padding));
+  --TB-position-right: var(--window-padding);
+  --TB-header-padding: 8px;
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
-  --white-half: rgba(255, 255, 255, 0.025);
-  --white: rgba(255, 255, 255, 0.05);
-  --white-double: rgba(255, 255, 255, 0.1);
-  --white-triple: rgba(255, 255, 255, 0.15);
+  --white-half: rgba(255,255,255,0.025);
+  --white: rgba(255,255,255,0.05);
+  --white-double: rgba(255,255,255,0.1);
+  --white-triple: rgba(255,255,255,0.15);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
   --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
   --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
   --text-shadow: 1;
   --chat-embed: var(--background-secondary);
-  --discord-green: 67, 181, 129;
-  --discord-yellow: 219, 171, 9;
-  --discord-red: 215, 58, 73;
-  --discord-purple: 89, 54, 149;
-  --discord-invisible: 117, 128, 142;
-  --discord-nitro: 255, 115, 250;
-  --discord-blurple: 114, 137, 218;
-  --discord-spotify: 29, 185, 84;
-  --discord-twitch: 89, 54, 149;
-  --discord-xbox: 16, 124, 16;
-  --version: "Frosted Glass 2.0.4";
+  --discord-green: 67,181,129;
+  --discord-yellow: 219,171,9;
+  --discord-red: 215,58,73;
+  --discord-purple: 89,54,149;
+  --discord-invisible: 117,128,142;
+  --discord-nitro: 255,115,250;
+  --discord-blurple: 114,137,218;
+  --discord-spotify: 29,185,84;
+  --discord-twitch: 89,54,149;
+  --discord-xbox: 16,124,16;
+  --version: "Frosted Glass 2.0.5";
 }
+
 .theme-dark {
   --header-primary: #fff;
   --header-secondary: #bbb;
@@ -36,41 +40,42 @@
   --interactive-active: #fff;
   --interactive-muted: #777;
   --background-primary: transparent;
-  --background-secondary: rgba(0, 0, 0, 0.3);
+  --background-secondary: rgba(0,0,0,0.3);
   --background-secondary-alt: transparent;
   --background-tertiary: transparent;
   --background-accent: #4f545c;
   --background-floating: transparent;
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
-  --background-modifier-hover: rgba(255, 255, 255, 0.05);
-  --background-modifier-active: rgba(255, 255, 255, 0.07);
-  --background-modifier-selected: rgba(255, 255, 255, 0.1);
-  --background-modifier-accent: rgba(255, 255, 255, 0.1);
-  --background-mentioned: rgba(250, 166, 26, 0.05);
-  --background-mentioned-hover: rgba(250, 166, 26, 0.08);
-  --background-message-hover: rgba(4, 4, 5, 0.07);
-  --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
-  --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
-  --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
-  --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+  --background-modifier-hover: rgba(255,255,255,0.05);
+  --background-modifier-active: rgba(255,255,255,0.07);
+  --background-modifier-selected: rgba(255,255,255,0.1);
+  --background-modifier-accent: rgba(255,255,255,0.1);
+  --background-mentioned: rgba(250,166,26,0.05);
+  --background-mentioned-hover: rgba(250,166,26,0.08);
+  --background-message-hover: rgba(4,4,5,0.07);
+  --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+  --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+  --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+  --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
   --logo-primary: #fff;
-  --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-  --channeltextarea-background: rgba(255, 255, 255, 0.05);
+  --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  --channeltextarea-background: rgba(255,255,255,0.05);
   --activity-card-background: #202225;
   --textbox-markdown-syntax: #8e9297;
-  --deprecated-card-bg: rgba(0, 0, 0, 0.3);
-  --deprecated-card-editable-bg: rgba(0, 0, 0, 0.3);
+  --deprecated-card-bg: rgba(0,0,0,0.3);
+  --deprecated-card-editable-bg: rgba(0,0,0,0.3);
   --deprecated-store-bg: #36393f;
   --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
-  --deprecated-quickswitcher-input-placeholder: rgba(255, 255, 255, 0.5);
-  --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
-  --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+  --deprecated-quickswitcher-input-placeholder: rgba(255,255,255,0.5);
+  --deprecated-text-input-bg: rgba(0,0,0,0.1);
+  --deprecated-text-input-border: rgba(0,0,0,0.3);
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #dcddde;
   --text-link: var(--link-colour);
 }
+
 #app-mount:before {
   content: "";
   background: var(--background-image);
@@ -83,6 +88,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 #app-mount .layers-3iHuyZ {
   margin: var(--window-padding);
   overflow: hidden;
@@ -100,7 +106,8 @@
   z-index: 1;
   top: 48px;
   pointer-events: none;
-  user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
 }
 #app-mount .botTagRegular-2HEhHi {
   background: var(--gradient);
@@ -116,10 +123,12 @@
 #app-mount .botTagInvert-18-95s .botText-1526X_ {
   font-weight: bold;
 }
+
 ::selection {
   background: rgb(var(--gradient-primary));
   color: var(--text-normal);
 }
+
 #app-mount .app-2rEoOp::before {
   content: "Your version of Frosted Glass is outdated. Please redownload";
   white-space: pre-wrap;
@@ -131,38 +140,41 @@
   background: rgb(var(--discord-blurple), 0.7);
   text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
 }
+
 ::-webkit-scrollbar {
   width: 8px !important;
   height: 8px !important;
 }
+
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-track-piece {
   border-color: transparent !important;
   background: transparent !important;
 }
+
 ::-webkit-scrollbar-thumb {
   border-radius: 10px !important;
   border: none !important;
   background-clip: content-box !important;
   background: var(--scrollbar-colour) !important;
 }
+
 ::-webkit-scrollbar-corner {
   visibility: hidden !important;
 }
+
 .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar,
 .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-corner,
 .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-track {
   display: none !important;
 }
-#app-mount .winButton-iRh8-Z {
-  top: calc(var(--window-padding) - 1px);
-  right: var(--window-padding);
-}
+
 ::-webkit-input-placeholder, body, button, input, select, textarea {
   font-family: var(--font, "Whitney");
 }
+
 #app-mount .tooltip-2QfLtc {
   color: var(--text-normal);
   text-align: center;
@@ -174,6 +186,7 @@
 #app-mount .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
   display: none;
 }
+
 #app-mount .layers-3iHuyZ:before {
   content: "";
   background: var(--background-image);
@@ -188,7 +201,8 @@
   position: absolute;
   filter: blur(var(--background-image-blur));
   pointer-events: none;
-  user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
 }
 #app-mount [role=menu],
 #app-mount .autocompleteInner-zh20B_,
@@ -242,9 +256,11 @@
   position: absolute;
   filter: blur(var(--popout-modal-blur));
   pointer-events: none;
-  user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
   z-index: -1;
 }
+
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 #app-mount .lookGhost-2Fn_0-.colorGrey-2DXtkV,
 #app-mount .lookInverted-2D7oAl.colorBrand-3pXr91,
@@ -358,7 +374,7 @@
 #app-mount .themeDefault-24hCdX.valueChecked-m-4IJZ {
   background: var(--gradient);
 }
-#app-mount .checkboxElement-1qV33p:checked+span {
+#app-mount .checkboxElement-1qV33p:checked + span {
   border-color: rgb(var(--gradient-primary));
   background: rgb(var(--gradient-primary));
 }
@@ -391,10 +407,12 @@
   background: var(--background-secondary);
   border-color: transparent;
 }
+
 #app-mount .title-3qD0b- .searchBar-3dMhjb {
   background: var(--background-secondary);
 }
-#app-mount .notice-2FJMB4 {
+
+#app-mount .notice-3bPHh- {
   height: 48px;
   display: flex;
   align-items: center;
@@ -402,19 +420,19 @@
   border-radius: 0;
   box-shadow: none;
 }
-#app-mount .notice-2FJMB4 .button-1MICoQ {
+#app-mount .notice-3bPHh- .button-2DhvE9 {
   top: 0;
   background: var(--white);
   border-color: transparent;
   color: #fff;
 }
-#app-mount .notice-2FJMB4 .button-1MICoQ:hover {
+#app-mount .notice-3bPHh- .button-2DhvE9:hover {
   background: var(--white-double);
 }
-#app-mount .notice-2FJMB4 .button-1MICoQ:active {
+#app-mount .notice-3bPHh- .button-2DhvE9:active {
   background: var(--white-triple);
 }
-#app-mount .dismiss-SCAH9H {
+#app-mount .closeButton-3cJIM4 {
   right: unset;
   left: 0;
   height: 48px;
@@ -422,6 +440,7 @@
 #app-mount .noticeStreamerMode-2TSQpg {
   background: rgba(var(--discord-twitch), 0.6);
 }
+
 #app-mount .guilds-1SWlCJ.wrapper-1Rf91z {
   background-color: transparent;
 }
@@ -475,6 +494,7 @@
   background: var(--white-double);
   color: var(--text-normal);
 }
+
 #app-mount .sidebar-2K8pFh {
   border-radius: 0;
   background: rgba(0, 0, 0, var(--left-brightness));
@@ -484,9 +504,10 @@
 #app-mount .sidebar-2K8pFh .scroller-1JbKMe {
   background-color: transparent;
 }
-#app-mount .sidebar-2K8pFh [role=list]>div[style="width: 100%; height: 84px; visibility: hidden;"] {
+#app-mount .sidebar-2K8pFh [role=list] > div[style="width: 100%; height: 84px; visibility: hidden;"] {
   height: 120px !important;
 }
+
 #app-mount .header-2o-2hj {
   background: transparent;
   box-shadow: none;
@@ -496,6 +517,7 @@
   top: 48px;
   background: transparent;
 }
+
 #app-mount .containerDefault-1ZnADq .modeUnread-1zpFdA .content-3at_AU {
   background: var(--white);
 }
@@ -529,9 +551,11 @@
 #app-mount .containerDragBefore-31UGCO:before {
   background: var(--gradient);
 }
+
 #app-mount .channel-2QD9_O.selected-aXhQR6 .layout-2DM8Md {
   background: var(--gradient);
 }
+
 #app-mount .panels-j1Uci_ {
   background: transparent;
 }
@@ -547,9 +571,11 @@
 #app-mount .container-1giJp5 {
   border-bottom: none;
 }
+
 #app-mount .unread-1xRYoj {
   background: var(--gradient);
 }
+
 #app-mount .content-yTz4x3:before {
   content: none;
 }
@@ -574,6 +600,7 @@
 #app-mount .jumpToPresentBar-G1R9s6:hover {
   background-color: var(--white-triple);
 }
+
 #app-mount .cozy-3raOZG .header-23xsNx {
   margin-left: 0;
   padding-left: 0;
@@ -619,6 +646,7 @@
   background: var(--gradient);
   color: var(--text-normal);
 }
+
 #app-mount .form-2fGMdU {
   margin-top: 0;
 }
@@ -632,6 +660,7 @@
 #app-mount .form-2fGMdU .buttonWrapper-1ZmCpA.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.noFocus-2C7BQj {
   display: var(--show-gift-gif-buttons);
 }
+
 #app-mount .divider-JfaTT5 {
   border: none;
 }
@@ -658,6 +687,7 @@
 #app-mount .divider-JfaTT5.isUnread-3Ef-o9 {
   border-top: 1px solid rgb(var(--discord-red));
 }
+
 #app-mount .wrapper-2qzCYF.minimum-28Z35l {
   background: var(--background-secondary);
 }
@@ -676,12 +706,14 @@
 #app-mount .quickSelect-3BxO0K {
   margin-top: 10px;
 }
+
 #app-mount .members-1998pB {
   background-color: rgba(0, 0, 0, var(--right-brightness));
 }
-#app-mount .members-1998pB>div {
+#app-mount .members-1998pB > div {
   background: transparent;
 }
+
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
   background: var(--gradient);
 }
@@ -699,10 +731,12 @@
 #app-mount .member-3-YXUe.selected-aXhQR6 .premiumIcon-1rDbWQ {
   color: var(--text-normal);
 }
+
 .colorDefault-2K3EoJ.focused-3afm-j,
 .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
   background: var(--white);
 }
+
 #app-mount .userPopout-3XzG_A {
   box-shadow: none;
   overflow: hidden;
@@ -770,6 +804,7 @@
 #app-mount .userPopout-3XzG_A .protip-YaFfgO {
   display: none;
 }
+
 #app-mount [role=menu] {
   box-shadow: none;
   animation: fadeIn 0.3s ease forwards;
@@ -784,6 +819,7 @@
   background: var(--white-double);
   box-shadow: 0 0 0 2px rgb(var(--gradient-primary));
 }
+
 #app-mount .drawerSizingWrapper-27qFHb {
   right: 0;
   position: absolute !important;
@@ -829,6 +865,7 @@
 #app-mount .drawerSizingWrapper-27qFHb .category-3Xkx2x {
   color: var(--text-normal);
 }
+
 .emojiPicker-3PwZFl {
   box-shadow: none;
   background: transparent;
@@ -840,6 +877,7 @@
 .emojiPicker-3PwZFl .searchBar-5di9mG {
   background: var(--background-secondary);
 }
+
 #app-mount #guild-header-popout .item-1tOPte.colorPremium-p4p7qO {
   color: rgb(var(--discord-nitro));
 }
@@ -858,6 +896,7 @@
 #app-mount #guild-header-popout .item-1tOPte.colorDanger-2qLCe1 .icon-LYJorE {
   color: rgb(var(--discord-red));
 }
+
 #app-mount .container-3ayLPN {
   background: transparent;
   box-shadow: none;
@@ -909,6 +948,7 @@
 #app-mount .searchFilter-2ESiM3 {
   background: var(--white);
 }
+
 #app-mount .autocomplete-1vrmpx {
   box-shadow: none;
 }
@@ -925,9 +965,11 @@
 #app-mount .autocomplete-1vrmpx .descriptionDiscriminator-3vUOCc {
   color: var(--text-muted);
 }
+
 #app-mount .messagesPopoutWrap-1MQ1bW {
   box-shadow: none;
 }
+
 #app-mount .container-enaOkj {
   background: var(--background-secondary);
   margin: 0 10px 10px;
@@ -960,6 +1002,7 @@
   padding: 15px 15px 15px 0;
   box-sizing: border-box;
 }
+
 #app-mount .modal-3c3bKg {
   transform: scale(1) translateZ(0px) !important;
   animation: fadeInTop 0.3s ease forwards !important;
@@ -980,6 +1023,7 @@
   background: var(--background-secondary);
   box-shadow: none;
 }
+
 #app-mount .root-SR8cQa {
   background: transparent;
 }
@@ -1014,6 +1058,7 @@
   background: var(--background-secondary);
   border: none;
 }
+
 #app-mount .uploadModal-2ifh8j {
   position: relative;
   box-shadow: none;
@@ -1052,8 +1097,10 @@
   background: rgba(0, 0, 0, var(--popout-modal-brightness));
   box-shadow: var(--tint);
   z-index: 1;
-  backdrop-filter: blur(var(--popout-modal-blur));
+  -webkit-backdrop-filter: blur(var(--popout-modal-blur));
+          backdrop-filter: blur(var(--popout-modal-blur));
 }
+
 #app-mount .root-1gCeng {
   box-shadow: none;
   background: transparent;
@@ -1084,6 +1131,7 @@
 #app-mount .root-1gCeng .input-UJ9Tr3::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
+
 #app-mount .quickswitcher-3JagVE {
   box-shadow: none;
   padding: 20px;
@@ -1097,12 +1145,13 @@
   padding: 10px 5px 10px 10px;
   box-sizing: border-box;
 }
-#app-mount .quickswitcher-3JagVE .scroller-zPkAnE>div[style*="width: 100%;"] {
+#app-mount .quickswitcher-3JagVE .scroller-zPkAnE > div[style*="width: 100%;"] {
   display: none;
 }
 #app-mount .quickswitcher-3JagVE .protip-1b9XPC {
   display: none;
 }
+
 #app-mount .modalRoot-1Kx4Hb .header-1TKi98 {
   padding-top: 150px;
 }
@@ -1114,10 +1163,12 @@
 #app-mount .modalRoot-1Kx4Hb .header-3C6qT5 {
   padding-top: 0;
 }
+
 #app-mount .image-2LqJex {
   filter: grayscale(1);
   opacity: 0.5;
 }
+
 #app-mount .content-98HsJk .discoverHeader-1TWTqG {
   margin: 0 0 10px;
   height: 48px;
@@ -1145,6 +1196,7 @@
   opacity: 0;
   pointer-events: none;
 }
+
 #app-mount .container-1D34oG {
   background: rgba(0, 0, 0, var(--middle-brightness));
 }
@@ -1157,6 +1209,7 @@
 #app-mount .container-1D34oG .nowPlayingColumn-2sl4cE {
   background: rgba(0, 0, 0, var(--right-brightness));
 }
+
 #app-mount .perksModal-fSYqOq {
   background-color: rgba(0, 0, 0, var(--middle-brightness));
   background-image: none;
@@ -1183,9 +1236,11 @@
 #app-mount .perk-2WeBWW {
   background-color: var(--background-secondary);
 }
+
 #app-mount .applicationStore-1pNvnv {
   background: rgba(0, 0, 0, var(--middle-brightness));
 }
+
 #app-mount [aria-label*=SETTINGS] .sidebarRegionScroller-3MXcoP {
   background-color: rgba(0, 0, 0, var(--left-brightness));
 }
@@ -1201,6 +1256,7 @@
 #app-mount [aria-label*=SETTINGS] .viewBody-2Qz-jg {
   color: var(--text-normal);
 }
+
 #app-mount #user-settings .authedApp-mj2Hmd {
   background: var(--background-secondary);
 }
@@ -1280,10 +1336,12 @@
 #app-mount #user-settings .item-3eFBNF {
   box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
 }
+
 #app-mount .info-1VyQPT .colorMuted-HdFt4q:first-child:before {
   content: var(--version);
   display: block;
 }
+
 #app-mount #bd-settingspane-container h3 {
   color: var(--text-normal);
 }
@@ -1291,6 +1349,7 @@
   color: var(--text-default);
   border-color: var(--background-modifier-accent);
 }
+
 #app-mount .bd-addon-card {
   background: var(--background-secondary);
   border-color: transparent;
@@ -1331,6 +1390,7 @@
 #app-mount .bda-link:active {
   background: var(--white-triple);
 }
+
 #app-mount #bd-settings-sidebar .ui-tab-bar-item {
   color: var(--text-muted);
 }
@@ -1342,6 +1402,7 @@
   background: var(--background-modifier-selected);
   color: var(--text-normal);
 }
+
 #app-mount .editor-wrapper {
   background: var(--background-secondary);
 }
@@ -1396,9 +1457,11 @@
 #app-mount #bd-customcss-attach-controls button:active, #app-mount #bd-customcss-attach-controls button:hover {
   background: var(--white-double);
 }
+
 html.platform-win .scroller-2TZvBN {
   padding-top: 10px;
 }
+
 html.platform-osx .macButtons-2MuSAC {
   position: absolute;
   top: var(--window-padding);
@@ -1413,6 +1476,7 @@ html.platform-osx .wrapper-1Rf91z {
 html.platform-osx .scroller-2TZvBN {
   padding-top: 15px;
 }
+
 #app-mount .xenoLib-notifications {
   padding: calc(var(--window-padding) * 2 + 48px) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2);
   box-sizing: border-box;
@@ -1425,6 +1489,7 @@ html.platform-osx .scroller-2TZvBN {
   box-sizing: border-box;
   z-index: 10;
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
