@@ -2,7 +2,6 @@
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: calc(var(--window-padding));
   --TB-position-right: var(--window-padding);
-  --TB-header-padding: 8px;
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
   --white-half: rgba(255,255,255,0.025);
   --white: rgba(255,255,255,0.05);
