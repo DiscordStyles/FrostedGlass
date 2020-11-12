@@ -1,20 +1,20 @@
 #app-mount {
-  .containerDefault-1ZnADq {
+  .containerDefault--pIXnN {
     // Unread
-    .modeUnread-1zpFdA .content-3at_AU {
+    .modeUnread-1qO3K1 .content-1x5b-n {
       background: var(--white);
     }
     // Hover
-    .wrapper-1ucjTd:hover .content-3at_AU {
+    .wrapper-1ucjTd:hover .content-1x5b-n {
       background: var(--background-modifier-hover);
-      .icon-1_QxNX {
+      .icon-1DeIlz {
         color: var(--interactive-hover);
       }
     }
     // Selected
-    &.selected-37j_iU .content-3at_AU {
+    &.selected-3LIHYU .content-1x5b-n {
       background: var(--gradient) !important;
-      .icon-1_QxNX {
+      .icon-1DeIlz {
         color: var(--text-normal);
       }
     }
@@ -29,12 +29,8 @@
     padding: 0 5px;
     width: auto;
   }
-  .containerUserOver-1U5YnL:after {
+  .containerUserOver-2mv1jO:after {
     background: var(--gradient-20);
     border: 2px solid rgb(var(--gradient-primary));
-  }
-  .containerDragAfter-1F4fgZ:after,
-  .containerDragBefore-31UGCO:before {
-    background: var(--gradient);
   }
 }
