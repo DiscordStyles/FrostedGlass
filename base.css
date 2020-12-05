@@ -221,7 +221,7 @@
 #app-mount .modalRoot-1Kx4Hb,
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-289Jih,
 #app-mount .popoutContainer-1MXdqN,
-#app-mount .root-1gCeng {
+#app-mount .root-1gCeng:not(.modal-qgFCbT) {
   overflow: hidden !important;
   position: relative;
   border-radius: 3px;
@@ -244,7 +244,7 @@
 #app-mount .modalRoot-1Kx4Hb:before,
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-289Jih:before,
 #app-mount .popoutContainer-1MXdqN:before,
-#app-mount .root-1gCeng:before {
+#app-mount .root-1gCeng:not(.modal-qgFCbT):before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
   background-position: var(--popout-modal-position, center);
