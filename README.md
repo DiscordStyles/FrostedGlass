@@ -14,3 +14,7 @@ User modal
 
 User Settings
 ![User Settings](https://i.imgur.com/qfMW8HI.jpg)
+
+## License
+
+See the [LICENSE](https://github.com/DiscordStyles/FrostedGlass/blob/master/LICENSE.md) file for license rights and limitations (MIT).
