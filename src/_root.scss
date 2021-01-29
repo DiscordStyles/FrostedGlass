@@ -1,7 +1,8 @@
 :root {
   // Frosted Glass variables
+  --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
-  --TB-position-top: calc(var(--window-padding));
+  --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
   --tint: rgba(var(--tint-colour), var(--tint-brightness));
   --white-half: rgba(255,255,255,0.025);
@@ -27,7 +28,7 @@
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
 
-  --version: 'Frosted Glass 2.0.7';
+  --version: 'Frosted Glass 2.0.8';
 }
 
 .theme-dark {
