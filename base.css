@@ -447,21 +447,23 @@
   background: rgba(var(--discord-twitch), 0.6);
 }
 
-#app-mount .guilds-1SWlCJ.wrapper-1Rf91z {
+#app-mount .guilds-1SWlCJ {
   background-color: transparent;
 }
-#app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN {
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
   background-color: rgba(0, 0, 0, var(--serverlist-brightness));
 }
-#app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
+#app-mount .guilds-1SWlCJ .scrollerBase-289Jih::-webkit-scrollbar {
   display: none;
 }
-#app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd- {
+
+#app-mount .guilds-1SWlCJ [class*=expandedFolderBackground] {
   background: var(--white);
 }
-#app-mount .guilds-1SWlCJ .folder-21wGz3 {
+#app-mount .guilds-1SWlCJ [class*=folder] {
   background: transparent;
 }
+
 #app-mount .guilds-1SWlCJ .tutorialContainer-1v44GL .childWrapper-anI2G9 {
   background: var(--gradient);
   background-color: transparent;
@@ -492,11 +494,11 @@
 #app-mount .guilds-1SWlCJ .acronym-2mOFsV:hover {
   background: var(--white-double);
 }
-#app-mount .guilds-1SWlCJ .circleIconButton-jET_ig {
+#app-mount .guilds-1SWlCJ [class*=circleIconButton] {
   background: var(--white);
   color: rgb(var(--gradient-primary));
 }
-#app-mount .guilds-1SWlCJ .circleIconButton-jET_ig.selected-ugP_am, #app-mount .guilds-1SWlCJ .circleIconButton-jET_ig:hover {
+#app-mount .guilds-1SWlCJ [class*=circleIconButton].selected-ugP_am, #app-mount .guilds-1SWlCJ [class*=circleIconButton]:hover {
   background: var(--white-double);
   color: var(--text-normal);
 }

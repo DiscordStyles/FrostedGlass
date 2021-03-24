@@ -1,6 +1,8 @@
-.expandedFolderBackground-2sPsd- {
-  background: var(--white);
-}
-.folder-21wGz3 {
-  background: transparent;
+#app-mount .guilds-1SWlCJ {
+  [class*="expandedFolderBackground"] {
+    background: var(--white);
+  }
+  [class*="folder"] {
+    background: transparent;
+  }
 }
