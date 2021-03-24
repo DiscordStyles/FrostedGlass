@@ -447,13 +447,13 @@
   background: rgba(var(--discord-twitch), 0.6);
 }
 
-#app-mount .guilds-1SWlCJ.wrapper-1Rf91z {
+#app-mount .wrapper-3NnKdC.guilds-1SWlCJ {
   background-color: transparent;
 }
-#app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN {
+#app-mount .wrapper-3NnKdC.guilds-1SWlCJ .scroller-1Bvpku {
   background-color: rgba(0, 0, 0, var(--serverlist-brightness));
 }
-#app-mount .guilds-1SWlCJ.wrapper-1Rf91z .scroller-2TZvBN::-webkit-scrollbar {
+#app-mount .wrapper-3NnKdC.guilds-1SWlCJ .scroller-1Bvpku::-webkit-scrollbar {
   display: none;
 }
 #app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd- {
@@ -1482,7 +1482,7 @@ html.platform-osx .macButtons-2MuSAC {
   width: 72px;
   border-top-left-radius: var(--window-roundness);
 }
-html.platform-osx .wrapper-1Rf91z {
+html.platform-osx .wrapper-3NnKdC {
   margin-top: 30px;
 }
 html.platform-osx .scroller-2TZvBN {
