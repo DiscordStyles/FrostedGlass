@@ -1,4 +1,28 @@
-#app-mount .info-1VyQPT .colorMuted-HdFt4q:first-child:before {
-  content: var(--version);
-  display: block;
+#app-mount {
+	.info-1VyQPT .colorMuted-HdFt4q:first-child:before {
+		content: var(--version);
+		display: block;
+	}
+
+	// Audit log
+	.contentRegion-3nDuYy {
+		background: rgba(0,0,0,var(--middle-brightness));
+	}
+	.auditLog-3jNbM6 {
+		border: none;
+		border-radius: 3px;
+		overflow: hidden;
+	}
+	.header-GwIGlr {
+		background: var(--background-secondary);
+	}
+	.timestamp-1mruiI {
+		color: var(--text-muted);
+	}
+	.divider-1pnAR2 {
+		display: none;
+	}
+	.changeDetails-bk98pu {
+		background: var(--background-secondary);
+	}
 }
