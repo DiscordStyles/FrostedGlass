@@ -24,7 +24,7 @@
   --discord-spotify: 29,185,84;
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
-  --version: "Frosted Glass 2.0.9-1";
+  --version: "Frosted Glass 2.0.9";
 }
 
 .theme-dark {
@@ -230,7 +230,7 @@
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y),
 #app-mount .root-SR8cQa,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
-#app-mount .userPopout-3XzG_A,
+#app-mount [class*=userPopout],
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb,
 #app-mount .quickswitcher-3JagVE,
 #app-mount .root-1gCeng.wrapper-2ZbzR9,
@@ -255,7 +255,7 @@
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y):before,
 #app-mount .root-SR8cQa:before,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd:before,
-#app-mount .userPopout-3XzG_A:before,
+#app-mount [class*=userPopout]:before,
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb:before,
 #app-mount .quickswitcher-3JagVE:before,
 #app-mount .root-1gCeng.wrapper-2ZbzR9:before,
@@ -808,7 +808,7 @@
   background: var(--white);
 }
 
-#app-mount .userPopout-3XzG_A {
+#app-mount [class*=userPopout] {
   -webkit-box-shadow: none;
           box-shadow: none;
   overflow: hidden;
@@ -816,41 +816,41 @@
   -webkit-animation: fadeIn 0.3s ease forwards;
           animation: fadeIn 0.3s ease forwards;
 }
-#app-mount .userPopout-3XzG_A .headerNormal-T_seeN {
+#app-mount [class*=userPopout] .headerNormal-T_seeN {
   background: transparent;
 }
-#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV {
+#app-mount [class*=userPopout] .headerPlaying-j0WQBV {
   background: var(--gradient-50);
 }
-#app-mount .userPopout-3XzG_A .headerXbox-3G-4PF {
+#app-mount [class*=userPopout] .headerXbox-3G-4PF {
   background: rgba(var(--discord-xbox), 0.3);
 }
-#app-mount .userPopout-3XzG_A .headerSpotify-zpWxgT {
+#app-mount [class*=userPopout] .headerSpotify-zpWxgT {
   background: rgba(var(--discord-spotify), 0.3);
 }
-#app-mount .userPopout-3XzG_A .headerStreaming-2FjmGz {
+#app-mount [class*=userPopout] .headerStreaming-2FjmGz {
   background: rgba(var(--discord-twitch), 0.3);
 }
-#app-mount .userPopout-3XzG_A .wrapper-3t9DeA::after {
+#app-mount [class*=userPopout] .wrapper-3t9DeA::after {
   border-radius: 3px;
 }
-#app-mount .userPopout-3XzG_A .activityName-1IaRLn,
-#app-mount .userPopout-3XzG_A .headerTag-2pZJzA,
-#app-mount .userPopout-3XzG_A .nameNormal-2lqVQK,
-#app-mount .userPopout-3XzG_A .nameWrap-3Z4G_9,
-#app-mount .userPopout-3XzG_A .textRow-19NEd_ {
+#app-mount [class*=userPopout] .activityName-1IaRLn,
+#app-mount [class*=userPopout] .headerTag-2pZJzA,
+#app-mount [class*=userPopout] .nameNormal-2lqVQK,
+#app-mount [class*=userPopout] .nameWrap-3Z4G_9,
+#app-mount [class*=userPopout] .textRow-19NEd_ {
   color: var(--text-normal);
 }
-#app-mount .userPopout-3XzG_A .body-3iLsc4 {
+#app-mount [class*=userPopout] .body-3iLsc4 {
   background: transparent;
 }
-#app-mount .userPopout-3XzG_A .role-2irmRk {
+#app-mount [class*=userPopout] .role-2irmRk {
   height: auto;
   position: relative;
   overflow: hidden;
   color: var(--text-normal);
 }
-#app-mount .userPopout-3XzG_A .roleCircle-3xAZ1j::after {
+#app-mount [class*=userPopout] .roleCircle-3xAZ1j::after {
   content: "";
   position: absolute;
   height: 24px;
@@ -863,31 +863,31 @@
   opacity: 0.2;
   z-index: -1;
 }
-#app-mount .userPopout-3XzG_A .footer-1fjuF6 {
+#app-mount [class*=userPopout] .footer-1fjuF6 {
   background: transparent;
   border: none;
 }
-#app-mount .userPopout-3XzG_A .quickMessage-1yeL4E {
+#app-mount [class*=userPopout] .quickMessage-1yeL4E {
   background: var(--background-secondary);
   border: none;
   color: var(--text-normal);
 }
-#app-mount .userPopout-3XzG_A .quickMessage-1yeL4E::-webkit-input-placeholder {
+#app-mount [class*=userPopout] .quickMessage-1yeL4E::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount .userPopout-3XzG_A .quickMessage-1yeL4E::-moz-placeholder {
+#app-mount [class*=userPopout] .quickMessage-1yeL4E::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount .userPopout-3XzG_A .quickMessage-1yeL4E:-ms-input-placeholder {
+#app-mount [class*=userPopout] .quickMessage-1yeL4E:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount .userPopout-3XzG_A .quickMessage-1yeL4E::-ms-input-placeholder {
+#app-mount [class*=userPopout] .quickMessage-1yeL4E::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount .userPopout-3XzG_A .quickMessage-1yeL4E::placeholder {
+#app-mount [class*=userPopout] .quickMessage-1yeL4E::placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount .userPopout-3XzG_A .protip-YaFfgO {
+#app-mount [class*=userPopout] .protip-YaFfgO {
   display: none;
 }
 
