@@ -177,7 +177,7 @@
 }
 
 #app-mount .app-2rEoOp::before {
-  content: "Your version of Frosted Glass is outdated. Please redownload";
+  content: "Your version of Bubbles BG is outdated. Please redownload";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
   color: #fff;

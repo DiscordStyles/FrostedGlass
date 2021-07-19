@@ -11,7 +11,7 @@
 
 const styles = `
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
-    @import url('https://raw.githubusercontent.com/pro-beanz/bubbles-bg/master/theme.css');
+    @import url('https://pro-beanz.github.io/bubbles-bg/theme.css');
     @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 `
 
@@ -42,6 +42,7 @@ class BubblesBG {
         // styles
         var styleSheet = document.createElement("style");
         styleSheet.setAttribute("id", 'bubbles-bg');
+        styleSheet.type = "text/css"
         styleSheet.innerText = styles;
         document.head.appendChild(styleSheet);
 
@@ -139,7 +140,6 @@ function render() {
     canvas.height = window.innerHeight;
     canvas.width = window.innerWidth;
     ratio = canvas.height > canvas.width ? canvas.width / canvas.height : canvas.height / canvas.width;
-    console.log(ratio);
 
     cursorRadius = 0.25 * canvas.height;
     borderWidth = 0.01 * canvas.width;
