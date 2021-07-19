@@ -2,7 +2,7 @@
  * @name BubblesBG
  * @author beanz
  * @description Overrides the Discord background with bubbles, as seen on https://www.beanz.pro. Combination plugin and theme, based on Frosted Glass, by Gibbu. Dark theme required. Works best when not used with any additional themes.
- * @version 0.0.1
+ * @version 1.0.0
  * @authorId 249922383761244161
  * @authorLink https://www.twitter.com/pro_beanz
  * @website https://www.beanz.pro
