@@ -137,8 +137,8 @@ class Bubble {
 }
 
 function render() {
-    canvas.height = window.innerHeight;
-    canvas.width = window.innerWidth;
+    canvas.height = window.outerHeight;
+    canvas.width = window.outerWidth;
     ratio = canvas.height > canvas.width ? canvas.width / canvas.height : canvas.height / canvas.width;
 
     cursorRadius = 0.25 * canvas.height;
