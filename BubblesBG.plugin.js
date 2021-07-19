@@ -6,7 +6,7 @@
  * @authorId 249922383761244161
  * @authorLink https://www.twitter.com/pro_beanz
  * @website https://www.beanz.pro
- * @source TBA
+ * @source https://github.com/pro-beanz/bubbles-bg
  */
 
 const styles = `
