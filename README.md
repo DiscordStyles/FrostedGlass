@@ -1,19 +1,7 @@
-## Frosted Glass
-Display your picture of choice with adjustable blur and brightness. Dark theme is required.
+## Bubbles Background
+Overrides the Discord background with bubbles, as seen on https://www.beanz.pro. Combination plugin and theme, based on [Frosted Glass](https://github.com/DiscordStyles/FrostedGlass). BetterDiscord and Dark theme are required. Works best when not used with any themes.
 
 - - -
-BetterDiscord Download: [https://betterdiscord.app/theme/Frosted%20Glass](https://betterdiscord.app/Download?id=40)  
-Powercord Install: `git clone https://github.com/DiscordStyles/FrostedGlass`
-- - -
-
-Server chat + User popout
-![Server Chat](https://i.imgur.com/Gr8JJAv.jpg)
-
-User modal
-![User Modal](https://i.imgur.com/xnUQ1Ek.jpg)
-
-User Settings
-![User Settings](https://i.imgur.com/qfMW8HI.jpg)
 
 ## License
 
