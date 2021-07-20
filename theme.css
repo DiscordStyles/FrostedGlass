@@ -279,7 +279,7 @@
 #app-mount .container-3XJ8ns {
   overflow: hidden !important;
   position: relative;
-  border-radius: 3px;
+  border-radius: 20px;
 }
 #app-mount [role=menu]:before,
 #app-mount .autocompleteInner-zh20B_:before,
@@ -304,7 +304,7 @@
 #app-mount .container-3XJ8ns:before,
 #app-mount .contentWrapper-SvZHNd:before {
   content: "";
-  border-radius: 8px;
+  border-radius: 20px;
   background-image: var(--bubbles-bg);
   background-color: #111;
   background-size: 7px;
@@ -1112,10 +1112,13 @@
   overflow: hidden;
 }
 #app-mount .channelHeader-3Gd2xq {
-  background: transparent;
-  padding: 15px 15px 0;
-  height: auto;
-  position: static;
+  top: -1px;
+  background: #111;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+#app-mount .collapseButton-2ZsEjz, .dmIcon-2eU-bE, .guildIcon-3Co6k- {
+  left: 0;
 }
 #app-mount .channelHeader-3Gd2xq .tertiary-aMXF0g,
 #app-mount .channelHeader-3Gd2xq .item-PXvHYJ.selected-3s45Ha {
