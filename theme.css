@@ -1104,13 +1104,6 @@
           box-shadow: none;
 }
 
-#app-mount .container-enaOkj {
-  background: var(--background-secondary);
-  margin: 0 10px 10px;
-  border-radius: 3px;
-  padding: 0;
-  overflow: hidden;
-}
 #app-mount .channelHeader-3Gd2xq {
   top: -1px;
   background: #111;
