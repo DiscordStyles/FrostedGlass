@@ -1,0 +1,19 @@
+{
+  "name": "frostedglass",
+  "version": "1.0.0",
+  "description": "Discord redesigned to be simplified. Design by jacktompsett on Behance.",
+  "repository": "https://github.com/DiscordStyles/FrostedGlass.git",
+  "author": "Gibbu <Gibbu_@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "node ./scripts/dev",
+    "build": "node ./scripts/build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "chokidar": "^3.5.2",
+    "postcss": "^8.3.6",
+    "sass": "^1.35.2"
+  }
+}
