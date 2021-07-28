@@ -233,7 +233,8 @@
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-289Jih,
 #app-mount .popoutContainer-1MXdqN,
 #app-mount .root-1gCeng:not(.modal-qgFCbT),
-#app-mount .container-3XJ8ns {
+#app-mount .container-3XJ8ns,
+#app-mount .container-7uh5fX {
   overflow: hidden !important;
   position: relative;
   border-radius: 3px;
@@ -258,7 +259,8 @@
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-289Jih:before,
 #app-mount .popoutContainer-1MXdqN:before,
 #app-mount .root-1gCeng:not(.modal-qgFCbT):before,
-#app-mount .container-3XJ8ns:before {
+#app-mount .container-3XJ8ns:before,
+#app-mount .container-7uh5fX:before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
   background-position: var(--popout-modal-position, center);
@@ -731,6 +733,10 @@
   margin-top: 10px;
 }
 
+#app-mount .threadSidebar-1o3BTy {
+  background: rgb(0, 0, 0, var(--middle-brightness));
+}
+
 #app-mount .members-1998pB {
   background-color: rgba(0, 0, 0, var(--right-brightness));
 }
@@ -1038,6 +1044,14 @@
 
 #app-mount .container-3XJ8ns .container-cMG81i {
   background: var(--white);
+}
+
+#app-mount .container-2I9Hud {
+  border: none;
+  background: var(--white);
+}
+#app-mount .container-2I9Hud:hover {
+  background: var(--white-double);
 }
 
 #app-mount .modal-3c3bKg {

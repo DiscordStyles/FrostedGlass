@@ -1,0 +1,9 @@
+#app-mount {
+	.container-2I9Hud {
+		border: none;
+		background: var(--white);
+		&:hover {
+			background: var(--white-double);
+		}
+	}
+}
