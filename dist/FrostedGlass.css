@@ -225,7 +225,7 @@
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y),
 #app-mount .root-SR8cQa,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
-#app-mount [class*=userPopout],
+#app-mount [class*=userPopout][aria-modal=true],
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb,
 #app-mount .quickswitcher-3JagVE,
 #app-mount .root-1gCeng.wrapper-2ZbzR9,
@@ -251,7 +251,7 @@
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y):before,
 #app-mount .root-SR8cQa:before,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd:before,
-#app-mount [class*=userPopout]:before,
+#app-mount [class*=userPopout][aria-modal=true]:before,
 #app-mount section.positionContainer-3unAXC .drawerSizingWrapper-27qFHb:before,
 #app-mount .quickswitcher-3JagVE:before,
 #app-mount .root-1gCeng.wrapper-2ZbzR9:before,
@@ -767,48 +767,48 @@
   background: var(--white);
 }
 
-#app-mount [class*=userPopout] {
+#app-mount [class*=userPopout][aria-modal=true] {
   box-shadow: none;
   overflow: hidden;
   opacity: 0;
   -webkit-animation: fadeIn 0.3s ease forwards;
           animation: fadeIn 0.3s ease forwards;
 }
-#app-mount [class*=userPopout] .headerNormal-T_seeN {
+#app-mount [class*=userPopout][aria-modal=true] .headerNormal-T_seeN {
   background: transparent;
 }
-#app-mount [class*=userPopout] .headerPlaying-j0WQBV {
+#app-mount [class*=userPopout][aria-modal=true] .headerPlaying-j0WQBV {
   background: var(--gradient-50);
 }
-#app-mount [class*=userPopout] .headerXbox-3G-4PF {
+#app-mount [class*=userPopout][aria-modal=true] .headerXbox-3G-4PF {
   background: rgba(var(--discord-xbox), 0.3);
 }
-#app-mount [class*=userPopout] .headerSpotify-zpWxgT {
+#app-mount [class*=userPopout][aria-modal=true] .headerSpotify-zpWxgT {
   background: rgba(var(--discord-spotify), 0.3);
 }
-#app-mount [class*=userPopout] .headerStreaming-2FjmGz {
+#app-mount [class*=userPopout][aria-modal=true] .headerStreaming-2FjmGz {
   background: rgba(var(--discord-twitch), 0.3);
 }
-#app-mount [class*=userPopout] .wrapper-3t9DeA::after {
+#app-mount [class*=userPopout][aria-modal=true] .wrapper-3t9DeA::after {
   border-radius: 3px;
 }
-#app-mount [class*=userPopout] .activityName-1IaRLn,
-#app-mount [class*=userPopout] .headerTag-2pZJzA,
-#app-mount [class*=userPopout] .nameNormal-2lqVQK,
-#app-mount [class*=userPopout] .nameWrap-3Z4G_9,
-#app-mount [class*=userPopout] .textRow-19NEd_ {
+#app-mount [class*=userPopout][aria-modal=true] .activityName-1IaRLn,
+#app-mount [class*=userPopout][aria-modal=true] .headerTag-2pZJzA,
+#app-mount [class*=userPopout][aria-modal=true] .nameNormal-2lqVQK,
+#app-mount [class*=userPopout][aria-modal=true] .nameWrap-3Z4G_9,
+#app-mount [class*=userPopout][aria-modal=true] .textRow-19NEd_ {
   color: var(--text-normal);
 }
-#app-mount [class*=userPopout] .body-3iLsc4 {
+#app-mount [class*=userPopout][aria-modal=true] .body-3iLsc4 {
   background: transparent;
 }
-#app-mount [class*=userPopout] .role-2irmRk {
+#app-mount [class*=userPopout][aria-modal=true] .role-2irmRk {
   height: auto;
   position: relative;
   overflow: hidden;
   color: var(--text-normal);
 }
-#app-mount [class*=userPopout] .roleCircle-3xAZ1j::after {
+#app-mount [class*=userPopout][aria-modal=true] .roleCircle-3xAZ1j::after {
   content: "";
   position: absolute;
   height: 24px;
@@ -820,25 +820,25 @@
   opacity: 0.2;
   z-index: -1;
 }
-#app-mount [class*=userPopout] .footer-1fjuF6 {
+#app-mount [class*=userPopout][aria-modal=true] .footer-1fjuF6 {
   background: transparent;
   border: none;
 }
-#app-mount [class*=userPopout] .quickMessage-1yeL4E {
+#app-mount [class*=userPopout][aria-modal=true] .quickMessage-1yeL4E {
   background: var(--background-secondary);
   border: none;
   color: var(--text-normal);
 }
-#app-mount [class*=userPopout] .quickMessage-1yeL4E::-moz-placeholder {
+#app-mount [class*=userPopout][aria-modal=true] .quickMessage-1yeL4E::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount [class*=userPopout] .quickMessage-1yeL4E:-ms-input-placeholder {
+#app-mount [class*=userPopout][aria-modal=true] .quickMessage-1yeL4E:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount [class*=userPopout] .quickMessage-1yeL4E::placeholder {
+#app-mount [class*=userPopout][aria-modal=true] .quickMessage-1yeL4E::placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount [class*=userPopout] .protip-YaFfgO {
+#app-mount [class*=userPopout][aria-modal=true] .protip-YaFfgO {
   display: none;
 }
 

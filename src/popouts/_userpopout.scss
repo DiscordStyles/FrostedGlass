@@ -1,4 +1,4 @@
-#app-mount [class*="userPopout"] {
+#app-mount [class*="userPopout"][aria-modal="true"] {
   box-shadow: none;
   overflow: hidden;
   opacity: 0;
