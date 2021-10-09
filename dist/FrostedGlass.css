@@ -234,7 +234,8 @@
 #app-mount .popoutContainer-1MXdqN,
 #app-mount .root-1gCeng:not(.modal-qgFCbT),
 #app-mount .container-3XJ8ns,
-#app-mount .container-7uh5fX {
+#app-mount .container-7uh5fX,
+#app-mount .popout-APcvZm {
   overflow: hidden !important;
   position: relative;
   border-radius: 3px;
@@ -260,7 +261,8 @@
 #app-mount .popoutContainer-1MXdqN:before,
 #app-mount .root-1gCeng:not(.modal-qgFCbT):before,
 #app-mount .container-3XJ8ns:before,
-#app-mount .container-7uh5fX:before {
+#app-mount .container-7uh5fX:before,
+#app-mount .popout-APcvZm:before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--popout-modal-image);
   background-position: var(--popout-modal-position, center);
