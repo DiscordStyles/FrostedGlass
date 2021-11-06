@@ -739,8 +739,11 @@
   background: rgb(0, 0, 0, var(--middle-brightness));
 }
 
-#app-mount .members-1998pB {
+#app-mount .container-2wlB3z {
   background-color: rgba(0, 0, 0, var(--right-brightness));
+}
+#app-mount .members-1998pB {
+  background: transparent;
 }
 #app-mount .members-1998pB > div {
   background: transparent;
