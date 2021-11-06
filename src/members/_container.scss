@@ -1,6 +1,11 @@
-#app-mount .members-1998pB {
-  background-color: rgba(0,0,0,var(--right-brightness));
-  & > div {
+#app-mount {
+  .container-2wlB3z {
+    background-color: rgba(0,0,0,var(--right-brightness));
+  }
+  .members-1998pB {
     background: transparent;
+    & > div {
+      background: transparent;
+    }
   }
 }
