@@ -24,7 +24,7 @@
   --discord-spotify: 29,185,84;
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
-  --version: "Frosted Glass 2.0.9";
+  --version: "Frosted Glass 2.0.10";
 }
 
 .theme-dark {
@@ -452,6 +452,7 @@
   justify-content: center;
   border-radius: 0;
   box-shadow: none;
+  padding-right: var(--TB-header-padding, 12px);
 }
 #app-mount .notice-3bPHh- .button-2DhvE9 {
   top: 0;
@@ -495,7 +496,7 @@
   background: var(--gradient);
   background-color: transparent;
 }
-#app-mount .guilds-1SWlCJ .tutorialContainer-11ICd5 .wrapper-1BJsBx:before {
+#app-mount .guilds-1SWlCJ .tutorialContainer-11ICd5 .listItem-2Ig28I:first-child .wrapper-1BJsBx:before {
   content: "";
   border-radius: 50%;
   position: absolute;
@@ -506,7 +507,7 @@
   width: 100%;
   transition: 0.2s ease;
 }
-#app-mount .guilds-1SWlCJ .tutorialContainer-11ICd5 .wrapper-1BJsBx.selected-bZ3Lue:before {
+#app-mount .guilds-1SWlCJ .tutorialContainer-11ICd5 .listItem-2Ig28I:first-child .wrapper-1BJsBx.selected-bZ3Lue:before {
   border-radius: 30%;
 }
 #app-mount .guilds-1SWlCJ .tutorialContainer-11ICd5 .homeIcon-AaowEC {
