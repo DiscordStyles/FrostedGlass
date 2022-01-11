@@ -1273,16 +1273,16 @@
   pointer-events: none;
 }
 
-#app-mount .container-1D34oG {
+#app-mount .container-2cd8Mz {
   background: rgba(0, 0, 0, var(--middle-brightness));
 }
-#app-mount .container-1D34oG .inset-SbsSFp {
+#app-mount .container-2cd8Mz .inset-SbsSFp {
   background-color: var(--background-secondary);
 }
-#app-mount .container-1D34oG .itemCard-3Etziu:hover {
+#app-mount .container-2cd8Mz .itemCard-3Etziu:hover {
   background: var(--white);
 }
-#app-mount .container-1D34oG .nowPlayingColumn-2sl4cE {
+#app-mount .container-2cd8Mz .nowPlayingColumn-2sl4cE {
   background: rgba(0, 0, 0, var(--right-brightness));
 }
 
