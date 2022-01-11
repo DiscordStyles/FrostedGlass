@@ -215,7 +215,7 @@
 }
 #app-mount [role=menu],
 #app-mount .autocompleteInner-y1mjDl,
-#app-mount .container-3ayLPN,
+#app-mount .container-2McqkF,
 #app-mount .container-enaOkj,
 #app-mount .container-8Futzw,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG),
@@ -242,7 +242,7 @@
 }
 #app-mount [role=menu]:before,
 #app-mount .autocompleteInner-y1mjDl:before,
-#app-mount .container-3ayLPN:before,
+#app-mount .container-2McqkF:before,
 #app-mount .container-enaOkj:before,
 #app-mount .container-8Futzw:before,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG):before,
@@ -942,48 +942,48 @@
   color: rgb(var(--discord-red));
 }
 
-#app-mount .container-3ayLPN {
+#app-mount .container-2McqkF {
   background: transparent;
   box-shadow: none;
 }
-#app-mount .container-3ayLPN .displayedNick-2dDbfG,
-#app-mount .container-3ayLPN .filter-5YbOzJ,
-#app-mount .container-3ayLPN .header-3A13BX {
+#app-mount .container-2McqkF .displayedNick-2dDbfG,
+#app-mount .container-2McqkF .filter-5YbOzJ,
+#app-mount .container-2McqkF .header-3A13BX {
   color: var(--text-normal);
 }
-#app-mount .container-3ayLPN .answer-2fBfuP,
-#app-mount .container-3ayLPN .displayUsername-14aOpK {
+#app-mount .container-2McqkF .answer-2fBfuP,
+#app-mount .container-2McqkF .displayUsername-14aOpK {
   color: var(--text-muted);
 }
-#app-mount .container-3ayLPN .option-2KkUJO .plusIcon-2V7coV {
+#app-mount .container-2McqkF .option-2KkUJO .plusIcon-2V7coV {
   color: var(--text-normal);
 }
-#app-mount .container-3ayLPN .option-2KkUJO.selected-rZcOL- {
+#app-mount .container-2McqkF .option-2KkUJO.selected-rZcOL- {
   background: var(--white);
 }
-#app-mount .container-3ayLPN .option-2KkUJO.selected-rZcOL-:after {
+#app-mount .container-2McqkF .option-2KkUJO.selected-rZcOL-:after {
   background: linear-gradient(90deg, transparent, var(--white-double));
 }
-#app-mount .container-3ayLPN .option-2KkUJO:after {
+#app-mount .container-2McqkF .option-2KkUJO:after {
   background: transparent;
 }
-#app-mount .container-3ayLPN .react-datepicker,
-#app-mount .container-3ayLPN .react-datepicker__header {
+#app-mount .container-2McqkF .react-datepicker,
+#app-mount .container-2McqkF .react-datepicker__header {
   background: transparent;
 }
-#app-mount .container-3ayLPN .react-datepicker__month {
+#app-mount .container-2McqkF .react-datepicker__month {
   background: var(--background-secondary);
   border-radius: 3px;
 }
-#app-mount .container-3ayLPN .react-datepicker__day {
+#app-mount .container-2McqkF .react-datepicker__day {
   border-color: var(--white);
   background: var(--white);
 }
-#app-mount .container-3ayLPN .react-datepicker__day--selected:after {
+#app-mount .container-2McqkF .react-datepicker__day--selected:after {
   background: var(--gradient);
 }
-#app-mount .container-3ayLPN .react-datepicker__day--disabled,
-#app-mount .container-3ayLPN .react-datepicker__day--outside-month {
+#app-mount .container-2McqkF .react-datepicker__day--disabled,
+#app-mount .container-2McqkF .react-datepicker__day--outside-month {
   background: transparent;
 }
 #app-mount .searchAnswer-23w-CH {
@@ -1282,7 +1282,7 @@
 #app-mount .container-2cd8Mz .itemCard-3Etziu:hover {
   background: var(--white);
 }
-#app-mount .container-2cd8Mz .nowPlayingColumn-2sl4cE {
+#app-mount .container-2cd8Mz .nowPlayingColumn-1eCBCN {
   background: rgba(0, 0, 0, var(--right-brightness));
 }
 
