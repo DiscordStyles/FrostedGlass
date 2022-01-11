@@ -1,11 +1,11 @@
-#app-mount .guilds-1SWlCJ {
+#app-mount .guilds-2JjMmN {
   // Home button
-  .tutorialContainer-11ICd5 {
-    .childWrapper-anI2G9 {
+  .tutorialContainer-1pL9QS {
+    .childWrapper-1j_1ub {
       background: var(--gradient);
       background-color: transparent;
     }
-    .listItem-2Ig28I:first-child .wrapper-1BJsBx {
+    .listItem-3SmSlK:first-child .wrapper-3kah-n {
       &:before {
         content: "";
         border-radius: 50%;
@@ -17,19 +17,19 @@
         width: 100%;
         transition: 0.2s ease;
       }
-      &.selected-bZ3Lue:before {
+      &.selected-1Drb7Z:before {
         border-radius: 30%;
       }
     }
-    .homeIcon-AaowEC {
+    .homeIcon-r0w4ny {
       display: none;
     }
   }
-  .selected-bZ3Lue .acronym-2mOFsV {
+  .selected-1Drb7Z .acronym-2zrAHN {
     background: var(--white-double);
   }
   // No icon
-  .acronym-2mOFsV {
+  .acronym-2zrAHN {
     background: var(--white);
     &:hover {
       background: var(--white-double);

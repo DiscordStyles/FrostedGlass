@@ -12,16 +12,16 @@
 }
 
 #app-mount {
-  .layers-3iHuyZ {
+  .layers-OrUESM {
     margin: var(--window-padding);
     overflow: hidden;
     border-radius: var(--window-roundness);
   }
-  .layer-3QrUeG {
+  .layer-86YKbF {
     background: var(--tint);
   }
   // Container shadow
-  .base-3dtUhz:before {
+  .base-2jDfDU:before {
     content: "";
     position: absolute;
     height: 5px;
@@ -38,12 +38,12 @@
     color: var(--text-normal);
     margin-top: 0;
   }
-  .botText-1526X_ {
+  .botText-1fD6Qk {
     font-weight: 600;
   }
   .botTagInvert-18-95s {
     color: rgb(var(--gradient-primary));
-    .botText-1526X_ {
+    .botText-1fD6Qk {
       font-weight: bold;
     }
   }
@@ -53,7 +53,7 @@
   color: var(--text-normal);
 }
 // Update notice
-#app-mount .app-2rEoOp::before {
+#app-mount .app-2CXKsg::before {
   content: "Your version of Frosted Glass is outdated. Please redownload";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
