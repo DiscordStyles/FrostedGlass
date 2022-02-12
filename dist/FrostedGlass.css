@@ -24,7 +24,7 @@
   --discord-spotify: 29,185,84;
   --discord-twitch: 89,54,149;
   --discord-xbox: 16,124,16;
-  --version: "Frosted Glass 2.0.10";
+  --version: "Frosted Glass 2.0.11";
 }
 
 .theme-dark {
@@ -584,7 +584,7 @@
   border: 2px solid rgb(var(--gradient-primary));
 }
 
-#app-mount .channel-1Shao0.selected-1-Z6gm .layout-1qmrhw {
+#app-mount .channel-1Shao0 .selected-3veCBZ {
   background: var(--gradient);
 }
 
@@ -633,7 +633,7 @@
   background-color: var(--white-triple);
 }
 
-#app-mount .cozy-3raOZG .header-23xsNx {
+#app-mount .cozy-VmLDNB .header-23xsNx {
   margin-left: 0;
   padding-left: 0;
 }
