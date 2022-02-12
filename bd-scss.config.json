@@ -5,7 +5,7 @@
 	"dev": [
 		{
 			"target": ["src", "main.scss"],
-			"output": ["FrostedGlass.theme.css"]
+			"output": "FrostedGlass.theme.css"
 		}
 	],
 	"build": [
