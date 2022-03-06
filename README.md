@@ -1,19 +1,17 @@
-## Frosted Glass
+# Frosted Glass
+
 Display your picture of choice with adjustable blur and brightness. Dark theme is required.
 
-- - -
+![Server Chat](https://i.imgur.com/sUlg8ff.png)
+
+## Download
+
 BetterDiscord Download: [https://betterdiscord.app/theme/Frosted%20Glass](https://betterdiscord.app/Download?id=40)  
 Powercord Install: `git clone https://github.com/DiscordStyles/FrostedGlass`
-- - -
 
-Server chat + User popout
-![Server Chat](https://i.imgur.com/Gr8JJAv.jpg)
+## Contributing
 
-User modal
-![User Modal](https://i.imgur.com/xnUQ1Ek.jpg)
-
-User Settings
-![User Settings](https://i.imgur.com/qfMW8HI.jpg)
+Looking to contribute to Frosted Glass? Read the the [contributing.md](https://github.com/DiscordStyles/FrostedGlass/blob/master/CONTRIBUTING.md) file.
 
 ## License
 
