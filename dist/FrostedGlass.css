@@ -1317,96 +1317,71 @@
   background: rgba(0, 0, 0, var(--middle-brightness));
 }
 
-#app-mount [aria-label*=SETTINGS] .sidebarRegionScroller-FXiQOh {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .sidebarRegionScroller-FXiQOh {
   background-color: rgba(0, 0, 0, var(--left-brightness));
 }
-#app-mount [aria-label*=SETTINGS] .multiInput-1e2xJ7 .input-2g-os5 {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .multiInput-1e2xJ7 .input-2g-os5 {
   background: transparent;
 }
-#app-mount [aria-label*=SETTINGS] .description-3_Ncsb,
-#app-mount [aria-label*=SETTINGS] .h5-18_1nd:not(.isEnabled-2qCZy8),
-#app-mount [aria-label*=SETTINGS] .labelDescriptor-1PqHgD,
-#app-mount [aria-label*=SETTINGS] .viewBody-2Qz-jg {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .description-3_Ncsb,
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .h5-18_1nd:not(.isEnabled-2qCZy8),
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .labelDescriptor-1PqHgD,
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .viewBody-2Qz-jg {
   color: var(--text-normal);
 }
 
-#app-mount #user-settings .authedApp-1tw-eT {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .authedApp-8q3NA9 {
   background: var(--background-secondary);
 }
-#app-mount #user-settings .connection-1fbD7X {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connection-YOVI9j {
   position: relative;
   overflow: hidden;
-  background-color: transparent !important;
   box-shadow: none;
 }
-#app-mount #user-settings .connection-1fbD7X[style*="rgb(0, 154, 229)"] {
-  background: rgba(0, 154, 229, 0.2) !important;
-}
-#app-mount #user-settings .connection-1fbD7X[style*="rgb(2, 31, 37)"] {
-  background: rgba(2, 31, 37, 0.3) !important;
-}
-#app-mount #user-settings .connection-1fbD7X[style*="rgb(255, 69, 0)"] {
-  background: rgba(255, 69, 0, 0.2) !important;
-}
-#app-mount #user-settings .connection-1fbD7X[style*="rgb(29, 185, 84)"] {
-  background: rgba(29, 185, 84, 0.2) !important;
-}
-#app-mount #user-settings .connection-1fbD7X[style*="rgb(24, 35, 50)"] {
-  background: rgba(24, 35, 50, 0.4) !important;
-}
-#app-mount #user-settings .connection-1fbD7X[style*="rgb(89, 54, 149)"] {
-  background: rgba(89, 54, 149, 0.3) !important;
-}
-#app-mount #user-settings .connection-1fbD7X .integration-3kMeY4 {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connection-YOVI9j .integration-3kMeY4 {
   background: var(--white);
   border: none;
 }
-#app-mount #user-settings .connection-1fbD7X[style*="rgb(29, 161, 242)"] {
-  background: rgba(29, 161, 242, 0.2) !important;
-}
-#app-mount #user-settings .connection-1fbD7X[style*="rgb(203, 33, 32)"] {
-  background: rgba(203, 33, 32, 0.2) !important;
-}
-#app-mount #user-settings .connectionHeader-2rV1ze {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionHeader-2rV1ze {
   background: transparent;
   border: none;
   margin-bottom: 0;
 }
-#app-mount #user-settings .connectionDelete-XXTMqE {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE {
   border: none;
   background: var(--white);
   transition: 0.2s ease;
 }
-#app-mount #user-settings .connectionDelete-XXTMqE:after, #app-mount #user-settings .connectionDelete-XXTMqE:before {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE:after, #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE:before {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 2px;
   height: 16px;
 }
-#app-mount #user-settings .connectionDelete-XXTMqE:before {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE:before {
   transform: translate(-50%, -50%) rotate(45deg);
 }
-#app-mount #user-settings .connectionDelete-XXTMqE:after {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE:after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
-#app-mount #user-settings .connectionDelete-XXTMqE span {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE span {
   display: none;
 }
-#app-mount #user-settings .connectionDelete-XXTMqE:hover {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE:hover {
   background: var(--white-double);
 }
-#app-mount #user-settings .connectionDelete-XXTMqE:active {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE:active {
   background: var(--white-triple);
 }
-#app-mount #user-settings .card-2ART2V:before {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .card-2ART2V:before {
   border-color: transparent;
   background: var(--white);
 }
-#app-mount #user-settings .game-3x3aDt {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .game-3x3aDt {
   box-shadow: 0 1px 0 0 var(--background-modifier-accent);
 }
-#app-mount #user-settings .item-3eFBNF {
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .item-3eFBNF {
   box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
 }
 
