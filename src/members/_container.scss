@@ -1,11 +1,11 @@
 #app-mount {
-  .container-2o3qEW {
-    background-color: rgba(0,0,0,var(--right-brightness));
-  }
-  .members-3WRCEx {
-    background: transparent;
-    & > div {
-      background: transparent;
-    }
-  }
+	.container-2o3qEW {
+		background-color: rgba(0, 0, 0, var(--right-brightness));
+	}
+	.members-3WRCEx {
+		background: transparent;
+		& > div {
+			background: transparent;
+		}
+	}
 }

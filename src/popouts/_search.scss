@@ -1,55 +1,55 @@
 #app-mount {
-  .container-2McqkF {
-    background: transparent;
-    box-shadow: none;
-    .displayedNick-2dDbfG,
-    .filter-5YbOzJ,
-    .header-3A13BX {
-      color: var(--text-normal);
-    }
-    .answer-2fBfuP,
-    .displayUsername-14aOpK {
-      color: var(--text-muted);
-    }
-    .option-2KkUJO {
-      .plusIcon-2V7coV {
-        color: var(--text-normal);
-      }
-      &.selected-rZcOL- {
-        background: var(--white);
-        &:after {
-          background: linear-gradient(90deg, transparent, var(--white-double));
-        }
-      }
-      &:after {
-        background: transparent;
-      }
-    }
-    .react-datepicker,
-    .react-datepicker__header {
-      background: transparent;
-    }
-    .react-datepicker__month {
-      background: var(--background-secondary);
-      border-radius: 3px;
-    }
-    .react-datepicker__day {
-      border-color: var(--white);
-      background: var(--white);
-      &--selected:after {
-        background: var(--gradient);
-      }
-    }
-    .react-datepicker__day--disabled,
-    .react-datepicker__day--outside-month {
-      background: transparent;
-    }
-  }
-  .searchAnswer-23w-CH {
-    background: var(--white);
-    margin-left: 0;
-  }
-  .searchFilter-2UfsDk {
-    background: var(--white);
-  }
+	.container-2McqkF {
+		background: transparent;
+		box-shadow: none;
+		.displayedNick-2dDbfG,
+		.filter-5YbOzJ,
+		.header-3A13BX {
+			color: var(--text-normal);
+		}
+		.answer-2fBfuP,
+		.displayUsername-14aOpK {
+			color: var(--text-muted);
+		}
+		.option-2KkUJO {
+			.plusIcon-2V7coV {
+				color: var(--text-normal);
+			}
+			&.selected-rZcOL- {
+				background: var(--white);
+				&::after {
+					background: linear-gradient(90deg, transparent, var(--white-double));
+				}
+			}
+			&::after {
+				background: transparent;
+			}
+		}
+		.react-datepicker,
+		.react-datepicker__header {
+			background: transparent;
+		}
+		.react-datepicker__month {
+			background: var(--background-secondary);
+			border-radius: 3px;
+		}
+		.react-datepicker__day {
+			border-color: var(--white);
+			background: var(--white);
+			&--selected::after {
+				background: var(--gradient);
+			}
+		}
+		.react-datepicker__day--disabled,
+		.react-datepicker__day--outside-month {
+			background: transparent;
+		}
+	}
+	.searchAnswer-23w-CH {
+		background: var(--white);
+		margin-left: 0;
+	}
+	.searchFilter-2UfsDk {
+		background: var(--white);
+	}
 }

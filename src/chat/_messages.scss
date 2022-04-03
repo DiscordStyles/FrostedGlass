@@ -1,49 +1,49 @@
 #app-mount {
-  .cozy-VmLDNB .header-23xsNx {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .message-G6O-Wv {
-    background: transparent;
-    box-shadow: none;
-  }
-  // Attachments,pings,codeblocks ect...
-  .message-2CShn3 {
-    background: transparent !important;
-    .reaction-1hd86g {
-      background: var(--white);
-      &.reactionMe-wv5HKu {
-        background: var(--gradient);
-        .reactionCount-2mvXRV {
-          color: var(--text-normal);
-        }
-      }
-    }
-    .wrapper-2vIMkT {
-      background: var(--background-secondary);
-    }
-    .attachment-33OFj0,
-    .wrapperAudio-1jDe0Q,
-    code {
-      background-color: var(--chat-embed);
-      border: none;
-    }
-    .embedFull-2tM8-- {
-      background-color: var(--chat-embed);
-    }
-  }
-  .hljs {
-    color: var(--text-default);
-  }
-  // Mentions
-  .mentioned-Tre-dv {
-    background: var(--gradient-20) !important;
-    &:before {
-      background: var(--gradient);
-    }
-  }
-  .wrapper-1ZcZW- {
-    background: var(--gradient);
-    color: var(--text-normal);
-  }
+	.cozy-VmLDNB .header-23xsNx {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.message-G6O-Wv {
+		background: transparent;
+		box-shadow: none;
+	}
+	// Attachments,pings,codeblocks ect...
+	.message-2CShn3 {
+		background: transparent !important;
+		.reaction-1hd86g {
+			background: var(--white);
+			&.reactionMe-wv5HKu {
+				background: var(--gradient);
+				.reactionCount-2mvXRV {
+					color: var(--text-normal);
+				}
+			}
+		}
+		.wrapper-2vIMkT {
+			background: var(--background-secondary);
+		}
+		.attachment-33OFj0,
+		.wrapperAudio-1jDe0Q,
+		code {
+			background-color: var(--chat-embed);
+			border: none;
+		}
+		.embedFull-2tM8-- {
+			background-color: var(--chat-embed);
+		}
+	}
+	.hljs {
+		color: var(--text-default);
+	}
+	// Mentions
+	.mentioned-Tre-dv {
+		background: var(--gradient-20) !important;
+		&::before {
+			background: var(--gradient);
+		}
+	}
+	.wrapper-1ZcZW- {
+		background: var(--gradient);
+		color: var(--text-normal);
+	}
 }

@@ -1,62 +1,62 @@
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
-  // Authorized apps
-  .authedApp-8q3NA9 {
-    background: var(--background-secondary);
-  }
-  // Connections
-  .connection-YOVI9j {
-    position: relative;
-    overflow: hidden;
-    box-shadow: none;
-    .integration-3kMeY4 {
-      background: var(--white);
-      border: none;
-    }
-  }
-  .connectionHeader-2rV1ze {
-    background: transparent;
-    border: none;
-    margin-bottom: 0;
-  }
-  .connectionDelete-XXTMqE {
-    border: none;
-    background: var(--white);
-    transition: 0.2s ease;
-    &:after,
-    &:before {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 2px;
-      height: 16px;
-    }
-    &:before {
-      transform: translate(-50%, -50%) rotate(45deg);
-    }
-    &:after {
-      transform: translate(-50%, -50%) rotate(-45deg);
-    }
-    span {
-      display: none;
-    }
-    &:hover {
-      background: var(--white-double);
-    }
-    &:active {
-      background: var(--white-triple);
-    }
-  }
-  // Keybinds
-  .card-2ART2V:before {
-    border-color: transparent;
-    background: var(--white);
-  }
-  // Game Activity
-  .game-3x3aDt {
-    box-shadow: 0 1px 0 0 var(--background-modifier-accent);
-  }
-  // Language
-  .item-3eFBNF {
-    box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
-  }
+	// Authorized apps
+	.authedApp-8q3NA9 {
+		background: var(--background-secondary);
+	}
+	// Connections
+	.connection-YOVI9j {
+		position: relative;
+		overflow: hidden;
+		box-shadow: none;
+		.integration-3kMeY4 {
+			background: var(--white);
+			border: none;
+		}
+	}
+	.connectionHeader-2rV1ze {
+		background: transparent;
+		border: none;
+		margin-bottom: 0;
+	}
+	.connectionDelete-XXTMqE {
+		border: none;
+		background: var(--white);
+		transition: 0.2s ease;
+		&::after,
+		&::before {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 2px;
+			height: 16px;
+		}
+		&::before {
+			transform: translate(-50%, -50%) rotate(45deg);
+		}
+		&::after {
+			transform: translate(-50%, -50%) rotate(-45deg);
+		}
+		span {
+			display: none;
+		}
+		&:hover {
+			background: var(--white-double);
+		}
+		&:active {
+			background: var(--white-triple);
+		}
+	}
+	// Keybinds
+	.card-2ART2V::before {
+		border-color: transparent;
+		background: var(--white);
+	}
+	// Game Activity
+	.game-3x3aDt {
+		box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+	}
+	// Language
+	.item-3eFBNF {
+		box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
+	}
 }

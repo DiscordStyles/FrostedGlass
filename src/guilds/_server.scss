@@ -1,48 +1,51 @@
 #app-mount .guilds-2JjMmN {
-  // Home button
-  .tutorialContainer-1pL9QS {
-    .childWrapper-1j_1ub {
-      background: var(--gradient);
-      background-color: transparent;
-    }
-    .listItem-3SmSlK:first-child .wrapper-3kah-n {
-      &:before {
-        content: "";
-        border-radius: 50%;
-        position: absolute;
-        background: var(--home-button-image, url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg'));
-        background-size: var(--home-button-size, cover);
-        background-position: var(--home-button-position, center);
-        height: 100%;
-        width: 100%;
-        transition: 0.2s ease;
-      }
-      &.selected-1Drb7Z:before {
-        border-radius: 30%;
-      }
-    }
-    .homeIcon-r0w4ny {
-      display: none;
-    }
-  }
-  .selected-1Drb7Z .acronym-2zrAHN {
-    background: var(--white-double);
-  }
-  // No icon
-  .acronym-2zrAHN {
-    background: var(--white);
-    &:hover {
-      background: var(--white-double);
-    }
-  }
-  // Add server/Discovery
-  [class*="circleIconButton"] {
-    background: var(--white);
-    color: rgb(var(--gradient-primary));
-    &.selected-ugP_am,
-    &:hover {
-      background: var(--white-double);
-      color: var(--text-normal);
-    }
-  }
+	// Home button
+	.tutorialContainer-1pL9QS {
+		.childWrapper-1j_1ub {
+			background: var(--gradient);
+			background-color: transparent;
+		}
+		.listItem-3SmSlK:first-child .wrapper-3kah-n {
+			&::before {
+				content: "";
+				border-radius: 50%;
+				position: absolute;
+				background: var(
+					--home-button-image,
+					url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg")
+				);
+				background-size: var(--home-button-size, cover);
+				background-position: var(--home-button-position, center);
+				height: 100%;
+				width: 100%;
+				transition: 0.2s ease;
+			}
+			&.selected-1Drb7Z::before {
+				border-radius: 30%;
+			}
+		}
+		.homeIcon-r0w4ny {
+			display: none;
+		}
+	}
+	.selected-1Drb7Z .acronym-2zrAHN {
+		background: var(--white-double);
+	}
+	// No icon
+	.acronym-2zrAHN {
+		background: var(--white);
+		&:hover {
+			background: var(--white-double);
+		}
+	}
+	// Add server/Discovery
+	[class*="circleIconButton"] {
+		background: var(--white);
+		color: rgb(var(--gradient-primary));
+		&.selected-ugP_am,
+		&:hover {
+			background: var(--white-double);
+			color: var(--text-normal);
+		}
+	}
 }

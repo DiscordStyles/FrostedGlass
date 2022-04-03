@@ -1,14 +1,22 @@
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
-  .sidebarRegionScroller-FXiQOh {
-    background-color: rgba(0,0,0,var(--left-brightness));
-  }
-  .multiInput-1e2xJ7 .input-2g-os5 {
-    background: transparent;
-  }
-  .description-3_Ncsb,
-  .h5-18_1nd:not(.isEnabled-2qCZy8),
-  .labelDescriptor-1PqHgD,
-  .viewBody-2Qz-jg {
-    color: var(--text-normal);
-  }
+	.standardSidebarView-E9Pc3j {
+		top: 0;
+	}
+	.sidebarRegionScroller-FXiQOh {
+		background-color: rgba(0, 0, 0, var(--left-brightness));
+	}
+	.multiInput-1e2xJ7 .input-2g-os5 {
+		background: transparent;
+	}
+	.description-3_Ncsb,
+	.h5-18_1nd:not(.isEnabled-2qCZy8),
+	.labelDescriptor-1PqHgD,
+	.viewBody-2Qz-jg {
+		color: var(--text-normal);
+	}
+
+	.info-3pQQBb .colorMuted-20987_:first-child::before {
+		content: var(--version);
+		display: block;
+	}
 }

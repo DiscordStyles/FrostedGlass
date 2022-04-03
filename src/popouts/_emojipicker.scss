@@ -27,8 +27,8 @@
   .categoryFadeBlurple-1HuV1x {
     background: var(--gradient-90);
   }
-  .focused-q9B2e4:after,
-  .result-3OpoO7:hover:after {
+  .focused-q9B2e4::after,
+  .result-3OpoO7:hover::after {
     box-shadow: inset 0 0 0 2px rgb(var(--gradient-primary));
   }
   .result-3OpoO7 {

@@ -1,31 +1,31 @@
 #app-mount {
-  .notice-2HEN-u {
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0;
-    box-shadow: none;
-    padding-right: var(--TB-header-padding, 12px);
-    .button-1iHNQ2 {
-      top: 0;
-      background: var(--white);
-      border-color: transparent;
-      color: #fff;
-      &:hover {
-        background: var(--white-double);
-      }
-      &:active {
-        background: var(--white-triple);
-      }
-    }
-  }
-  .closeButton-30b1gR {
-    right: unset;
-    left: 0;
-    height: 48px;
-  }
-  .noticeStreamerMode-2TSQpg {
-    background: rgba(var(--discord-twitch), 0.6);
-  }
+	.notice-2HEN-u {
+		height: 48px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0;
+		box-shadow: none;
+		padding-right: var(--TB-header-padding, 12px);
+		.button-1iHNQ2 {
+			top: 0;
+			background: var(--white);
+			border-color: transparent;
+			color: #fff;
+			&:hover {
+				background: var(--white-double);
+			}
+			&:active {
+				background: var(--white-triple);
+			}
+		}
+	}
+	.closeButton-30b1gR {
+		right: unset;
+		left: 0;
+		height: 48px;
+	}
+	.noticeStreamerMode-2TSQpg {
+		background: rgba(var(--discord-twitch), 0.6);
+	}
 }
