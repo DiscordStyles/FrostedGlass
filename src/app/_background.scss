@@ -51,8 +51,8 @@
 			box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--popout-modal-brightness));
 			height: calc(100% + var(--popout-modal-blur) * 5);
 			width: calc(100% + var(--popout-modal-blur) * 5);
-			top: calc(var(--popout-modal-blur) / -1);
-			left: calc(var(--popout-modal-blur) / -1);
+			top: calc(var(--popout-modal-blur) / -1 * 2.5);
+			left: calc(var(--popout-modal-blur) / -1 * 2.5);
 			position: absolute;
 			filter: blur(var(--popout-modal-blur));
 			transform: translate(var(--popout-modal-blur), calc(var(--popout-modal-blur) / -1));
