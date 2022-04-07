@@ -24,7 +24,7 @@
   --discord-spotify: 29, 185, 84;
   --discord-twitch: 89, 54, 149;
   --discord-xbox: 16, 124, 16;
-  --version: "Frosted Glass 2.0.12";
+  --version: "Frosted Glass 2.0.13";
 }
 
 .theme-dark {
@@ -201,7 +201,7 @@ textarea {
   display: none;
 }
 
-#app-mount .layers-OrUESM::before {
+#app-mount .layer-86YKbF::before {
   content: "";
   background: var(--background-image);
   background-position: var(--background-image-position, center);
@@ -227,7 +227,7 @@ textarea {
 #app-mount .container-8Futzw,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG),
 #app-mount .emojiPicker-6YCk8a,
-#app-mount .messagesPopoutWrap-1MQ1bW,
+#app-mount .messagesPopoutWrap-3zryHW,
 #app-mount .modal-2RrUKJ:not(.slide-2pHaq5),
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y),
 #app-mount .root-8LYsGj,
@@ -254,7 +254,7 @@ textarea {
 #app-mount .container-8Futzw::before,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG)::before,
 #app-mount .emojiPicker-6YCk8a::before,
-#app-mount .messagesPopoutWrap-1MQ1bW::before,
+#app-mount .messagesPopoutWrap-3zryHW::before,
 #app-mount .modal-2RrUKJ:not(.slide-2pHaq5)::before,
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y)::before,
 #app-mount .root-8LYsGj::before,
@@ -279,10 +279,11 @@ textarea {
   box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--popout-modal-brightness));
   height: calc(100% + var(--popout-modal-blur) * 5);
   width: calc(100% + var(--popout-modal-blur) * 5);
-  top: calc(var(--popout-modal-blur) / -1 * 2.5);
-  left: calc(var(--popout-modal-blur) / -1 * 2.5);
+  top: calc(var(--popout-modal-blur) / -1);
+  left: calc(var(--popout-modal-blur) / -1);
   position: absolute;
   filter: blur(var(--popout-modal-blur));
+  transform: translate(var(--popout-modal-blur), calc(var(--popout-modal-blur) / -1));
   pointer-events: none;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -761,7 +762,7 @@ textarea {
 #app-mount .member-2gU6Ar.selected-1-Z6gm .layout-1qmrhw {
   background: var(--gradient);
 }
-#app-mount .member-2gU6Ar.selected-1-Z6gm .roleColor-rz2vM0 {
+#app-mount .member-2gU6Ar.selected-1-Z6gm .roleColor-nA7BqX {
   color: var(--text-normal) !important;
 }
 #app-mount .member-2gU6Ar.selected-1-Z6gm .botTagRegular-2HEhHi {
