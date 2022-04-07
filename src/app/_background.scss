@@ -1,5 +1,5 @@
 #app-mount {
-	.layers-OrUESM::before {
+	.layer-86YKbF::before {
 		content: "";
 		background: var(--background-image);
 		background-position: var(--background-image-position, center);
@@ -22,7 +22,7 @@
 	.container-8Futzw,
 	.contextMenu-HLZMGh:not(.scroller-2FKFPG),
 	.emojiPicker-6YCk8a,
-	.messagesPopoutWrap-1MQ1bW,
+	.messagesPopoutWrap-3zryHW,
 	.modal-2RrUKJ:not(.slide-2pHaq5),
 	.root-1gCeng:not(.fullscreenOnMobile-1bD22y),
 	.root-8LYsGj,
@@ -51,10 +51,11 @@
 			box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--popout-modal-brightness));
 			height: calc(100% + var(--popout-modal-blur) * 5);
 			width: calc(100% + var(--popout-modal-blur) * 5);
-			top: calc(var(--popout-modal-blur) / -1 * 2.5);
-			left: calc(var(--popout-modal-blur) / -1 * 2.5);
+			top: calc(var(--popout-modal-blur) / -1);
+			left: calc(var(--popout-modal-blur) / -1);
 			position: absolute;
 			filter: blur(var(--popout-modal-blur));
+			transform: translate(var(--popout-modal-blur), calc(var(--popout-modal-blur) / -1));
 			pointer-events: none;
 			user-select: none;
 			z-index: -1;
