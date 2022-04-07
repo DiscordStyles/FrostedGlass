@@ -1,7 +1,7 @@
 #app-mount {
 	.layer-86YKbF::before {
 		content: "";
-		background: var(--background-image);
+		background: linear-gradient(var(--tint), var(--tint)), var(--background-image);
 		background-position: var(--background-image-position, center);
 		background-size: var(--background-image-size, cover);
 		background-repeat: var(--background-image-repeat, no-repeat);
