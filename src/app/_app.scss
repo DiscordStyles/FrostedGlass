@@ -65,3 +65,8 @@
 	background: rgb(var(--discord-blurple), 0.7);
 	text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
 }
+
+// Make window draggable
+.chat-2ZfjoI > section.title-31SJ6t {
+  -webkit-app-region: drag;
+}
