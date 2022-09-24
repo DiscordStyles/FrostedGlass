@@ -785,6 +785,9 @@ textarea {
   box-shadow: none;
   overflow: hidden;
   opacity: 0;
+  background: rgba(0, 0, 0, var(--middle-brightness));
+  -webkit-backdrop-filter: blur(var(--popout-modal-blur));
+          backdrop-filter: blur(var(--popout-modal-blur));
   -webkit-animation: fadeIn 0.3s ease forwards;
           animation: fadeIn 0.3s ease forwards;
 }
