@@ -2,6 +2,8 @@
   box-shadow: none;
   overflow: hidden;
   opacity: 0;
+  background: rgba(0, 0, 0, var(--middle-brightness));
+  backdrop-filter: blur(var(--popout-modal-blur));
   animation: fadeIn 0.3s ease forwards;
   .headerNormal-T_seeN {
     background: transparent;
