@@ -14,7 +14,7 @@
 	 * User Popout variables
 	 * This will only affect the user profile (when clicking on a member in the members list)
 	 */
-	--popout-image: url("https://newevolutiondesigns.com/images/freebies/4k-space-wallpaper-2.jpg"); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+	--popout-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
 	--popout-image-blur: 5px; /* Blur intensity of --popout-image | Must end in px | DEFAULT: 5px */
 	--popout-image-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
 	--popout-image-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
