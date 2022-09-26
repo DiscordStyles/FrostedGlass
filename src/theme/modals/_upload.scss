@@ -13,7 +13,7 @@
 		z-index: 2;
 	}
 	&::before {
-		content: "";
+		content: '';
 		position: absolute;
 		background: var(--fb-popout-modal-image) center/cover fixed;
 		top: 0;
@@ -25,7 +25,7 @@
 		border-radius: 5px;
 	}
 	&::after {
-		content: "";
+		content: '';
 		position: absolute;
 		top: 0;
 		left: 0;

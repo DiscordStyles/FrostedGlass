@@ -7,15 +7,13 @@
 		}
 		.listItem-3SmSlK:first-child .wrapper-3kah-n {
 			&::before {
-				content: "";
+				content: '';
 				border-radius: 50%;
 				position: absolute;
-				background: var(
-					--home-button-image,
-					url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg")
-				);
+				background: var(--home-button-image, url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg'));
 				background-size: var(--home-button-size, cover);
 				background-position: var(--home-button-position, center);
+				background-repeat: var(--home-button-repeat, no-repeat);
 				height: 100%;
 				width: 100%;
 				transition: 0.2s ease;
@@ -39,7 +37,7 @@
 		}
 	}
 	// Add server/Discovery
-	[class*="circleIconButton"] {
+	[class*='circleIconButton'] {
 		background: var(--white);
 		color: rgb(var(--gradient-primary));
 		&.selected-ugP_am,

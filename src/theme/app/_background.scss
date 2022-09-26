@@ -1,6 +1,6 @@
 #app-mount {
 	.layer-86YKbF::before {
-		content: "";
+		content: '';
 		background: linear-gradient(var(--tint), var(--tint)), var(--background-image);
 		background-position: var(--background-image-position, center);
 		background-size: var(--background-image-size, cover);
@@ -15,7 +15,7 @@
 		pointer-events: none;
 		user-select: none;
 	}
-	[role="menu"],
+	[role='menu'],
 	.autocompleteInner-y1mjDl,
 	.container-2McqkF,
 	.container-enaOkj,
@@ -41,7 +41,7 @@
 		position: relative;
 		border-radius: 3px;
 		&::before {
-			content: "";
+			content: '';
 			background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-modal-image);
 			background-position: var(--fb-popout-modal-position, center);
 			background-size: var(--fb-popout-modal-size, cover);

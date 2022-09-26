@@ -8,7 +8,7 @@
 		color: var(--text-muted);
 		&::before,
 		&::after {
-			content: "";
+			content: '';
 			flex: 1;
 			height: 1px;
 			display: block;

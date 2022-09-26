@@ -1,4 +1,4 @@
-#app-mount [class*="userPopout"] {
+#app-mount [class*='userPopout'] {
 	box-shadow: none;
 	overflow: hidden !important;
 	position: relative;
@@ -7,7 +7,7 @@
 	animation: fadeIn 0.3s ease forwards;
 
 	&::before {
-		content: "";
+		content: '';
 		background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-modal-image);
 		background-position: var(--fb-popout-modal-position, center);
 		background-size: var(--fb-popout-modal-size, cover);
@@ -80,7 +80,7 @@
 		filter: none;
 		margin: 0;
 		&::before {
-			content: "";
+			content: '';
 			position: absolute;
 			inset: 0;
 			background: inherit;

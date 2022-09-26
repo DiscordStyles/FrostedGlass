@@ -8,10 +8,10 @@ export default {
 		invite: 'ZHthyCw',
 		authorId: '174868361040232448',
 		source: 'https://github.com/DiscordStyles/FrostedGlass',
-		website: 'https://gibbu.me/',
+		website: 'https://gibbu.me/'
 	},
 	base: {
 		output: 'dist/dist'
 	},
 	baseImport: 'https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css'
-}
+};

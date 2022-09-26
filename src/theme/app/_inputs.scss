@@ -86,7 +86,7 @@
 				background: var(--text-normal) !important;
 			}
 		}
-		&[style*="rgb(114, 137, 218)"] {
+		&[style*='rgb(114, 137, 218)'] {
 			background: var(--gradient) !important;
 			.checkbox-1ix_J3 {
 				background: var(--text-normal);
@@ -95,9 +95,9 @@
 				stroke: rgb(var(--gradient-primary));
 			}
 		}
-		&[style*="rgb(240, 71, 71)"],
-		&[style*="rgb(250, 166, 26)"],
-		&[style*="rgb(67, 181, 129)"] {
+		&[style*='rgb(240, 71, 71)'],
+		&[style*='rgb(250, 166, 26)'],
+		&[style*='rgb(67, 181, 129)'] {
 			.checkbox-1ix_J3 {
 				background: var(--text-normal);
 			}
@@ -126,12 +126,12 @@
 		}
 	}
 	// Select
-	[class*="css"][class*="control"],
+	[class*='css'][class*='control'],
 	.select-1Pkeg4 {
 		background: var(--background-secondary);
 		border-color: transparent;
 	}
-	[class*="css"][class*="placeholder"] {
+	[class*='css'][class*='placeholder'] {
 		color: rgba(255, 255, 255, 0.5);
 		opacity: 1;
 	}

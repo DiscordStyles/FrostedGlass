@@ -1,5 +1,5 @@
 #app-mount::before {
-	content: "";
+	content: '';
 	background: var(--background-image);
 	background-position: var(--background-image-position, center);
 	background-size: var(--background-image-size, cover);
@@ -23,7 +23,7 @@
 	}
 	// Container shadow
 	.base-2jDfDU::before {
-		content: "";
+		content: '';
 		position: absolute;
 		height: 5px;
 		width: 100%;
@@ -55,7 +55,7 @@
 }
 // Update notice
 #app-mount .app-2CXKsg::before {
-	content: "Your version of Frosted Glass is outdated. Please redownload";
+	content: 'Your version of Frosted Glass is outdated. Please redownload';
 	white-space: pre-wrap;
 	display: var(--update-notice-1, block);
 	color: #fff;
