@@ -203,7 +203,15 @@ textarea {
   display: none;
 }
 
-#app-mount .layer-86YKbF::before {
+#app-mount .bg-1QIAus {
+  top: var(--window-padding);
+  right: var(--window-padding);
+  bottom: var(--window-padding);
+  left: var(--window-padding);
+  border-radius: var(--window-roundness);
+  overflow: hidden;
+}
+#app-mount .bg-1QIAus::before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--background-image);
   background-position: var(--background-image-position, center);
