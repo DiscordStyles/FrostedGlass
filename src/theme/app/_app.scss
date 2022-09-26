@@ -1,16 +1,3 @@
-#app-mount::before {
-	content: '';
-	background: var(--background-image);
-	background-position: var(--background-image-position, center);
-	background-size: var(--background-image-size, cover);
-	position: absolute;
-	height: calc(100vh + (var(--background-image-blur) * 2));
-	width: calc(100vw + (var(--background-image-blur) * 2));
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 #app-mount {
 	.layer-86YKbF {
 		top: var(--window-padding);
