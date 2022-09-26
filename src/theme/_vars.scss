@@ -1,5 +1,7 @@
 :root {
 	// Frosted Glass variables
+	--version: "Frosted Glass 2.0.14";
+
 	--TB-top: calc(var(--server-container) + var(--window-padding));
 	--TB-tr-roundness: var(--window-roundness);
 	--TB-position-top: var(--TB-top, var(--window-padding));
@@ -28,7 +30,11 @@
 	--discord-twitch: 89, 54, 149;
 	--discord-xbox: 16, 124, 16;
 
-	--version: "Frosted Glass 2.0.13";
+	// Fallbacks
+	--fb-popout-modal-image: var(--popout-modal-image, var(--overlay-image));
+	--fb-popout-modal-blur: var(--popout-modal-blur, var(--overlay-image-blur));
+	--fb-popout-modal-size: var(--popout-modal-size, var(--overlay-image-size));
+	--fb-popout-modal-position: var(--popout-modal-position, var(--overlay-image-position));
 }
 
 .theme-dark {

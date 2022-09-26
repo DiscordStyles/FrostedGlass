@@ -15,7 +15,7 @@
 	&::before {
 		content: "";
 		position: absolute;
-		background: var(--popout-modal-image) center/cover fixed;
+		background: var(--fb-popout-modal-image) center/cover fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -35,6 +35,6 @@
 		background: rgba(0, 0, 0, var(--popout-modal-brightness));
 		box-shadow: var(--tint);
 		z-index: 1;
-		backdrop-filter: blur(var(--popout-modal-blur));
+		backdrop-filter: blur(var(--fb-popout-modal-image));
 	}
 }

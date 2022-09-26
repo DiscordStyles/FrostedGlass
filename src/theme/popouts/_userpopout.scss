@@ -1,0 +1,114 @@
+#app-mount [class*="userPopout"] {
+	box-shadow: none;
+	overflow: hidden !important;
+	position: relative;
+	border-radius: 3px;
+	opacity: 0;
+	animation: fadeIn 0.3s ease forwards;
+
+	&::before {
+		content: "";
+		background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-modal-image);
+		background-position: var(--fb-popout-modal-position, center);
+		background-size: var(--fb-popout-modal-size, cover);
+		background-attachment: var(--popout-modal-attachment, fixed);
+		background-repeat: var(--popout-modal-repeat, no-repeat);
+		box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--overlay-brightness));
+		height: calc(100% + var(--fb-popout-modal-blur) * 5);
+		width: calc(100% + var(--fb-popout-modal-blur) * 5);
+		top: calc(var(--fb-popout-modal-blur) / -1 * 2.5);
+		left: calc(var(--fb-popout-modal-blur) / -1 * 2.5);
+		position: absolute;
+		filter: blur(var(--fb-popout-modal-blur));
+		transform: translate(var(--fb-popout-modal-blur) / -1, calc(var(--fb-popout-modal-blur) / -1));
+		pointer-events: none;
+		user-select: none;
+		z-index: -1;
+	}
+
+	.headerNormal-T_seeN {
+		background: transparent;
+	}
+	.headerPlaying-j0WQBV {
+		background: var(--gradient-50);
+	}
+	.headerXbox-3G-4PF {
+		background: rgba(var(--discord-xbox), 0.3);
+	}
+	.headerSpotify-zpWxgT {
+		background: rgba(var(--discord-spotify), 0.3);
+	}
+	.headerStreaming-2FjmGz {
+		background: rgba(var(--discord-twitch), 0.3);
+	}
+	.wrapper-1VLyxH::after {
+		border-radius: 3px;
+	}
+	.activityName-3YXl6e,
+	.headerTag-2pZJzA,
+	.nameNormal-2lqVQK,
+	.nameWrap-3Z4G_9,
+	.textRow-1sENuL {
+		color: var(--text-normal);
+	}
+	.body-3iLsc4 {
+		background: transparent;
+	}
+	.roles-3zC7MX {
+		gap: 4px;
+	}
+	.roleRemoveButton-17oXnT {
+		position: unset;
+		& + .roleName-2ZJJYR {
+			position: relative;
+			z-index: 1;
+		}
+	}
+	.role-2TIOKu {
+		margin: 0;
+		background: transparent;
+		position: relative;
+		border-radius: 10px;
+		overflow: hidden;
+		gap: 6px;
+		padding: 6px;
+		border: none;
+	}
+	.roleCircle-3K9O3d {
+		position: unset;
+		overflow: visible;
+		filter: none;
+		margin: 0;
+		&::before {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: inherit;
+			opacity: 0.15;
+			z-index: 0;
+			pointer-events: none;
+		}
+	}
+	.roleRemoveIcon-387wKV {
+		left: 12px;
+	}
+	.roleName-2ZJJYR {
+		margin: 0;
+		color: var(--text-focus);
+	}
+	.footer-1fjuF6 {
+		background: transparent;
+		border: none;
+	}
+	.quickMessage-1yeL4E {
+		background: var(--background-secondary);
+		border: none;
+		color: var(--text-normal);
+		&::placeholder {
+			color: rgba(255, 255, 255, 0.3);
+		}
+	}
+	.protip-YaFfgO {
+		display: none;
+	}
+}
