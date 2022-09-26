@@ -1,19 +1,27 @@
 #app-mount {
-	.layer-86YKbF::before {
-		content: '';
-		background: linear-gradient(var(--tint), var(--tint)), var(--background-image);
-		background-position: var(--background-image-position, center);
-		background-size: var(--background-image-size, cover);
-		background-repeat: var(--background-image-repeat, no-repeat);
-		height: calc(100vh + (var(--background-image-blur) * 2));
-		width: calc(100vw + (var(--background-image-blur) * 2));
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		position: absolute;
-		filter: blur(var(--background-image-blur));
-		pointer-events: none;
-		user-select: none;
+	.bg-1QIAus {
+		top: var(--window-padding);
+		right: var(--window-padding);
+		bottom: var(--window-padding);
+		left: var(--window-padding);
+		border-radius: var(--window-roundness);
+		overflow: hidden;
+		&::before {
+			content: '';
+			background: linear-gradient(var(--tint), var(--tint)), var(--background-image);
+			background-position: var(--background-image-position, center);
+			background-size: var(--background-image-size, cover);
+			background-repeat: var(--background-image-repeat, no-repeat);
+			height: calc(100vh + (var(--background-image-blur) * 2));
+			width: calc(100vw + (var(--background-image-blur) * 2));
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			filter: blur(var(--background-image-blur));
+			pointer-events: none;
+			user-select: none;
+		}
 	}
 	[role='menu'],
 	.autocompleteInner-y1mjDl,
