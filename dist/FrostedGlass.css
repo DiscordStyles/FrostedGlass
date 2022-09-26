@@ -80,19 +80,6 @@
   --text-link: var(--link-colour);
 }
 
-#app-mount::before {
-  content: "";
-  background: var(--background-image);
-  background-position: var(--background-image-position, center);
-  background-size: var(--background-image-size, cover);
-  position: absolute;
-  height: calc(100vh + var(--background-image-blur) * 2);
-  width: calc(100vw + var(--background-image-blur) * 2);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 #app-mount .layer-86YKbF {
   top: var(--window-padding);
   right: var(--window-padding);
@@ -204,30 +191,24 @@ textarea {
 }
 
 #app-mount .bg-1QIAus {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+}
+#app-mount .bg-1QIAus::before {
+  content: "";
+  position: absolute;
   top: var(--window-padding);
   right: var(--window-padding);
   bottom: var(--window-padding);
   left: var(--window-padding);
   border-radius: var(--window-roundness);
-  overflow: hidden;
-}
-#app-mount .bg-1QIAus::before {
-  content: "";
-  background: linear-gradient(var(--tint), var(--tint)), var(--background-image);
-  background-position: var(--background-image-position, center);
-  background-size: var(--background-image-size, cover);
-  background-repeat: var(--background-image-repeat, no-repeat);
-  height: calc(100vh + var(--background-image-blur) * 2);
-  width: calc(100vw + var(--background-image-blur) * 2);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  filter: blur(var(--background-image-blur));
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -webkit-backdrop-filter: blur(var(--background-image-blur));
+          backdrop-filter: blur(var(--background-image-blur));
 }
 #app-mount [role=menu],
 #app-mount .autocompleteInner-y1mjDl,
