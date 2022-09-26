@@ -504,6 +504,7 @@ textarea {
   background: var(--home-button-image, url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg"));
   background-size: var(--home-button-size, cover);
   background-position: var(--home-button-position, center);
+  background-repeat: var(--home-button-repeat, no-repeat);
   height: 100%;
   width: 100%;
   transition: 0.2s ease;
@@ -737,8 +738,28 @@ textarea {
   margin-top: 10px;
 }
 
-#app-mount .threadSidebar-1o3BTy {
+#app-mount .container-3XgAHv {
   background: rgb(0, 0, 0, var(--middle-brightness));
+}
+
+#app-mount .container-3wLKDe {
+  background: transparent;
+}
+#app-mount .container-2qVG6q {
+  background: var(--background-secondary);
+}
+#app-mount .header-1Uy0p6 {
+  background: var(--background-secondary);
+}
+#app-mount .header-1Uy0p6 .title-1v5ZfI {
+  background: transparent;
+}
+#app-mount .pill-3pRQlO {
+  background: var(--white);
+  transition: 0.15s ease background;
+}
+#app-mount .pill-3pRQlO:hover {
+  background: var(--white-double);
 }
 
 #app-mount .container-2o3qEW {
