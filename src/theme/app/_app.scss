@@ -14,7 +14,7 @@
 		position: absolute;
 		height: 5px;
 		width: 100%;
-		background: linear-gradient(rgba(0, 0, 0, 0.2), transparent);
+		background: linear-gradient(rgb(0, 0, 0, 0.2), transparent);
 		z-index: 1;
 		top: 48px;
 		pointer-events: none;
@@ -50,5 +50,5 @@
 	padding: 10px 0;
 	box-sizing: border-box;
 	background: rgb(var(--discord-blurple), 0.7);
-	text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
+	text-shadow: 0 2px 3px rgb(0, 0, 0, var(--text-shadow));
 }

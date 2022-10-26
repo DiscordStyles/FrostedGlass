@@ -3,7 +3,7 @@ html.platform-osx {
 		position: absolute;
 		top: var(--window-padding);
 		left: var(--window-padding);
-		background: rgba(0, 0, 0, var(--serverlist-brightness));
+		background: rgb(0, 0, 0, var(--serverlist-brightness));
 		width: 72px;
 		border-top-left-radius: var(--window-roundness);
 	}

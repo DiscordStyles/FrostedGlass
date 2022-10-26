@@ -1,19 +1,31 @@
-#app-mount .root-8LYsGj {
+#app-mount .userProfileModalOuter-1FYL8T {
 	background: transparent;
+
+	.userProfileInnerNonPremium-1XjSjn .body-_QAKrE {
+		background: var(--background-secondary);
+	}
+	.userProfileInnerWithBanner-3CJ1Og {
+		background: transparent;
+		&::before {
+			background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 120px, var(--profile-gradient-secondary-color));
+			opacity: 0.25;
+		}
+	}
+
 	.topSectionNormal-2-vo2m {
 		background: var(--background-secondary);
 	}
 	.topSectionSpotify-1lI0-P {
-		background: rgba(var(--discord-spotify), 0.3);
+		background: hsl(var(--discord-spotify) / 0.3);
 	}
 	.topSectionPlaying-1J5E4n {
 		background: var(--gradient-50);
 	}
 	.topSectionStreaming-1Tpf5X {
-		background: rgba(var(--discord-twitch), 0.3);
+		background: rgb(var(--discord-twitch), 0.3);
 	}
 	.topSectionXbox-3fWLjS {
-		background: rgba(var(--discord-xbox), 0.3);
+		background: rgb(var(--discord-xbox), 0.3);
 	}
 	.svg-2azL_l {
 		z-index: 1;

@@ -1,4 +1,4 @@
-#app-mount [class*='userPopout'] {
+#app-mount [class*='userPopoutOuter-3AVBmJ'] {
 	box-shadow: none;
 	overflow: hidden !important;
 	position: relative;
@@ -13,7 +13,7 @@
 		background-size: var(--fb-popout-modal-size, cover);
 		background-attachment: var(--popout-modal-attachment, fixed);
 		background-repeat: var(--popout-modal-repeat, no-repeat);
-		box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--overlay-brightness));
+		box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness));
 		height: calc(100% + var(--fb-popout-modal-blur) * 5);
 		width: calc(100% + var(--fb-popout-modal-blur) * 5);
 		top: calc(var(--fb-popout-modal-blur) / -1 * 2.5);
@@ -26,6 +26,14 @@
 		z-index: -1;
 	}
 
+	.userProfileInnerWithBanner-3CJ1Og {
+		background: transparent;
+		&::before {
+			background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 120px, var(--profile-gradient-secondary-color));
+			opacity: 0.25;
+		}
+	}
+
 	.headerNormal-T_seeN {
 		background: transparent;
 	}
@@ -33,13 +41,13 @@
 		background: var(--gradient-50);
 	}
 	.headerXbox-3G-4PF {
-		background: rgba(var(--discord-xbox), 0.3);
+		background: rgb(var(--discord-xbox), 0.3);
 	}
 	.headerSpotify-zpWxgT {
-		background: rgba(var(--discord-spotify), 0.3);
+		background: hsl(var(--discord-spotify) / 0.3);
 	}
 	.headerStreaming-2FjmGz {
-		background: rgba(var(--discord-twitch), 0.3);
+		background: rgb(var(--discord-twitch), 0.3);
 	}
 	.wrapper-1VLyxH::after {
 		border-radius: 3px;
@@ -105,10 +113,17 @@
 		border: none;
 		color: var(--text-normal);
 		&::placeholder {
-			color: rgba(255, 255, 255, 0.3);
+			color: rgb(255, 255, 255, 0.3);
 		}
 	}
 	.protip-YaFfgO {
 		display: none;
+	}
+
+	.userProfileInnerNonPremium-1XjSjn .overlayBackground-1KgwVi {
+		background: var(--background-secondary);
+	}
+	&.theme-light .inputDefault-3FGxgL::placeholder {
+		color: #000;
 	}
 }

@@ -37,7 +37,7 @@
 	.modalRoot-1Kx4Hb,
 	.container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt,
 	.popoutContainer-2wbmiM,
-	.root-1gCeng:not(.modal-3Crloo),
+	.userProfileModalOuter-1FYL8T,
 	.container-2O1UgZ,
 	.container-18GwIk,
 	.popout-TdhJ6Z {
@@ -51,7 +51,7 @@
 			background-size: var(--fb-popout-modal-size, cover);
 			background-attachment: var(--popout-modal-attachment, fixed);
 			background-repeat: var(--popout-modal-repeat, no-repeat);
-			box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--overlay-brightness, var(--popout-modal-brightness)));
+			box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness, var(--popout-modal-brightness)));
 			height: calc(100% + var(--fb-popout-modal-blur) * 5);
 			width: calc(100% + var(--fb-popout-modal-blur) * 5);
 			top: calc(var(--fb-popout-modal-blur) / -1 * 2.5);

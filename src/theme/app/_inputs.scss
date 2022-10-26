@@ -18,7 +18,7 @@
 	}
 	.actionRed-gYn8D3,
 	.colorRed-1TFJan {
-		background: rgba(var(--discord-red), 0.5);
+		background: rgb(var(--discord-red), 0.5);
 		border: none;
 		color: #fff;
 		transition: 0.2s ease;
@@ -28,7 +28,7 @@
 		}
 	}
 	.lookFilled-1Gx00P.colorGreen-29iAKY {
-		background: rgba(var(--discord-green), 0.4);
+		background: rgb(var(--discord-green), 0.4);
 		transition: 0.2s ease;
 		&:active,
 		&:hover {
@@ -53,7 +53,7 @@
 		opacity: 1;
 	}
 	.lookOutlined-3sRXeN.colorBrand-3pXr91 {
-		background: rgba(var(--discord-blurple), 0.3);
+		background: rgb(var(--discord-blurple), 0.3);
 		border: transparent;
 		transition: 0.2s ease;
 		color: #fff;
@@ -69,11 +69,11 @@
 		border-color: transparent;
 		color: var(--text-normal);
 		&::placeholder {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgb(255, 255, 255, 0.5);
 		}
 	}
 	.bd-search::placeholder {
-		color: rgba(255, 255, 255, 0.5);
+		color: rgb(255, 255, 255, 0.5);
 	}
 	// Radio buttons
 	.item-26Dhrx {
@@ -132,7 +132,7 @@
 		border-color: transparent;
 	}
 	[class*='css'][class*='placeholder'] {
-		color: rgba(255, 255, 255, 0.5);
+		color: rgb(255, 255, 255, 0.5);
 		opacity: 1;
 	}
 	// Range
