@@ -1,18 +1,18 @@
 :root {
-  --version: "Frosted Glass 2.0.14";
+  --version: "Frosted Glass 2.0.15";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
-  --tint: rgba(var(--tint-colour), var(--tint-brightness));
-  --white-half: rgba(255, 255, 255, 0.025);
-  --white: rgba(255, 255, 255, 0.05);
-  --white-double: rgba(255, 255, 255, 0.1);
-  --white-triple: rgba(255, 255, 255, 0.15);
+  --tint: rgb(var(--tint-colour), var(--tint-brightness));
+  --white-half: rgb(255, 255, 255, 0.025);
+  --white: rgb(255, 255, 255, 0.05);
+  --white-double: rgb(255, 255, 255, 0.1);
+  --white-triple: rgb(255, 255, 255, 0.15);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
-  --gradient-20: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.2), rgba(var(--gradient-secondary), 0.2));
-  --gradient-50: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.5), rgba(var(--gradient-secondary), 0.5));
-  --gradient-90: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 0.9), rgba(var(--gradient-secondary), 0.9));
+  --gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
+  --gradient-50: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.5), rgb(var(--gradient-secondary), 0.5));
+  --gradient-90: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.9), rgb(var(--gradient-secondary), 0.9));
   --text-shadow: 1;
   --chat-embed: var(--background-secondary);
   --discord-green: 67, 181, 129;
@@ -44,36 +44,36 @@
   --interactive-active: #fff;
   --interactive-muted: #777;
   --background-primary: transparent;
-  --background-secondary: rgba(0, 0, 0, 0.3);
+  --background-secondary: rgb(0, 0, 0, 0.3);
   --background-secondary-alt: transparent;
   --background-tertiary: transparent;
   --background-accent: #4f545c;
   --background-floating: transparent;
   --background-mobile-primary: #36393f;
   --background-mobile-secondary: #2f3136;
-  --background-modifier-hover: rgba(255, 255, 255, 0.05);
-  --background-modifier-active: rgba(255, 255, 255, 0.07);
-  --background-modifier-selected: rgba(255, 255, 255, 0.1);
-  --background-modifier-accent: rgba(255, 255, 255, 0.1);
-  --background-mentioned: rgba(250, 166, 26, 0.05);
-  --background-mentioned-hover: rgba(250, 166, 26, 0.08);
-  --background-message-hover: rgba(4, 4, 5, 0.07);
-  --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
-  --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
-  --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
-  --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+  --background-modifier-hover: rgb(255, 255, 255, 0.05);
+  --background-modifier-active: rgb(255, 255, 255, 0.07);
+  --background-modifier-selected: rgb(255, 255, 255, 0.1);
+  --background-modifier-accent: rgb(255, 255, 255, 0.1);
+  --background-mentioned: rgb(250, 166, 26, 0.05);
+  --background-mentioned-hover: rgb(250, 166, 26, 0.08);
+  --background-message-hover: rgb(4, 4, 5, 0.07);
+  --elevation-stroke: 0 0 0 1px rgb(4, 4, 5, 0.15);
+  --elevation-low: 0 1px 0 rgb(4, 4, 5, 0.2), 0 1.5px 0 rgb(6, 6, 7, 0.05), 0 2px 0 rgb(4, 4, 5, 0.05);
+  --elevation-medium: 0 4px 4px rgb(0, 0, 0, 0.16);
+  --elevation-high: 0 8px 16px rgb(0, 0, 0, 0.24);
   --logo-primary: #fff;
-  --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-  --channeltextarea-background: rgba(255, 255, 255, 0.05);
+  --guild-header-text-shadow: 0 1px 1px rgb(0, 0, 0, 0.4);
+  --channeltextarea-background: rgb(255, 255, 255, 0.05);
   --activity-card-background: #202225;
   --textbox-markdown-syntax: #8e9297;
-  --deprecated-card-bg: rgba(0, 0, 0, 0.3);
-  --deprecated-card-editable-bg: rgba(0, 0, 0, 0.3);
+  --deprecated-card-bg: rgb(0, 0, 0, 0.3);
+  --deprecated-card-editable-bg: rgb(0, 0, 0, 0.3);
   --deprecated-store-bg: #36393f;
   --deprecated-quickswitcher-input-background: var(--channeltextarea-background);
-  --deprecated-quickswitcher-input-placeholder: rgba(255, 255, 255, 0.5);
-  --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
-  --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
+  --deprecated-quickswitcher-input-placeholder: rgb(255, 255, 255, 0.5);
+  --deprecated-text-input-bg: rgb(0, 0, 0, 0.1);
+  --deprecated-text-input-border: rgb(0, 0, 0, 0.3);
   --deprecated-text-input-border-hover: #040405;
   --deprecated-text-input-border-disabled: #202225;
   --deprecated-text-input-prefix: #dcddde;
@@ -136,7 +136,7 @@
   padding: 10px 0;
   box-sizing: border-box;
   background: rgb(var(--discord-blurple), 0.7);
-  text-shadow: 0 2px 3px rgba(0, 0, 0, var(--text-shadow));
+  text-shadow: 0 2px 3px rgb(0, 0, 0, var(--text-shadow));
 }
 
 ::-webkit-scrollbar {
@@ -229,7 +229,7 @@ textarea {
 #app-mount .modalRoot-1Kx4Hb,
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt,
 #app-mount .popoutContainer-2wbmiM,
-#app-mount .root-1gCeng:not(.modal-3Crloo),
+#app-mount .userProfileModalOuter-1FYL8T,
 #app-mount .container-2O1UgZ,
 #app-mount .container-18GwIk,
 #app-mount .popout-TdhJ6Z {
@@ -255,7 +255,7 @@ textarea {
 #app-mount .modalRoot-1Kx4Hb::before,
 #app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt::before,
 #app-mount .popoutContainer-2wbmiM::before,
-#app-mount .root-1gCeng:not(.modal-3Crloo)::before,
+#app-mount .userProfileModalOuter-1FYL8T::before,
 #app-mount .container-2O1UgZ::before,
 #app-mount .container-18GwIk::before,
 #app-mount .popout-TdhJ6Z::before {
@@ -265,7 +265,7 @@ textarea {
   background-size: var(--fb-popout-modal-size, cover);
   background-attachment: var(--popout-modal-attachment, fixed);
   background-repeat: var(--popout-modal-repeat, no-repeat);
-  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--overlay-brightness, var(--popout-modal-brightness)));
+  box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness, var(--popout-modal-brightness)));
   height: calc(100% + var(--fb-popout-modal-blur) * 5);
   width: calc(100% + var(--fb-popout-modal-blur) * 5);
   top: calc(var(--fb-popout-modal-blur) / -1 * 2.5);
@@ -306,7 +306,7 @@ textarea {
 }
 #app-mount .actionRed-gYn8D3,
 #app-mount .colorRed-1TFJan {
-  background: rgba(var(--discord-red), 0.5);
+  background: rgb(var(--discord-red), 0.5);
   border: none;
   color: #fff;
   transition: 0.2s ease;
@@ -317,7 +317,7 @@ textarea {
   background: rgb(var(--discord-red));
 }
 #app-mount .lookFilled-1Gx00P.colorGreen-29iAKY {
-  background: rgba(var(--discord-green), 0.4);
+  background: rgb(var(--discord-green), 0.4);
   transition: 0.2s ease;
 }
 #app-mount .lookFilled-1Gx00P.colorGreen-29iAKY:active, #app-mount .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
@@ -341,7 +341,7 @@ textarea {
   opacity: 1;
 }
 #app-mount .lookOutlined-3sRXeN.colorBrand-3pXr91 {
-  background: rgba(var(--discord-blurple), 0.3);
+  background: rgb(var(--discord-blurple), 0.3);
   border: transparent;
   transition: 0.2s ease;
   color: #fff;
@@ -463,14 +463,14 @@ textarea {
   height: 48px;
 }
 #app-mount .noticeStreamerMode-2TSQpg {
-  background: rgba(var(--discord-twitch), 0.6);
+  background: rgb(var(--discord-twitch), 0.6);
 }
 
 #app-mount .guilds-2JjMmN {
   background-color: transparent;
 }
 #app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
-  background-color: rgba(0, 0, 0, var(--serverlist-brightness));
+  background-color: rgb(0, 0, 0, var(--serverlist-brightness));
 }
 #app-mount .guilds-2JjMmN .scrollerBase-_bVAAt::-webkit-scrollbar {
   display: none;
@@ -525,7 +525,7 @@ textarea {
 
 #app-mount .sidebar-1tnWFu {
   border-radius: 0;
-  background: rgba(0, 0, 0, var(--left-brightness));
+  background: rgb(0, 0, 0, var(--left-brightness));
 }
 #app-mount .sidebar-1tnWFu .container-1NXEtd,
 #app-mount .sidebar-1tnWFu .privateChannels-oVe7HL,
@@ -604,11 +604,11 @@ textarea {
   content: none;
 }
 #app-mount .chat-2ZfjoI {
-  background: rgba(0, 0, 0, var(--middle-brightness));
+  background: rgb(0, 0, 0, var(--middle-brightness));
 }
 #app-mount .messages-3amgkR {
   background-color: transparent;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, var(--text-shadow));
+  text-shadow: 0 2px 5px rgb(0, 0, 0, var(--text-shadow));
 }
 #app-mount .newMessagesBar-1hF-9G {
   background: var(--gradient);
@@ -719,7 +719,7 @@ textarea {
   background: var(--white-double);
 }
 #app-mount .controlButton-2PMNom.leaveButton-2YnTyt {
-  background: rgba(var(--discord-red), 0.5);
+  background: rgb(var(--discord-red), 0.5);
 }
 #app-mount .controlButton-2PMNom.leaveButton-2YnTyt:hover {
   background: rgb(var(--discord-red));
@@ -753,7 +753,7 @@ textarea {
 }
 
 #app-mount .container-2o3qEW {
-  background-color: rgba(0, 0, 0, var(--right-brightness));
+  background-color: rgb(0, 0, 0, var(--right-brightness));
 }
 #app-mount .members-3WRCEx {
   background: transparent;
@@ -788,7 +788,7 @@ textarea {
   background: var(--white);
 }
 
-#app-mount [class*=userPopout] {
+#app-mount [class*=userPopoutOuter-3AVBmJ] {
   box-shadow: none;
   overflow: hidden !important;
   position: relative;
@@ -796,14 +796,14 @@ textarea {
   opacity: 0;
   animation: fadeIn 0.3s ease forwards;
 }
-#app-mount [class*=userPopout]::before {
+#app-mount [class*=userPopoutOuter-3AVBmJ]::before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-modal-image);
   background-position: var(--fb-popout-modal-position, center);
   background-size: var(--fb-popout-modal-size, cover);
   background-attachment: var(--popout-modal-attachment, fixed);
   background-repeat: var(--popout-modal-repeat, no-repeat);
-  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, var(--overlay-brightness));
+  box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness));
   height: calc(100% + var(--fb-popout-modal-blur) * 5);
   width: calc(100% + var(--fb-popout-modal-blur) * 5);
   top: calc(var(--fb-popout-modal-blur) / -1 * 2.5);
@@ -817,45 +817,52 @@ textarea {
           user-select: none;
   z-index: -1;
 }
-#app-mount [class*=userPopout] .headerNormal-T_seeN {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .userProfileInnerWithBanner-3CJ1Og {
   background: transparent;
 }
-#app-mount [class*=userPopout] .headerPlaying-j0WQBV {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .userProfileInnerWithBanner-3CJ1Og::before {
+  background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 120px, var(--profile-gradient-secondary-color));
+  opacity: 0.25;
+}
+#app-mount [class*=userPopoutOuter-3AVBmJ] .headerNormal-T_seeN {
+  background: transparent;
+}
+#app-mount [class*=userPopoutOuter-3AVBmJ] .headerPlaying-j0WQBV {
   background: var(--gradient-50);
 }
-#app-mount [class*=userPopout] .headerXbox-3G-4PF {
-  background: rgba(var(--discord-xbox), 0.3);
+#app-mount [class*=userPopoutOuter-3AVBmJ] .headerXbox-3G-4PF {
+  background: rgb(var(--discord-xbox), 0.3);
 }
-#app-mount [class*=userPopout] .headerSpotify-zpWxgT {
-  background: rgba(var(--discord-spotify), 0.3);
+#app-mount [class*=userPopoutOuter-3AVBmJ] .headerSpotify-zpWxgT {
+  background: hsl(var(--discord-spotify)/0.3);
 }
-#app-mount [class*=userPopout] .headerStreaming-2FjmGz {
-  background: rgba(var(--discord-twitch), 0.3);
+#app-mount [class*=userPopoutOuter-3AVBmJ] .headerStreaming-2FjmGz {
+  background: rgb(var(--discord-twitch), 0.3);
 }
-#app-mount [class*=userPopout] .wrapper-1VLyxH::after {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .wrapper-1VLyxH::after {
   border-radius: 3px;
 }
-#app-mount [class*=userPopout] .activityName-3YXl6e,
-#app-mount [class*=userPopout] .headerTag-2pZJzA,
-#app-mount [class*=userPopout] .nameNormal-2lqVQK,
-#app-mount [class*=userPopout] .nameWrap-3Z4G_9,
-#app-mount [class*=userPopout] .textRow-1sENuL {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .activityName-3YXl6e,
+#app-mount [class*=userPopoutOuter-3AVBmJ] .headerTag-2pZJzA,
+#app-mount [class*=userPopoutOuter-3AVBmJ] .nameNormal-2lqVQK,
+#app-mount [class*=userPopoutOuter-3AVBmJ] .nameWrap-3Z4G_9,
+#app-mount [class*=userPopoutOuter-3AVBmJ] .textRow-1sENuL {
   color: var(--text-normal);
 }
-#app-mount [class*=userPopout] .body-3iLsc4 {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .body-3iLsc4 {
   background: transparent;
 }
-#app-mount [class*=userPopout] .roles-3zC7MX {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .roles-3zC7MX {
   gap: 4px;
 }
-#app-mount [class*=userPopout] .roleRemoveButton-17oXnT {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .roleRemoveButton-17oXnT {
   position: unset;
 }
-#app-mount [class*=userPopout] .roleRemoveButton-17oXnT + .roleName-2ZJJYR {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .roleRemoveButton-17oXnT + .roleName-2ZJJYR {
   position: relative;
   z-index: 1;
 }
-#app-mount [class*=userPopout] .role-2TIOKu {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .role-2TIOKu {
   margin: 0;
   background: transparent;
   position: relative;
@@ -865,13 +872,13 @@ textarea {
   padding: 6px;
   border: none;
 }
-#app-mount [class*=userPopout] .roleCircle-3K9O3d {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .roleCircle-3K9O3d {
   position: unset;
   overflow: visible;
   filter: none;
   margin: 0;
 }
-#app-mount [class*=userPopout] .roleCircle-3K9O3d::before {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .roleCircle-3K9O3d::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -880,30 +887,39 @@ textarea {
   z-index: 0;
   pointer-events: none;
 }
-#app-mount [class*=userPopout] .roleRemoveIcon-387wKV {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .roleRemoveIcon-387wKV {
   left: 12px;
 }
-#app-mount [class*=userPopout] .roleName-2ZJJYR {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .roleName-2ZJJYR {
   margin: 0;
   color: var(--text-focus);
 }
-#app-mount [class*=userPopout] .footer-1fjuF6 {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .footer-1fjuF6 {
   background: transparent;
   border: none;
 }
-#app-mount [class*=userPopout] .quickMessage-1yeL4E {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .quickMessage-1yeL4E {
   background: var(--background-secondary);
   border: none;
   color: var(--text-normal);
 }
-#app-mount [class*=userPopout] .quickMessage-1yeL4E::-moz-placeholder {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .quickMessage-1yeL4E::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount [class*=userPopout] .quickMessage-1yeL4E::placeholder {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .quickMessage-1yeL4E::placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount [class*=userPopout] .protip-YaFfgO {
+#app-mount [class*=userPopoutOuter-3AVBmJ] .protip-YaFfgO {
   display: none;
+}
+#app-mount [class*=userPopoutOuter-3AVBmJ] .userProfileInnerNonPremium-1XjSjn .overlayBackground-1KgwVi {
+  background: var(--background-secondary);
+}
+#app-mount [class*=userPopoutOuter-3AVBmJ].theme-light .inputDefault-3FGxgL::-moz-placeholder {
+  color: #000;
+}
+#app-mount [class*=userPopoutOuter-3AVBmJ].theme-light .inputDefault-3FGxgL::placeholder {
+  color: #000;
 }
 
 #app-mount [role=menu] {
@@ -1125,7 +1141,7 @@ textarea {
   box-shadow: none;
 }
 #app-mount .modal-2RrUKJ .cardWarning-2yPNAa {
-  background-color: rgba(var(--discord-yellow), 0.2);
+  background-color: rgb(var(--discord-yellow), 0.2);
   border: 2px solid rgb(var(--discord-yellow));
 }
 #app-mount .modal-2RrUKJ .footer-1Ip3Sd {
@@ -1137,37 +1153,47 @@ textarea {
   box-shadow: none;
 }
 
-#app-mount .root-8LYsGj {
+#app-mount .userProfileModalOuter-1FYL8T {
   background: transparent;
 }
-#app-mount .root-8LYsGj .topSectionNormal-2-vo2m {
+#app-mount .userProfileModalOuter-1FYL8T .userProfileInnerNonPremium-1XjSjn .body-_QAKrE {
   background: var(--background-secondary);
 }
-#app-mount .root-8LYsGj .topSectionSpotify-1lI0-P {
-  background: rgba(var(--discord-spotify), 0.3);
-}
-#app-mount .root-8LYsGj .topSectionPlaying-1J5E4n {
-  background: var(--gradient-50);
-}
-#app-mount .root-8LYsGj .topSectionStreaming-1Tpf5X {
-  background: rgba(var(--discord-twitch), 0.3);
-}
-#app-mount .root-8LYsGj .topSectionXbox-3fWLjS {
-  background: rgba(var(--discord-xbox), 0.3);
-}
-#app-mount .root-8LYsGj .svg-2azL_l {
-  z-index: 1;
-}
-#app-mount .root-8LYsGj .body-3ND3kc {
+#app-mount .userProfileModalOuter-1FYL8T .userProfileInnerWithBanner-3CJ1Og {
   background: transparent;
 }
-#app-mount .root-8LYsGj .tabBarContainer-1s1u-z {
+#app-mount .userProfileModalOuter-1FYL8T .userProfileInnerWithBanner-3CJ1Og::before {
+  background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 120px, var(--profile-gradient-secondary-color));
+  opacity: 0.25;
+}
+#app-mount .userProfileModalOuter-1FYL8T .topSectionNormal-2-vo2m {
+  background: var(--background-secondary);
+}
+#app-mount .userProfileModalOuter-1FYL8T .topSectionSpotify-1lI0-P {
+  background: hsl(var(--discord-spotify)/0.3);
+}
+#app-mount .userProfileModalOuter-1FYL8T .topSectionPlaying-1J5E4n {
+  background: var(--gradient-50);
+}
+#app-mount .userProfileModalOuter-1FYL8T .topSectionStreaming-1Tpf5X {
+  background: rgb(var(--discord-twitch), 0.3);
+}
+#app-mount .userProfileModalOuter-1FYL8T .topSectionXbox-3fWLjS {
+  background: rgb(var(--discord-xbox), 0.3);
+}
+#app-mount .userProfileModalOuter-1FYL8T .svg-2azL_l {
+  z-index: 1;
+}
+#app-mount .userProfileModalOuter-1FYL8T .body-3ND3kc {
+  background: transparent;
+}
+#app-mount .userProfileModalOuter-1FYL8T .tabBarContainer-1s1u-z {
   border: none;
 }
-#app-mount .root-8LYsGj .userInfoSection-2acyCx {
+#app-mount .userProfileModalOuter-1FYL8T .userInfoSection-2acyCx {
   border: none;
 }
-#app-mount .root-8LYsGj .connectedAccount-36nQx7 {
+#app-mount .userProfileModalOuter-1FYL8T .connectedAccount-36nQx7 {
   background: var(--background-secondary);
   border: none;
 }
@@ -1207,7 +1233,7 @@ textarea {
   width: 100%;
   height: 100%;
   border-radius: 3px;
-  background: rgba(0, 0, 0, var(--popout-modal-brightness));
+  background: rgb(0, 0, 0, var(--popout-modal-brightness));
   box-shadow: var(--tint);
   z-index: 1;
   -webkit-backdrop-filter: blur(var(--fb-popout-modal-image));
@@ -1297,7 +1323,7 @@ textarea {
   opacity: 0.5;
 }
 #app-mount .container-36u7Lw {
-  background: rgba(0, 0, 0, var(--middle-brightness));
+  background: rgb(0, 0, 0, var(--middle-brightness));
 }
 
 #app-mount .content-1SgpWY .discoverHeader-1TWTqG {
@@ -1311,7 +1337,7 @@ textarea {
   background: var(--gradient);
 }
 #app-mount .content-1SgpWY .pageWrapper-2PwDoS {
-  background: rgba(0, 0, 0, var(--middle-brightness));
+  background: rgb(0, 0, 0, var(--middle-brightness));
 }
 #app-mount .content-1SgpWY .pageWrapper-2PwDoS .scrollerWrap-2lJEkd {
   margin-top: 48px;
@@ -1329,7 +1355,7 @@ textarea {
 }
 
 #app-mount .container-2cd8Mz {
-  background: rgba(0, 0, 0, var(--middle-brightness));
+  background: rgb(0, 0, 0, var(--middle-brightness));
 }
 #app-mount .container-2cd8Mz .inset-SbsSFp {
   background-color: var(--background-secondary);
@@ -1338,11 +1364,11 @@ textarea {
   background: var(--white);
 }
 #app-mount .container-2cd8Mz .nowPlayingColumn-1eCBCN {
-  background: rgba(0, 0, 0, var(--right-brightness));
+  background: rgb(0, 0, 0, var(--right-brightness));
 }
 
 #app-mount .perksModal-fSYqOq {
-  background-color: rgba(0, 0, 0, var(--middle-brightness));
+  background-color: rgb(0, 0, 0, var(--middle-brightness));
   background-image: none;
   margin: var(--window-padding);
   border-radius: var(--window-roundness);
@@ -1369,14 +1395,14 @@ textarea {
 }
 
 #app-mount .applicationStore-2nk7Lo {
-  background: rgba(0, 0, 0, var(--middle-brightness));
+  background: rgb(0, 0, 0, var(--middle-brightness));
 }
 
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .standardSidebarView-E9Pc3j {
   top: 0;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .sidebarRegionScroller-FXiQOh {
-  background-color: rgba(0, 0, 0, var(--left-brightness));
+  background-color: rgb(0, 0, 0, var(--left-brightness));
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .multiInput-1e2xJ7 .input-2g-os5 {
   background: transparent;
@@ -1448,7 +1474,7 @@ textarea {
 }
 
 #app-mount .contentRegion-3HkfJJ {
-  background: rgba(0, 0, 0, var(--middle-brightness));
+  background: rgb(0, 0, 0, var(--middle-brightness));
 }
 #app-mount .auditLog-3jNbM6 {
   border: none;
@@ -1496,7 +1522,7 @@ html.platform-osx .macButtons-2MuSAC {
   position: absolute;
   top: var(--window-padding);
   left: var(--window-padding);
-  background: rgba(0, 0, 0, var(--serverlist-brightness));
+  background: rgb(0, 0, 0, var(--serverlist-brightness));
   width: 72px;
   border-top-left-radius: var(--window-roundness);
 }
