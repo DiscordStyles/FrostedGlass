@@ -8,19 +8,19 @@
 
 	&::before {
 		content: '';
-		background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-modal-image);
-		background-position: var(--fb-popout-modal-position, center);
-		background-size: var(--fb-popout-modal-size, cover);
-		background-attachment: var(--popout-modal-attachment, fixed);
-		background-repeat: var(--popout-modal-repeat, no-repeat);
+		background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-image);
+		background-position: var(--fb-popout-position, center);
+		background-size: var(--fb-popout-size, cover);
+		background-attachment: var(--fb-popout-attachment, fixed);
+		background-repeat: var(--fb-popout-repeat, no-repeat);
 		box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness));
-		height: calc(100% + var(--fb-popout-modal-blur) * 5);
-		width: calc(100% + var(--fb-popout-modal-blur) * 5);
-		top: calc(var(--fb-popout-modal-blur) / -1 * 2.5);
-		left: calc(var(--fb-popout-modal-blur) / -1 * 2.5);
+		height: calc(100% + var(--fb-popout-blur) * 5);
+		width: calc(100% + var(--fb-popout-blur) * 5);
+		top: calc(var(--fb-popout-blur) / -1 * 2.5);
+		left: calc(var(--fb-popout-blur) / -1 * 2.5);
 		position: absolute;
-		filter: blur(var(--fb-popout-modal-blur));
-		transform: translate(var(--fb-popout-modal-blur) / -1, calc(var(--fb-popout-modal-blur) / -1));
+		filter: blur(var(--fb-popout-blur));
+		transform: translate(var(--fb-popout-blur) / -1, calc(var(--fb-popout-blur) / -1));
 		pointer-events: none;
 		user-select: none;
 		z-index: -1;

@@ -31,10 +31,11 @@
 	--discord-xbox: 16, 124, 16;
 
 	// Fallbacks
-	--fb-popout-modal-image: var(--popout-modal-image, var(--overlay-image));
-	--fb-popout-modal-blur: var(--popout-modal-blur, var(--overlay-image-blur));
-	--fb-popout-modal-size: var(--popout-modal-size, var(--overlay-image-size));
-	--fb-popout-modal-position: var(--popout-modal-position, var(--overlay-image-position));
+	--fb-popout-image: var(--popout-modal-image, var(--popout-image));
+	--fb-popout-blur: var(--popout-modal-blur, var(--popout-image-blur));
+	--fb-popout-size: var(--popout-modal-size, var(--popout-image-size));
+	--fb-popout-position: var(--popout-modal-position, var(--popout-image-position));
+	--fb-popout-repeat: var(--popout-modal-repeat, var(--popout-image-repeat));
 }
 
 .theme-dark {
