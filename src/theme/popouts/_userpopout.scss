@@ -1,10 +1,11 @@
-#app-mount [class*='userPopoutOuter-3AVBmJ'] {
+#app-mount .userPopoutOuter-3AVBmJ {
 	box-shadow: none;
 	overflow: hidden !important;
 	position: relative;
-	border-radius: 3px;
+	border-radius: 8px;
 	opacity: 0;
 	animation: fadeIn 0.3s ease forwards;
+	padding: 0;
 
 	&::before {
 		content: '';
@@ -26,11 +27,27 @@
 		z-index: -1;
 	}
 
-	.userProfileInnerWithBanner-3CJ1Og {
-		background: transparent;
+	.userPopoutInner-1hXSeY {
 		&::before {
-			background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 120px, var(--profile-gradient-secondary-color));
-			opacity: 0.25;
+			top: 4px;
+			left: 4px;
+		}
+		&:not(.userProfileInnerThemedNonPremium-1gT-zY) {
+			.avatarPositionPremiumBanner-2nq2Fy {
+				top: 73px;
+				left: 21px;
+			}
+			.bannerSVGWrapper-qc0szY {
+				margin: 2px 4px 4px 4px;
+				box-sizing: border-box;
+				width: calc(100% - 8px);
+				min-width: unset !important;
+			}
+		}
+		&.userProfileInnerThemedNonPremium-1gT-zY {
+			.overlayBackground-1KgwVi {
+				margin: 0 8px 8px;
+			}
 		}
 	}
 
