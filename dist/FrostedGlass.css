@@ -25,10 +25,11 @@
   --discord-spotify: 29, 185, 84;
   --discord-twitch: 89, 54, 149;
   --discord-xbox: 16, 124, 16;
-  --fb-popout-modal-image: var(--popout-modal-image, var(--overlay-image));
-  --fb-popout-modal-blur: var(--popout-modal-blur, var(--overlay-image-blur));
-  --fb-popout-modal-size: var(--popout-modal-size, var(--overlay-image-size));
-  --fb-popout-modal-position: var(--popout-modal-position, var(--overlay-image-position));
+  --fb-popout-image: var(--popout-modal-image, var(--popout-image));
+  --fb-popout-blur: var(--popout-modal-blur, var(--popout-image-blur));
+  --fb-popout-size: var(--popout-modal-size, var(--popout-image-size));
+  --fb-popout-position: var(--popout-modal-position, var(--popout-image-position));
+  --fb-popout-repeat: var(--popout-modal-repeat, var(--popout-image-repeat));
 }
 
 .theme-dark {
@@ -798,19 +799,19 @@ textarea {
 }
 #app-mount [class*=userPopoutOuter-3AVBmJ]::before {
   content: "";
-  background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-modal-image);
-  background-position: var(--fb-popout-modal-position, center);
-  background-size: var(--fb-popout-modal-size, cover);
-  background-attachment: var(--popout-modal-attachment, fixed);
-  background-repeat: var(--popout-modal-repeat, no-repeat);
+  background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-image);
+  background-position: var(--fb-popout-position, center);
+  background-size: var(--fb-popout-size, cover);
+  background-attachment: var(--fb-popout-attachment, fixed);
+  background-repeat: var(--fb-popout-repeat, no-repeat);
   box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness));
-  height: calc(100% + var(--fb-popout-modal-blur) * 5);
-  width: calc(100% + var(--fb-popout-modal-blur) * 5);
-  top: calc(var(--fb-popout-modal-blur) / -1 * 2.5);
-  left: calc(var(--fb-popout-modal-blur) / -1 * 2.5);
+  height: calc(100% + var(--fb-popout-blur) * 5);
+  width: calc(100% + var(--fb-popout-blur) * 5);
+  top: calc(var(--fb-popout-blur) / -1 * 2.5);
+  left: calc(var(--fb-popout-blur) / -1 * 2.5);
   position: absolute;
-  filter: blur(var(--fb-popout-modal-blur));
-  transform: translate(var(--fb-popout-modal-blur)/-1, calc(var(--fb-popout-modal-blur) / -1));
+  filter: blur(var(--fb-popout-blur));
+  transform: translate(var(--fb-popout-blur)/-1, calc(var(--fb-popout-blur) / -1));
   pointer-events: none;
   -webkit-user-select: none;
      -moz-user-select: none;
