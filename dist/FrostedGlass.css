@@ -233,7 +233,7 @@ textarea {
 #app-mount .quickswitcher-pKcM9U,
 #app-mount .root-1gCeng.wrapper-2ZbzR9,
 #app-mount .modalRoot-1Kx4Hb,
-#app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt,
+#app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-1Pkza4,
 #app-mount .popoutContainer-2wbmiM,
 #app-mount .userProfileModalOuter-1FYL8T,
 #app-mount .container-2O1UgZ,
@@ -259,7 +259,7 @@ textarea {
 #app-mount .quickswitcher-pKcM9U::before,
 #app-mount .root-1gCeng.wrapper-2ZbzR9::before,
 #app-mount .modalRoot-1Kx4Hb::before,
-#app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt::before,
+#app-mount .container-3JTnYm.thin-1ybCId.scrollerBase-1Pkza4::before,
 #app-mount .popoutContainer-2wbmiM::before,
 #app-mount .userProfileModalOuter-1FYL8T::before,
 #app-mount .container-2O1UgZ::before,
@@ -475,10 +475,10 @@ textarea {
 #app-mount .guilds-2JjMmN {
   background-color: transparent;
 }
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4 {
   background-color: rgb(0, 0, 0, var(--serverlist-brightness));
 }
-#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt::-webkit-scrollbar {
+#app-mount .guilds-2JjMmN .scrollerBase-1Pkza4::-webkit-scrollbar {
   display: none;
 }
 
