@@ -215,6 +215,7 @@ textarea {
   border-radius: var(--window-roundness);
   -webkit-backdrop-filter: blur(var(--background-image-blur));
           backdrop-filter: blur(var(--background-image-blur));
+  box-shadow: inset 0 0 0 100vmax var(--tint);
   display: var(--background-blur-visiblity, block);
 }
 #app-mount [role=menu],
