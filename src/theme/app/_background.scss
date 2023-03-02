@@ -16,6 +16,7 @@
 			left: var(--window-padding);
 			border-radius: var(--window-roundness);
 			backdrop-filter: blur(var(--background-image-blur));
+			box-shadow: inset 0 0 0 100vmax var(--tint);
 			display: var(--background-blur-visiblity, block);
 		}
 	}
