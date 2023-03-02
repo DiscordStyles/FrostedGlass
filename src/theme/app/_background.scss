@@ -16,7 +16,7 @@
 			left: var(--window-padding);
 			border-radius: var(--window-roundness);
 			backdrop-filter: blur(var(--background-image-blur));
-			box-shadow: inset 0 0 0 100vmax var(--tint);
+			display: var(--background-blur-visiblity, block);
 		}
 	}
 	[role='menu'],
@@ -35,7 +35,7 @@
 	.quickswitcher-pKcM9U,
 	.root-1gCeng.wrapper-2ZbzR9,
 	.modalRoot-1Kx4Hb,
-	.container-3JTnYm.thin-1ybCId.scrollerBase-1Pkza4,
+	.container-3JTnYm.thin-1ybCId.scrollerBase-_bVAAt,
 	.popoutContainer-2wbmiM,
 	.userProfileModalOuter-1FYL8T,
 	.container-2O1UgZ,
