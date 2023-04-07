@@ -1,4 +1,4 @@
-#app-mount .userPopoutOuter-3AVBmJ {
+#app-mount .userPopoutOuter-1OHwPL {
 	box-shadow: none;
 	overflow: hidden !important;
 	position: relative;
@@ -12,7 +12,7 @@
 		background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-image);
 		background-position: var(--fb-popout-position, center);
 		background-size: var(--fb-popout-size, cover);
-		background-attachment: var(--fb-popout-attachment, fixed);
+		background-attachment: var(--fb-popout-attachment, revert);
 		background-repeat: var(--fb-popout-repeat, no-repeat);
 		box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness));
 		height: calc(100% + var(--fb-popout-blur) * 5);
@@ -27,25 +27,25 @@
 		z-index: -1;
 	}
 
-	.userPopoutInner-1hXSeY {
+	.userPopoutInner-nv9Y92 {
 		&::before {
 			top: 4px;
 			left: 4px;
 		}
-		&:not(.userProfileInnerThemedNonPremium-1gT-zY) {
+		&:not(.userProfileInnerThemedNonPremium-2AJg-H) {
 			.avatarPositionPremiumBanner-2nq2Fy {
 				top: 73px;
 				left: 21px;
 			}
-			.bannerSVGWrapper-qc0szY {
+			.bannerSVGWrapper-2CLfzN {
 				margin: 2px 4px 4px 4px;
 				box-sizing: border-box;
 				width: calc(100% - 8px);
 				min-width: unset !important;
 			}
 		}
-		&.userProfileInnerThemedNonPremium-1gT-zY {
-			.overlayBackground-1KgwVi {
+		&.userProfileInnerThemedNonPremium-2AJg-H {
+			.overlayBackground-2aa7wt {
 				margin: 0 8px 8px;
 			}
 		}
@@ -137,7 +137,7 @@
 		display: none;
 	}
 
-	.userProfileInnerNonPremium-1XjSjn .overlayBackground-1KgwVi {
+	.userProfileInnerNonPremium-1XjSjn .overlayBackground-2aa7wt {
 		background: var(--background-secondary);
 	}
 	&.theme-light .inputDefault-3FGxgL::placeholder {
