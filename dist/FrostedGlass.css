@@ -1,5 +1,5 @@
 :root {
-  --version: "Frosted Glass 2.0.16";
+  --version: "Frosted Glass 2.0.17";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
@@ -874,7 +874,7 @@ textarea {
 #app-mount .userPopoutOuter-1OHwPL .body-3iLsc4 {
   background: transparent;
 }
-#app-mount .userPopoutOuter-1OHwPL .roles-3zC7MX {
+#app-mount .userPopoutOuter-1OHwPL .roles-3vQPxb {
   gap: 4px;
 }
 #app-mount .userPopoutOuter-1OHwPL .roleRemoveButton-17oXnT {
@@ -886,7 +886,6 @@ textarea {
 }
 #app-mount .userPopoutOuter-1OHwPL .role-2TIOKu {
   margin: 0;
-  background: var(--white);
   position: relative;
   border-radius: 10px;
   overflow: hidden;
