@@ -1,6 +1,6 @@
 #app-mount {
 	.bg-1QIAus {
-		top: 0;
+		top: -22px;
 		right: 0;
 		bottom: 0;
 		left: 0;
@@ -10,7 +10,7 @@
 		&::before {
 			content: '';
 			position: absolute;
-			top: var(--window-padding);
+			top: calc(var(--window-padding) + 22px);
 			right: var(--window-padding);
 			bottom: var(--window-padding);
 			left: var(--window-padding);
