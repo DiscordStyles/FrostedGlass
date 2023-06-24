@@ -1,9 +1,9 @@
 #app-mount {
 	.container-2rzKKA {
 		border: none;
-		background: var(--white);
+		background: var(--foreground);
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 		}
 	}
 }

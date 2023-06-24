@@ -27,22 +27,22 @@
 		}
 	}
 	.selected-1Drb7Z .acronym-2zrAHN {
-		background: var(--white-double);
+		background: var(--foreground-double);
 	}
 	// No icon
 	.acronym-2zrAHN {
-		background: var(--white);
+		background: var(--foreground);
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 		}
 	}
 	// Add server/Discovery
 	[class*='circleIconButton'] {
-		background: var(--white);
+		background: var(--foreground);
 		color: rgb(var(--gradient-primary));
 		&.selected-ugP_am,
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 			color: var(--text-normal);
 		}
 	}

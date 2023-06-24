@@ -1,4 +1,11 @@
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) {
+	// My account
+	.accountProfileCard-lbN7n- {
+		background: var(--background-secondary);
+	}
+	.fieldList-in8WkP {
+		background: transparent;
+	}
 	// Authorized apps
 	.authedApp-8q3NA9 {
 		background: var(--background-secondary);
@@ -9,7 +16,7 @@
 		overflow: hidden;
 		box-shadow: none;
 		.integration-3kMeY4 {
-			background: var(--white);
+			background: var(--foreground);
 			border: none;
 		}
 	}
@@ -20,7 +27,7 @@
 	}
 	.connectionDelete-XXTMqE {
 		border: none;
-		background: var(--white);
+		background: var(--foreground);
 		transition: 0.2s ease;
 		&::after,
 		&::before {
@@ -40,16 +47,16 @@
 			display: none;
 		}
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 		}
 		&:active {
-			background: var(--white-triple);
+			background: var(--foreground-triple);
 		}
 	}
 	// Keybinds
 	.card-2ART2V::before {
 		border-color: transparent;
-		background: var(--white);
+		background: var(--foreground);
 	}
 	// Game Activity
 	.game-3x3aDt {

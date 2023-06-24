@@ -12,10 +12,10 @@
 		}
 	}
 	.pill-3pRQlO {
-		background: var(--white);
+		background: var(--foreground);
 		transition: 0.15s ease background;
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 		}
 	}
 }

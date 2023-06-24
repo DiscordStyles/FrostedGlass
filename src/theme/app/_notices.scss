@@ -9,14 +9,14 @@
 		padding-right: var(--TB-header-padding, 12px);
 		.button-1iHNQ2 {
 			top: 0;
-			background: var(--white);
+			background: var(--foreground);
 			border-color: transparent;
 			color: #fff;
 			&:hover {
-				background: var(--white-double);
+				background: var(--foreground-double);
 			}
 			&:active {
-				background: var(--white-triple);
+				background: var(--foreground-triple);
 			}
 		}
 	}

@@ -1,16 +1,16 @@
 :root {
 	// Frosted Glass variables
-	--version: 'Frosted Glass 2.0.17';
+	--version: 'Frosted Glass 2.0.18';
 
 	--TB-top: calc(var(--server-container) + var(--window-padding));
 	--TB-tr-roundness: var(--window-roundness);
 	--TB-position-top: var(--TB-top, var(--window-padding));
 	--TB-position-right: var(--window-padding);
 	--tint: rgb(var(--tint-colour), var(--tint-brightness));
-	--white-half: rgb(255, 255, 255, 0.025);
-	--white: rgb(255, 255, 255, 0.05);
-	--white-double: rgb(255, 255, 255, 0.1);
-	--white-triple: rgb(255, 255, 255, 0.15);
+	--foreground-half: rgb(255, 255, 255, 0.025);
+	--foreground: rgb(255, 255, 255, 0.05);
+	--foreground-double: rgb(255, 255, 255, 0.1);
+	--foreground-triple: rgb(255, 255, 255, 0.15);
 	--gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
 	--gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
 	--gradient-50: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.5), rgb(var(--gradient-secondary), 0.5));

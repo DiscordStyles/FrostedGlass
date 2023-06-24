@@ -5,15 +5,15 @@
 	.lookInverted-2D7oAl.colorBrand-3pXr91,
 	.lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 	.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-		background-color: var(--white);
+		background-color: var(--foreground);
 		color: var(--text-normal);
 		border-color: transparent;
 		transition: 0.2s ease;
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 		}
 		&:active {
-			background: var(--white-triple);
+			background: var(--foreground-triple);
 		}
 	}
 	.actionRed-gYn8D3,
@@ -36,12 +36,12 @@
 		}
 	}
 	.lookInverted-2D7oAl.colorGreen-29iAKY {
-		background: var(--white);
+		background: var(--foreground);
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 		}
 		&:active {
-			background: var(--white-triple);
+			background: var(--foreground-triple);
 		}
 	}
 	.bd-pfbtn,
@@ -81,7 +81,7 @@
 		background: var(--background-secondary);
 		.checkbox-1ix_J3 {
 			border: none;
-			background: var(--white-double);
+			background: var(--foreground-double);
 			&.checked-1pZh2h {
 				background: var(--text-normal) !important;
 			}
@@ -105,7 +105,7 @@
 	}
 	// Checkbox
 	.valueUnchecked-2lU_20 {
-		background: var(--white-double);
+		background: var(--foreground-double);
 	}
 	.themeDefault-24hCdX.valueChecked-m-4IJZ {
 		background: var(--gradient);
@@ -118,7 +118,7 @@
 		color: rgb(var(--gradient-primary));
 	}
 	.checkbox-1ix_J3 {
-		background: var(--white);
+		background: var(--foreground);
 		border: none;
 		&.checked-1pZh2h {
 			background: var(--gradient) !important;
@@ -137,7 +137,7 @@
 	}
 	// Range
 	.bar-1Bhnl9 {
-		background: var(--white-double);
+		background: var(--foreground-double);
 	}
 	.barFill-2Bh7CX {
 		background: var(--gradient);

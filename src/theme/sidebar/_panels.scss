@@ -2,12 +2,12 @@
 	.panels-3wFtMD {
 		background: transparent;
 		.lookFilled-1Gx00P.colorBrand-3pXr91 {
-			background: var(--white);
+			background: var(--foreground);
 			&:hover {
-				background: var(--white-double);
+				background: var(--foreground-double);
 			}
 			&:active {
-				background: var(--white-triple);
+				background: var(--foreground-triple);
 			}
 		}
 	}

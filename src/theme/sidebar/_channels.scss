@@ -2,7 +2,7 @@
 	.containerDefault-YUSmu3 {
 		// Unread
 		.modeUnread-3Cxepe .content-1gYQeQ {
-			background: var(--white);
+			background: var(--foreground);
 		}
 		// Hover
 		.wrapper-1ucjTd:hover .content-1gYQeQ {
@@ -20,12 +20,12 @@
 		}
 	}
 	.users-i_3-kL {
-		background: var(--white);
+		background: var(--foreground);
 		padding: 0 5px;
 		width: auto;
 	}
 	.total-3tKGEB {
-		background: var(--white-double);
+		background: var(--foreground-double);
 		padding: 0 5px;
 		width: auto;
 	}
