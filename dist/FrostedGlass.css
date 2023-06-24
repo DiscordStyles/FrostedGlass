@@ -1,14 +1,14 @@
 :root {
-  --version: "Frosted Glass 2.0.17";
+  --version: "Frosted Glass 2.0.18";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
   --TB-position-right: var(--window-padding);
   --tint: rgb(var(--tint-colour), var(--tint-brightness));
-  --white-half: rgb(255, 255, 255, 0.025);
-  --white: rgb(255, 255, 255, 0.05);
-  --white-double: rgb(255, 255, 255, 0.1);
-  --white-triple: rgb(255, 255, 255, 0.15);
+  --foreground-half: rgb(255, 255, 255, 0.025);
+  --foreground: rgb(255, 255, 255, 0.05);
+  --foreground-double: rgb(255, 255, 255, 0.1);
+  --foreground-triple: rgb(255, 255, 255, 0.15);
   --gradient: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)));
   --gradient-20: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.2), rgb(var(--gradient-secondary), 0.2));
   --gradient-50: linear-gradient(var(--gradient-direction), rgb(var(--gradient-primary), 0.5), rgb(var(--gradient-secondary), 0.5));
@@ -292,7 +292,7 @@ textarea {
 #app-mount .lookInverted-2D7oAl.colorBrand-3pXr91,
 #app-mount .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 #app-mount .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-  background-color: var(--white);
+  background-color: var(--foreground);
   color: var(--text-normal);
   border-color: transparent;
   transition: 0.2s ease;
@@ -302,14 +302,14 @@ textarea {
 #app-mount .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 #app-mount .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
 #app-mount .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:active,
 #app-mount .lookGhost-2Fn_0-.colorGrey-2DXtkV:active,
 #app-mount .lookInverted-2D7oAl.colorBrand-3pXr91:active,
 #app-mount .lookOutlined-3sRXeN.colorPrimary-3b3xI6:active,
 #app-mount .lookOutlined-3sRXeN.colorWhite-rEQuAQ:active {
-  background: var(--white-triple);
+  background: var(--foreground-triple);
 }
 #app-mount .actionRed-gYn8D3,
 #app-mount .colorRed-1TFJan {
@@ -331,13 +331,13 @@ textarea {
   background: rgb(var(--discord-green));
 }
 #app-mount .lookInverted-2D7oAl.colorGreen-29iAKY {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .lookInverted-2D7oAl.colorGreen-29iAKY:active {
-  background: var(--white-triple);
+  background: var(--foreground-triple);
 }
 #app-mount .bd-pfbtn,
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91 {
@@ -381,7 +381,7 @@ textarea {
 }
 #app-mount .item-26Dhrx .checkbox-1ix_J3 {
   border: none;
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .item-26Dhrx .checkbox-1ix_J3.checked-1pZh2h {
   background: var(--text-normal) !important;
@@ -399,7 +399,7 @@ textarea {
   background: var(--text-normal);
 }
 #app-mount .valueUnchecked-2lU_20 {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .themeDefault-24hCdX.valueChecked-m-4IJZ {
   background: var(--gradient);
@@ -412,7 +412,7 @@ textarea {
   color: rgb(var(--gradient-primary));
 }
 #app-mount .checkbox-1ix_J3 {
-  background: var(--white);
+  background: var(--foreground);
   border: none;
 }
 #app-mount .checkbox-1ix_J3.checked-1pZh2h {
@@ -429,7 +429,7 @@ textarea {
   opacity: 1;
 }
 #app-mount .bar-1Bhnl9 {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .barFill-2Bh7CX {
   background: var(--gradient);
@@ -439,8 +439,14 @@ textarea {
   border-color: transparent;
 }
 
-#app-mount .title-3qD0b- .searchBar-zdmu7v {
+#app-mount .title-31SJ6t {
+  background: transparent;
+}
+#app-mount .title-31SJ6t .searchBar-jGtisZ {
   background: var(--background-secondary);
+}
+#app-mount .title-31SJ6t .children-3xh0VB::after {
+  content: none;
 }
 
 #app-mount .notice-2HEN-u {
@@ -454,15 +460,15 @@ textarea {
 }
 #app-mount .notice-2HEN-u .button-1iHNQ2 {
   top: 0;
-  background: var(--white);
+  background: var(--foreground);
   border-color: transparent;
   color: #fff;
 }
 #app-mount .notice-2HEN-u .button-1iHNQ2:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .notice-2HEN-u .button-1iHNQ2:active {
-  background: var(--white-triple);
+  background: var(--foreground-triple);
 }
 #app-mount .closeButton-30b1gR {
   right: unset;
@@ -484,7 +490,7 @@ textarea {
 }
 
 #app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .guilds-2JjMmN [class*=folder] {
   background: transparent;
@@ -513,20 +519,20 @@ textarea {
   display: none;
 }
 #app-mount .guilds-2JjMmN .selected-1Drb7Z .acronym-2zrAHN {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .guilds-2JjMmN .acronym-2zrAHN {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .guilds-2JjMmN .acronym-2zrAHN:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .guilds-2JjMmN [class*=circleIconButton] {
-  background: var(--white);
+  background: var(--foreground);
   color: rgb(var(--gradient-primary));
 }
 #app-mount .guilds-2JjMmN [class*=circleIconButton].selected-ugP_am, #app-mount .guilds-2JjMmN [class*=circleIconButton]:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
   color: var(--text-normal);
 }
 
@@ -554,7 +560,7 @@ textarea {
 }
 
 #app-mount .containerDefault-YUSmu3 .modeUnread-3Cxepe .content-1gYQeQ {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .containerDefault-YUSmu3 .wrapper-1ucjTd:hover .content-1gYQeQ {
   background: var(--background-modifier-hover);
@@ -569,12 +575,12 @@ textarea {
   color: var(--text-normal);
 }
 #app-mount .users-i_3-kL {
-  background: var(--white);
+  background: var(--foreground);
   padding: 0 5px;
   width: auto;
 }
 #app-mount .total-3tKGEB {
-  background: var(--white-double);
+  background: var(--foreground-double);
   padding: 0 5px;
   width: auto;
 }
@@ -591,13 +597,13 @@ textarea {
   background: transparent;
 }
 #app-mount .panels-3wFtMD .lookFilled-1Gx00P.colorBrand-3pXr91 {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .panels-3wFtMD .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .panels-3wFtMD .lookFilled-1Gx00P.colorBrand-3pXr91:active {
-  background: var(--white-triple);
+  background: var(--foreground-triple);
 }
 #app-mount .container-1zzFcN {
   border-bottom: none;
@@ -624,12 +630,12 @@ textarea {
 }
 #app-mount .jumpToPresentBar-1cEnH0 {
   border-radius: 8px;
-  background-color: var(--white-double);
+  background-color: var(--foreground-double);
   padding-bottom: 0;
   bottom: 10px;
 }
 #app-mount .jumpToPresentBar-1cEnH0:hover {
-  background-color: var(--white-triple);
+  background-color: var(--foreground-triple);
 }
 
 #app-mount .cozy-VmLDNB .header-23xsNx {
@@ -644,7 +650,7 @@ textarea {
   background: transparent !important;
 }
 #app-mount .message-2CShn3 .reaction-1hd86g {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .message-2CShn3 .reaction-1hd86g.reactionMe-wv5HKu {
   background: var(--gradient);
@@ -720,10 +726,10 @@ textarea {
   background: var(--background-secondary);
 }
 #app-mount .centerButton-3CaNcJ {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .centerButton-3CaNcJ:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .controlButton-2PMNom.leaveButton-2YnTyt {
   background: rgb(var(--discord-red), 0.5);
@@ -752,11 +758,11 @@ textarea {
   background: transparent;
 }
 #app-mount .pill-3pRQlO {
-  background: var(--white);
+  background: var(--foreground);
   transition: 0.15s ease background;
 }
 #app-mount .pill-3pRQlO:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 
 #app-mount .container-2o3qEW {
@@ -796,7 +802,7 @@ textarea {
 
 .colorDefault-2K3EoJ.focused-3afm-j,
 .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
-  background: var(--white);
+  background: var(--foreground);
 }
 
 #app-mount .userPopoutOuter-1OHwPL {
@@ -951,10 +957,10 @@ textarea {
   color: #fff;
 }
 #app-mount .button-F9qN4n {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .button-F9qN4n.focused-3ZzkKr {
-  background: var(--white-double);
+  background: var(--foreground-double);
   box-shadow: 0 0 0 2px rgb(var(--gradient-primary));
 }
 
@@ -981,7 +987,7 @@ textarea {
   background: var(--gradient);
 }
 #app-mount .drawerSizingWrapper-27qFHb .navButton-3Mnpqt {
-  background: var(--white);
+  background: var(--foreground);
   padding: 6px 5px 7px;
 }
 #app-mount .drawerSizingWrapper-27qFHb .categoryFadeBlurple-1HuV1x {
@@ -992,10 +998,10 @@ textarea {
   box-shadow: inset 0 0 0 2px rgb(var(--gradient-primary));
 }
 #app-mount .drawerSizingWrapper-27qFHb .result-3OpoO7 {
-  background-color: var(--white) !important;
+  background-color: var(--foreground) !important;
 }
 #app-mount .drawerSizingWrapper-27qFHb .emojiItemSelected-2Lg50V {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .drawerSizingWrapper-27qFHb .categoryWrapper-UZ5YNj {
   background: var(--background-secondary);
@@ -1052,10 +1058,10 @@ textarea {
   color: var(--text-normal);
 }
 #app-mount .container-2McqkF .option-2KkUJO.selected-rZcOL- {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .container-2McqkF .option-2KkUJO.selected-rZcOL-::after {
-  background: linear-gradient(90deg, transparent, var(--white-double));
+  background: linear-gradient(90deg, transparent, var(--foreground-double));
 }
 #app-mount .container-2McqkF .option-2KkUJO::after {
   background: transparent;
@@ -1069,8 +1075,8 @@ textarea {
   border-radius: 3px;
 }
 #app-mount .container-2McqkF .react-datepicker__day {
-  border-color: var(--white);
-  background: var(--white);
+  border-color: var(--foreground);
+  background: var(--foreground);
 }
 #app-mount .container-2McqkF .react-datepicker__day--selected::after {
   background: var(--gradient);
@@ -1080,21 +1086,21 @@ textarea {
   background: transparent;
 }
 #app-mount .searchAnswer-23w-CH {
-  background: var(--white);
+  background: var(--foreground);
   margin-left: 0;
 }
 #app-mount .searchFilter-2UfsDk {
-  background: var(--white);
+  background: var(--foreground);
 }
 
 #app-mount .autocomplete-3NRXG8 {
   box-shadow: none;
 }
 #app-mount .autocomplete-3NRXG8 .selectorSelected-1_M1WV {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .autocomplete-3NRXG8 .divider-1bJsnZ {
-  background-color: var(--white);
+  background-color: var(--foreground);
 }
 #app-mount .autocomplete-3NRXG8 .description-11DmNu,
 #app-mount .autocomplete-3NRXG8 .descriptionUsername-J_75O8 {
@@ -1123,34 +1129,42 @@ textarea {
 }
 #app-mount .channelHeader-DFRX8q .tertiary-1e-lAP,
 #app-mount .channelHeader-DFRX8q .item-3XjbnG.selected-g-kMVV {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .channelHeader-DFRX8q .tertiary-1e-lAP:hover,
 #app-mount .channelHeader-DFRX8q .item-3XjbnG.selected-g-kMVV:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .container-iA3Qrz {
   margin: 0 16px 16px;
   padding: 0;
   border-radius: 3px;
   box-sizing: border-box;
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .messageContainer-3VTXBC {
   padding: 15px 15px 15px 0;
   box-sizing: border-box;
 }
 
-#app-mount .container-2O1UgZ .container-2oNtJn {
-  background: var(--white);
+#app-mount .container-2kTWmC {
+  background: var(--background-secondary);
+  -webkit-backdrop-filter: blur(var(--overlay-image-blur));
+          backdrop-filter: blur(var(--overlay-image-blur));
 }
 
 #app-mount .container-2rzKKA {
   border: none;
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .container-2rzKKA:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
+}
+
+#app-mount .container-3kfp0r {
+  background: var(--background-secondary);
+  -webkit-backdrop-filter: blur(var(--overlay-image-blur));
+          backdrop-filter: blur(var(--overlay-image-blur));
 }
 
 #app-mount .modal-3c3bKg {
@@ -1382,7 +1396,7 @@ textarea {
   background-color: var(--background-secondary);
 }
 #app-mount .container-2cd8Mz .itemCard-3Etziu:hover {
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .container-2cd8Mz .nowPlayingColumn-1eCBCN {
   background: rgb(0, 0, 0, var(--right-brightness));
@@ -1439,6 +1453,12 @@ textarea {
   display: block;
 }
 
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .accountProfileCard-lbN7n- {
+  background: var(--background-secondary);
+}
+#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .fieldList-in8WkP {
+  background: transparent;
+}
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .authedApp-8q3NA9 {
   background: var(--background-secondary);
 }
@@ -1448,7 +1468,7 @@ textarea {
   box-shadow: none;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connection-YOVI9j .integration-3kMeY4 {
-  background: var(--white);
+  background: var(--foreground);
   border: none;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionHeader-2rV1ze {
@@ -1458,7 +1478,7 @@ textarea {
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE {
   border: none;
-  background: var(--white);
+  background: var(--foreground);
   transition: 0.2s ease;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE::after, #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE::before {
@@ -1478,14 +1498,14 @@ textarea {
   display: none;
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE:hover {
-  background: var(--white-double);
+  background: var(--foreground-double);
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .connectionDelete-XXTMqE:active {
-  background: var(--white-triple);
+  background: var(--foreground-triple);
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .card-2ART2V::before {
   border-color: transparent;
-  background: var(--white);
+  background: var(--foreground);
 }
 #app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .game-3x3aDt {
   box-shadow: 0 1px 0 0 var(--background-modifier-accent);
