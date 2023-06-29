@@ -239,7 +239,12 @@ textarea {
 #app-mount .userProfileModalOuter-1FYL8T,
 #app-mount .container-2O1UgZ,
 #app-mount .container-18GwIk,
-#app-mount .popout-TdhJ6Z {
+#app-mount .popout-TdhJ6Z,
+#app-mount .reactionTooltip-3IOBwg,
+#app-mount .picker-20lcBA,
+#app-mount .container-3a5mk-,
+#app-mount .popout-VbwYm1,
+#app-mount .popout-15UxD6 {
   overflow: hidden !important;
   position: relative;
   border-radius: 3px;
@@ -265,7 +270,12 @@ textarea {
 #app-mount .userProfileModalOuter-1FYL8T::before,
 #app-mount .container-2O1UgZ::before,
 #app-mount .container-18GwIk::before,
-#app-mount .popout-TdhJ6Z::before {
+#app-mount .popout-TdhJ6Z::before,
+#app-mount .reactionTooltip-3IOBwg::before,
+#app-mount .picker-20lcBA::before,
+#app-mount .container-3a5mk-::before,
+#app-mount .popout-VbwYm1::before,
+#app-mount .popout-15UxD6::before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--fb-overlay-image);
   background-position: var(--fb-overlay-position, center);
@@ -649,13 +659,13 @@ textarea {
 #app-mount .message-2CShn3 {
   background: transparent !important;
 }
-#app-mount .message-2CShn3 .reaction-1hd86g {
+#app-mount .message-2CShn3 .reaction-3vwAF2 {
   background: var(--foreground);
 }
-#app-mount .message-2CShn3 .reaction-1hd86g.reactionMe-wv5HKu {
+#app-mount .message-2CShn3 .reaction-3vwAF2.reactionMe-1PwQAc {
   background: var(--gradient);
 }
-#app-mount .message-2CShn3 .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+#app-mount .message-2CShn3 .reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As {
   color: var(--text-normal);
 }
 #app-mount .message-2CShn3 .wrapper-2vIMkT {
@@ -1165,6 +1175,21 @@ textarea {
   background: var(--background-secondary);
   -webkit-backdrop-filter: blur(var(--overlay-image-blur));
           backdrop-filter: blur(var(--overlay-image-blur));
+}
+
+#app-mount .picker-20lcBA {
+  border: none;
+  background: var(--foreground);
+  animation: fadeIn 0.3s ease forwards;
+}
+#app-mount .picker-20lcBA .inner-1NoIT5 {
+  background: var(--background-secondary);
+}
+
+#app-mount .popout-VbwYm1 {
+  border: none;
+  background: var(--foreground);
+  animation: fadeIn 0.3s ease forwards;
 }
 
 #app-mount .modal-3c3bKg {
