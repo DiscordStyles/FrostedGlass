@@ -1,18 +1,18 @@
 #app-mount {
 	.containerDefault-YUSmu3 {
 		// Unread
-		.modeUnread-3Cxepe .content-1gYQeQ {
+		.modeUnread-3Cxepe .link-1_kTxV {
 			background: var(--foreground);
 		}
 		// Hover
-		.wrapper-1ucjTd:hover .content-1gYQeQ {
+		.wrapper-1ucjTd:hover .link-1_kTxV {
 			background: var(--background-modifier-hover);
 			.icon-2W8DHg {
 				color: var(--interactive-hover);
 			}
 		}
 		// Selected
-		&.selected-2TbFuo .content-1gYQeQ {
+		&.selected-2TbFuo .link-1_kTxV {
 			background: var(--gradient) !important;
 			.icon-2W8DHg {
 				color: var(--text-normal);
