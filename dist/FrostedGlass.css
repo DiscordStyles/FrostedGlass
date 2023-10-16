@@ -1,5 +1,5 @@
 :root {
-  --version: "Frosted Glass 2.0.19";
+  --version: "Frosted Glass 2.0.20";
   --TB-top: calc(var(--server-container) + var(--window-padding));
   --TB-tr-roundness: var(--window-roundness);
   --TB-position-top: var(--TB-top, var(--window-padding));
@@ -460,13 +460,13 @@ textarea {
   border-color: transparent;
 }
 
-#app-mount .title-31SJ6t {
+#app-mount .title-5wgnIa {
   background: transparent;
 }
-#app-mount .title-31SJ6t .searchBar-jGtisZ {
+#app-mount .title-5wgnIa .searchBar-jGtisZ {
   background: var(--background-secondary);
 }
-#app-mount .title-31SJ6t .children-3xh0VB::after {
+#app-mount .title-5wgnIa .children-3xh0VB::after {
   content: none;
 }
 
@@ -617,16 +617,16 @@ textarea {
 #app-mount .panels-3wFtMD {
   background: transparent;
 }
-#app-mount .panels-3wFtMD .lookFilled-1Gx00P.colorBrand-3pXr91 {
+#app-mount .panels-3wFtMD .lookFilled-1H2Jvj.colorBrand-2M3O3N {
   background: var(--foreground);
 }
-#app-mount .panels-3wFtMD .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+#app-mount .panels-3wFtMD .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
   background: var(--foreground-double);
 }
-#app-mount .panels-3wFtMD .lookFilled-1Gx00P.colorBrand-3pXr91:active {
+#app-mount .panels-3wFtMD .lookFilled-1H2Jvj.colorBrand-2M3O3N:active {
   background: var(--foreground-triple);
 }
-#app-mount .container-1zzFcN {
+#app-mount .container-2NLBJg {
   border-bottom: none;
 }
 
@@ -637,7 +637,7 @@ textarea {
 #app-mount .content-1jQy2l::before {
   content: none;
 }
-#app-mount .chat-2ZfjoI {
+#app-mount .chat-9g_3Xj {
   background: rgb(0, 0, 0, var(--middle-brightness));
 }
 #app-mount .messages-3amgkR {
@@ -786,16 +786,16 @@ textarea {
   background: var(--foreground-double);
 }
 
-#app-mount .container-2o3qEW {
+#app-mount .container-2vWgD2 {
   background: transparent;
 }
-#app-mount .membersWrap-3NUR2t {
+#app-mount .membersWrap-3GwLFp {
   background-color: rgb(0, 0, 0, var(--right-brightness));
 }
-#app-mount .members-3WRCEx {
+#app-mount .members-2y1nVj {
   background: transparent;
 }
-#app-mount .members-3WRCEx > div {
+#app-mount .members-2y1nVj > div {
   background: transparent;
 }
 
