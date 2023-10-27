@@ -1,5 +1,5 @@
 #app-mount {
-	.layer_e552e0 {
+	.layer__2efaa {
 		top: var(--window-padding);
 		right: var(--window-padding);
 		bottom: var(--window-padding);
@@ -41,7 +41,7 @@
 	color: var(--text-normal);
 }
 // Update notice
-#app-mount .app__00c92::before {
+#app-mount .app_de4237::before {
 	content: 'Your version of Frosted Glass is outdated. Please redownload';
 	white-space: pre-wrap;
 	display: var(--update-notice-1, block);
