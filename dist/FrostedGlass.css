@@ -1227,47 +1227,47 @@ textarea {
   box-shadow: none;
 }
 
-#app-mount .userProfileModalOuter-1FYL8T {
+#app-mount .userProfileModalOuter__3fe6b {
   background: transparent;
 }
-#app-mount .userProfileModalOuter-1FYL8T .userProfileInnerNonPremium-1XjSjn .body-_QAKrE {
+#app-mount .userProfileModalOuter__3fe6b .userProfileInnerNonPremium-1XjSjn .body-_QAKrE {
   background: var(--background-secondary);
 }
-#app-mount .userProfileModalOuter-1FYL8T .userProfileInnerWithBanner-3CJ1Og {
+#app-mount .userProfileModalOuter__3fe6b .userProfileInnerWithBanner-3CJ1Og {
   background: transparent;
 }
-#app-mount .userProfileModalOuter-1FYL8T .userProfileInnerWithBanner-3CJ1Og::before {
+#app-mount .userProfileModalOuter__3fe6b .userProfileInnerWithBanner-3CJ1Og::before {
   background: linear-gradient(var(--profile-gradient-primary-color), var(--profile-gradient-primary-color) 120px, var(--profile-gradient-secondary-color));
   opacity: 0.25;
 }
-#app-mount .userProfileModalOuter-1FYL8T .topSectionNormal-2-vo2m {
+#app-mount .userProfileModalOuter__3fe6b .topSectionNormal-2-vo2m {
   background: var(--background-secondary);
 }
-#app-mount .userProfileModalOuter-1FYL8T .topSectionSpotify-1lI0-P {
+#app-mount .userProfileModalOuter__3fe6b .topSectionSpotify-1lI0-P {
   background: hsl(var(--discord-spotify)/0.3);
 }
-#app-mount .userProfileModalOuter-1FYL8T .topSectionPlaying-1J5E4n {
+#app-mount .userProfileModalOuter__3fe6b .topSectionPlaying-1J5E4n {
   background: var(--gradient-50);
 }
-#app-mount .userProfileModalOuter-1FYL8T .topSectionStreaming-1Tpf5X {
+#app-mount .userProfileModalOuter__3fe6b .topSectionStreaming-1Tpf5X {
   background: rgb(var(--discord-twitch), 0.3);
 }
-#app-mount .userProfileModalOuter-1FYL8T .topSectionXbox-3fWLjS {
+#app-mount .userProfileModalOuter__3fe6b .topSectionXbox-3fWLjS {
   background: rgb(var(--discord-xbox), 0.3);
 }
-#app-mount .userProfileModalOuter-1FYL8T .svg-2azL_l {
+#app-mount .userProfileModalOuter__3fe6b .svg-2azL_l {
   z-index: 1;
 }
-#app-mount .userProfileModalOuter-1FYL8T .body-3ND3kc {
+#app-mount .userProfileModalOuter__3fe6b .body-3ND3kc {
   background: transparent;
 }
-#app-mount .userProfileModalOuter-1FYL8T .tabBarContainer-1s1u-z {
+#app-mount .userProfileModalOuter__3fe6b .tabBarContainer-1s1u-z {
   border: none;
 }
-#app-mount .userProfileModalOuter-1FYL8T .userInfoSection-2acyCx {
+#app-mount .userProfileModalOuter__3fe6b .userInfoSection-2acyCx {
   border: none;
 }
-#app-mount .userProfileModalOuter-1FYL8T .connectedAccount-36nQx7 {
+#app-mount .userProfileModalOuter__3fe6b .connectedAccount-36nQx7 {
   background: var(--background-secondary);
   border: none;
 }
