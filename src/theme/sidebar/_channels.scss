@@ -1,20 +1,20 @@
 #app-mount {
-	.containerDefault-YUSmu3 {
+	.containerDefault__3187b {
 		// Unread
-		.modeUnread-3Cxepe .link-1_kTxV {
+		.modeUnread_f74c03 .link__95dc0 {
 			background: var(--foreground);
 		}
 		// Hover
-		.wrapper-1ucjTd:hover .link-1_kTxV {
+		.wrapper-1ucjTd:hover .link__95dc0 {
 			background: var(--background-modifier-hover);
-			.icon-2W8DHg {
+			.icon_eff5d4 {
 				color: var(--interactive-hover);
 			}
 		}
 		// Selected
-		&.selected-2TbFuo .link-1_kTxV {
+		&.selected__3b4cb .link__95dc0 {
 			background: var(--gradient) !important;
-			.icon-2W8DHg {
+			.icon_eff5d4 {
 				color: var(--text-normal);
 			}
 		}
@@ -29,7 +29,7 @@
 		padding: 0 5px;
 		width: auto;
 	}
-	.containerUserOver-SDa1HW::after {
+	.containerUserOver__8b873::after {
 		background: var(--gradient-20);
 		border: 2px solid rgb(var(--gradient-primary));
 	}

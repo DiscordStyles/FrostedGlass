@@ -76,7 +76,7 @@
 		color: rgb(255, 255, 255, 0.5);
 	}
 	// Radio buttons
-	.item-1TA5qI {
+	.item_b7fb7e {
 		border: none;
 		background: var(--background-secondary);
 		.checkbox-1ix_J3 {
@@ -95,9 +95,9 @@
 			polyline {
 				stroke: rgb(var(--gradient-primary));
 			}
-			&:has(> .radioBar-1XgZqD[style*='--radio-bar-accent-color']) {
+			&:has(> .radioBar__40e1b[style*='--radio-bar-accent-color']) {
 				background: transparent !important;
-				.radioBar-1XgZqD {
+				.radioBar__40e1b {
 					background: var(--radio-bar-accent-color);
 				}
 			}
@@ -134,7 +134,7 @@
 	}
 	// Select
 	[class*='css'][class*='control'],
-	.select-Zz0IcO {
+	.select__0eb48 {
 		background: var(--background-secondary);
 		border-color: transparent;
 	}
@@ -143,15 +143,15 @@
 		opacity: 1;
 	}
 	// Select Dropdown
-	.popout-15UxD6 {
+	.popout_a6e77f {
 		backdrop-filter: blur(var(--overlay-blur, 5px));
 		background: rgb(0 0 0 / var(--overlay-brightness));
 	}
 	// Range
-	.bar-2H7Q9u {
+	.bar_e58961 {
 		background: var(--foreground-double);
 	}
-	.barFill-3RgCsY {
+	.barFill__30e17 {
 		background: var(--gradient);
 	}
 	// Keybind
