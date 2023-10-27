@@ -86,7 +86,7 @@
   --text-link: var(--link-colour);
 }
 
-#app-mount .layer_e552e0 {
+#app-mount .layer__2efaa {
   top: var(--window-padding);
   right: var(--window-padding);
   bottom: var(--window-padding);
@@ -133,7 +133,7 @@
   color: var(--text-normal);
 }
 
-#app-mount .app__00c92::before {
+#app-mount .app_de4237::before {
   content: "Your version of Frosted Glass is outdated. Please redownload";
   white-space: pre-wrap;
   display: var(--update-notice-1, block);
@@ -196,7 +196,7 @@ textarea {
   display: none;
 }
 
-#app-mount .bg__7adbf {
+#app-mount .bg__12180 {
   top: -22px;
   right: 0;
   bottom: 0;
@@ -205,7 +205,7 @@ textarea {
   background-position: var(--background-image-position, center);
   background-size: var(--background-image-size, cover);
 }
-#app-mount .bg__7adbf::before {
+#app-mount .bg__12180::before {
   content: "";
   position: absolute;
   top: calc(var(--window-padding) + 22px);
@@ -1475,84 +1475,84 @@ textarea {
   background: rgb(0, 0, 0, var(--middle-brightness));
 }
 
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .standardSidebarView__1129a {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .standardSidebarView__1129a {
   top: 0;
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .sidebarRegionScroller__1fa7e {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .sidebarRegionScroller__1fa7e {
   background-color: rgb(0, 0, 0, var(--left-brightness));
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .multiInput-1e2xJ7 .input-2g-os5 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .multiInput-1e2xJ7 .input-2g-os5 {
   background: transparent;
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .description-3_Ncsb,
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .h5-18_1nd:not(.isEnabled-2qCZy8),
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .labelDescriptor-1PqHgD,
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .viewBody-2Qz-jg {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .description-3_Ncsb,
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .h5-18_1nd:not(.isEnabled-2qCZy8),
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .labelDescriptor-1PqHgD,
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .viewBody-2Qz-jg {
   color: var(--text-normal);
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .info__755e1 .colorMuted-20987_:first-child::before {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .info__755e1 .colorMuted-20987_:first-child::before {
   content: var(--version);
   display: block;
 }
 
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .accountProfileCard__22589 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .accountProfileCard__22589 {
   background: var(--background-secondary);
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .fieldList_aab0de {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .fieldList_aab0de {
   background: transparent;
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .authedApp__51b26 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .authedApp__51b26 {
   background: var(--background-secondary);
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connection_fff5f6 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connection_fff5f6 {
   position: relative;
   overflow: hidden;
   box-shadow: none;
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connection_fff5f6 .integration-3kMeY4 {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connection_fff5f6 .integration-3kMeY4 {
   background: var(--foreground);
   border: none;
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connectionHeader-2rV1ze {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionHeader-2rV1ze {
   background: transparent;
   border: none;
   margin-bottom: 0;
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connectionDelete-XXTMqE {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionDelete-XXTMqE {
   border: none;
   background: var(--foreground);
   transition: 0.2s ease;
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connectionDelete-XXTMqE::after, #app-mount .layer_e552e0:not(.baseLayer__13b6b) .connectionDelete-XXTMqE::before {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionDelete-XXTMqE::after, #app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionDelete-XXTMqE::before {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 2px;
   height: 16px;
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connectionDelete-XXTMqE::before {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionDelete-XXTMqE::before {
   transform: translate(-50%, -50%) rotate(45deg);
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connectionDelete-XXTMqE::after {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionDelete-XXTMqE::after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connectionDelete-XXTMqE span {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionDelete-XXTMqE span {
   display: none;
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connectionDelete-XXTMqE:hover {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionDelete-XXTMqE:hover {
   background: var(--foreground-double);
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .connectionDelete-XXTMqE:active {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .connectionDelete-XXTMqE:active {
   background: var(--foreground-triple);
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .card_dc88cd::before {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .card_dc88cd::before {
   border-color: transparent;
   background: var(--foreground);
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .game-3x3aDt {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .game-3x3aDt {
   box-shadow: 0 1px 0 0 var(--background-modifier-accent);
 }
-#app-mount .layer_e552e0:not(.baseLayer__13b6b) .item-3eFBNF {
+#app-mount .layer__2efaa:not(.baseLayer__8fda3) .item-3eFBNF {
   box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
 }
 
