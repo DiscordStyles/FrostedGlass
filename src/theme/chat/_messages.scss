@@ -3,23 +3,23 @@
 		margin-left: 0;
 		padding-left: 0;
 	}
-	.message__04d9f {
+	.message_ff43e6 {
 		background: transparent;
 		box-shadow: none;
 	}
 	// Attachments,pings,codeblocks ect...
-	.message__80c10 {
+	.message_ccca67 {
 		background: transparent !important;
-		.reaction_b90ab0 {
+		.reaction_ef7e09 {
 			background: var(--foreground);
-			&.reactionMe_bf6909 {
+			&.reactionMe__9fc5c {
 				background: var(--gradient);
-				.reactionCount__60448 {
+				.reactionCount_b780c8 {
 					color: var(--text-normal);
 				}
 			}
 		}
-		.wrapper_c727b6 {
+		.wrapper__4e6b6 {
 			background: var(--background-secondary);
 		}
 		.attachment-33OFj0,
@@ -36,13 +36,13 @@
 		color: var(--text-default);
 	}
 	// Mentions
-	.mentioned__58017 {
+	.mentioned_fa6fd2 {
 		background: var(--gradient-20) !important;
 		&::before {
 			background: var(--gradient);
 		}
 	}
-	.wrapper__2d9b1 {
+	.wrapper_f5f4c9 {
 		background: var(--gradient);
 		color: var(--text-normal);
 	}

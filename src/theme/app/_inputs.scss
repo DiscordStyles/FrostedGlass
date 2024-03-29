@@ -95,9 +95,9 @@
 			polyline {
 				stroke: rgb(var(--gradient-primary));
 			}
-			&:has(> .radioBar__40e1b[style*='--radio-bar-accent-color']) {
+			&:has(> .radioBar__70669[style*='--radio-bar-accent-color']) {
 				background: transparent !important;
-				.radioBar__40e1b {
+				.radioBar__70669 {
 					background: var(--radio-bar-accent-color);
 				}
 			}
@@ -134,7 +134,7 @@
 	}
 	// Select
 	[class*='css'][class*='control'],
-	.select__0eb48 {
+	.select_fe2671 {
 		background: var(--background-secondary);
 		border-color: transparent;
 	}
@@ -151,7 +151,7 @@
 	.bar_e58961 {
 		background: var(--foreground-double);
 	}
-	.barFill__30e17 {
+	.barFill__1f56b {
 		background: var(--gradient);
 	}
 	// Keybind

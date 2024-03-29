@@ -1,5 +1,5 @@
 #app-mount {
-	.layer__2efaa {
+	.layer_f7d46a {
 		top: var(--window-padding);
 		right: var(--window-padding);
 		bottom: var(--window-padding);
@@ -9,7 +9,7 @@
 		border-radius: var(--window-roundness);
 	}
 	// Container shadow
-	.base__3e6af::before {
+	.base_c0676e::before {
 		content: '';
 		position: absolute;
 		height: 5px;
@@ -26,12 +26,12 @@
 		color: var(--text-normal);
 		margin-top: 0;
 	}
-	.botText__19848 {
+	.botText_daff56 {
 		font-weight: 600;
 	}
 	.botTagInvert-18-95s {
 		color: rgb(var(--gradient-primary));
-		.botText__19848 {
+		.botText_daff56 {
 			font-weight: bold;
 		}
 	}

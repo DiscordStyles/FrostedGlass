@@ -1,4 +1,4 @@
-#app-mount .userPopoutOuter_d739b2 {
+#app-mount .userPopoutOuter__3884e {
 	box-shadow: none;
 	overflow: hidden !important;
 	position: relative;
@@ -27,25 +27,25 @@
 		z-index: -1;
 	}
 
-	.userPopoutInner_f545a3 {
+	.userPopoutInner_e90432 {
 		&::before {
 			top: 4px;
 			left: 4px;
 		}
-		&:not(.userProfileInnerThemedNonPremium__3d0a6) {
+		&:not(.userProfileInnerThemedNonPremium_ed9022) {
 			.avatarPositionPremiumBanner-2nq2Fy {
 				top: 73px;
 				left: 21px;
 			}
-			.bannerSVGWrapper__3e7b0 {
+			.bannerSVGWrapper__8a38c {
 				margin: 2px 4px 4px 4px;
 				box-sizing: border-box;
 				width: calc(100% - 8px);
 				min-width: unset !important;
 			}
 		}
-		&.userProfileInnerThemedNonPremium__3d0a6 {
-			.overlayBackground__86b78 {
+		&.userProfileInnerThemedNonPremium_ed9022 {
+			.overlayBackground__2666e {
 				margin: 0 8px 8px;
 			}
 		}
@@ -69,11 +69,11 @@
 	.wrapper-1VLyxH::after {
 		border-radius: 3px;
 	}
-	.activityName__47e51,
+	.activityName_a7b7de,
 	.headerTag-2pZJzA,
 	.nameNormal-2lqVQK,
 	.nameWrap-3Z4G_9,
-	.textRow__4750e {
+	.textRow_c835f1 {
 		color: var(--text-normal);
 	}
 	.body-3iLsc4 {
@@ -82,14 +82,14 @@
 	.roles__74a2b {
 		gap: 4px;
 	}
-	.roleRemoveButton__737f2 {
+	.roleRemoveButton__20c70 {
 		position: unset;
-		& + .roleName_d19d33 {
+		& + .roleName__851c9 {
 			position: relative;
 			z-index: 1;
 		}
 	}
-	.role__631a3 {
+	.role_d81130 {
 		margin: 0;
 		position: relative;
 		border-radius: 10px;
@@ -98,7 +98,7 @@
 		padding: 6px;
 		border: none;
 	}
-	.roleCircle_bae511 {
+	.roleCircle__61ad8 {
 		position: unset;
 		overflow: visible;
 		filter: none;
@@ -113,10 +113,10 @@
 			pointer-events: none;
 		}
 	}
-	.roleRemoveIcon__7f63d {
+	.roleRemoveIcon_c3913a {
 		left: 12px;
 	}
-	.roleName_d19d33 {
+	.roleName__851c9 {
 		margin: 0;
 		color: var(--text-focus);
 	}
@@ -136,7 +136,7 @@
 		display: none;
 	}
 
-	.userProfileInnerNonPremium-1XjSjn .overlayBackground__86b78 {
+	.userProfileInnerNonPremium-1XjSjn .overlayBackground__2666e {
 		background: var(--background-secondary);
 	}
 	&.theme-light .inputDefault-3FGxgL::placeholder {

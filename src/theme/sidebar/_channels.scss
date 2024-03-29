@@ -1,20 +1,20 @@
 #app-mount {
-	.containerDefault__3187b {
+	.containerDefault_ae2ea4 {
 		// Unread
-		.modeUnread_f74c03 .link__95dc0 {
+		.modeUnreadImportant__35358 .link_ddbb36 {
 			background: var(--foreground);
 		}
 		// Hover
-		.wrapper-1ucjTd:hover .link__95dc0 {
+		.wrapper-1ucjTd:hover .link_ddbb36 {
 			background: var(--background-modifier-hover);
-			.icon_eff5d4 {
+			.icon__67ab4 {
 				color: var(--interactive-hover);
 			}
 		}
 		// Selected
-		&.selected__3b4cb .link__95dc0 {
+		&.selected__11b62 .link_ddbb36 {
 			background: var(--gradient) !important;
-			.icon_eff5d4 {
+			.icon__67ab4 {
 				color: var(--text-normal);
 			}
 		}
@@ -29,7 +29,7 @@
 		padding: 0 5px;
 		width: auto;
 	}
-	.containerUserOver__8b873::after {
+	.containerUserOver__2f65b::after {
 		background: var(--gradient-20);
 		border: 2px solid rgb(var(--gradient-primary));
 	}

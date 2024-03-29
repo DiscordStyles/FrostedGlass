@@ -1,11 +1,11 @@
 #app-mount .guilds__2b93a {
 	// Home button
-	.tutorialContainer__890ea {
-		.childWrapper__01b9c {
+	.tutorialContainer_b06ae6 {
+		.childWrapper_a6ce15 {
 			background: var(--gradient);
 			background-color: transparent;
 		}
-		.listItem_fa7b36:first-child .wrapper_d281dd {
+		.listItem__48528:first-child .wrapper__8436d {
 			&::before {
 				content: '';
 				border-radius: 50%;
@@ -18,19 +18,19 @@
 				width: 100%;
 				transition: 0.2s ease;
 			}
-			&.selected_f5ec8e::before {
+			&.selected_ae80f7::before {
 				border-radius: 30%;
 			}
 		}
-		.homeIcon__00b1b {
+		.homeIcon__560eb {
 			display: none;
 		}
 	}
-	.selected_f5ec8e .acronym_cd4809 {
+	.selected_ae80f7 .acronym_fb7739 {
 		background: var(--foreground-double);
 	}
 	// No icon
-	.acronym_cd4809 {
+	.acronym_fb7739 {
 		background: var(--foreground);
 		&:hover {
 			background: var(--foreground-double);
