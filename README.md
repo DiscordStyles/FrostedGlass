@@ -1,4 +1,4 @@
-# Frosted Glass Epic fork
+# Frosted Glass
 
 Display your picture of choice with adjustable blur and brightness. Dark theme is required.
 
