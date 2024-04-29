@@ -294,12 +294,12 @@ textarea {
           user-select: none;
   z-index: -1;
 }
-#app-mount section.positionContainer_f54115 {
+#app-mount section.positionContainer_f54115 .drawerSizingWrapper_e20f1f {
   overflow: hidden !important;
   position: absolute;
   border-radius: 3px;
 }
-#app-mount section.positionContainer_f54115::before {
+#app-mount section.positionContainer_f54115 .drawerSizingWrapper_e20f1f::before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--fb-overlay-image);
   background-position: var(--fb-overlay-position, center);
