@@ -1,4 +1,4 @@
-#app-mount .userPopoutOuter__3884e {
+#app-mount .userPopoutOuter_d67f56 {
 	box-shadow: none;
 	overflow: hidden !important;
 	position: relative;
@@ -32,11 +32,13 @@
 			top: 4px;
 			left: 4px;
 		}
+
 		&:not(.userProfileInnerThemedNonPremium_ed9022) {
 			.avatarPositionPremiumBanner-2nq2Fy {
 				top: 73px;
 				left: 21px;
 			}
+
 			.bannerSVGWrapper__8a38c {
 				margin: 2px 4px 4px 4px;
 				box-sizing: border-box;
@@ -44,6 +46,7 @@
 				min-width: unset !important;
 			}
 		}
+
 		&.userProfileInnerThemedNonPremium_ed9022 {
 			.overlayBackground__2666e {
 				margin: 0 8px 8px;
@@ -54,21 +57,27 @@
 	.headerNormal-T_seeN {
 		background: transparent;
 	}
+
 	.headerPlaying-j0WQBV {
 		background: var(--gradient-50);
 	}
+
 	.headerXbox-3G-4PF {
 		background: rgb(var(--discord-xbox), 0.3);
 	}
+
 	.headerSpotify-zpWxgT {
 		background: hsl(var(--discord-spotify) / 0.3);
 	}
+
 	.headerStreaming-2FjmGz {
 		background: rgb(var(--discord-twitch), 0.3);
 	}
+
 	.wrapper-1VLyxH::after {
 		border-radius: 3px;
 	}
+
 	.activityName_a7b7de,
 	.headerTag-2pZJzA,
 	.nameNormal-2lqVQK,
@@ -76,19 +85,24 @@
 	.textRow_c835f1 {
 		color: var(--text-normal);
 	}
+
 	.body-3iLsc4 {
 		background: transparent;
 	}
+
 	.roles__74a2b {
 		gap: 4px;
 	}
+
 	.roleRemoveButton__20c70 {
 		position: unset;
+
 		& + .roleName__851c9 {
 			position: relative;
 			z-index: 1;
 		}
 	}
+
 	.role_d81130 {
 		margin: 0;
 		position: relative;
@@ -98,11 +112,13 @@
 		padding: 6px;
 		border: none;
 	}
+
 	.roleCircle__61ad8 {
 		position: unset;
 		overflow: visible;
 		filter: none;
 		margin: 0;
+
 		&::before {
 			content: '';
 			position: absolute;
@@ -113,25 +129,31 @@
 			pointer-events: none;
 		}
 	}
+
 	.roleRemoveIcon_c3913a {
 		left: 12px;
 	}
+
 	.roleName__851c9 {
 		margin: 0;
 		color: var(--text-focus);
 	}
+
 	.footer-1fjuF6 {
 		background: transparent;
 		border: none;
 	}
+
 	.quickMessage-1yeL4E {
 		background: var(--background-secondary);
 		border: none;
 		color: var(--text-normal);
+
 		&::placeholder {
 			color: rgb(255, 255, 255, 0.3);
 		}
 	}
+
 	.protip-YaFfgO {
 		display: none;
 	}
@@ -139,6 +161,7 @@
 	.userProfileInnerNonPremium-1XjSjn .overlayBackground__2666e {
 		background: var(--background-secondary);
 	}
+
 	&.theme-light .inputDefault-3FGxgL::placeholder {
 		color: #000;
 	}

@@ -7,6 +7,7 @@
 		background: var(--background-image);
 		background-position: var(--background-image-position, center);
 		background-size: var(--background-image-size, cover);
+
 		&::before {
 			content: '';
 			position: absolute;
@@ -20,6 +21,7 @@
 			display: var(--background-blur-visiblity, block);
 		}
 	}
+
 	[role='menu'],
 	.autocompleteInner_ad9e21,
 	.container__84c26,
@@ -32,7 +34,6 @@
 	.root-1gCeng:not(.fullscreenOnMobile-1bD22y),
 	.root-8LYsGj,
 	.subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
-	section.positionContainer_f54115 .drawerSizingWrapper_e20f1f,
 	.quickswitcher_b5bb0a,
 	.root-1gCeng.wrapper-2ZbzR9,
 	.modalRoot-1Kx4Hb,
@@ -50,6 +51,7 @@
 		overflow: hidden !important;
 		position: relative;
 		border-radius: 3px;
+
 		&::before {
 			content: '';
 			background: linear-gradient(var(--tint), var(--tint)), var(--fb-overlay-image);
@@ -63,6 +65,31 @@
 			top: calc(var(--fb-overlay-blur) / -1 * 2.5);
 			left: calc(var(--fb-overlay-blur) / -1 * 2.5);
 			position: absolute;
+			filter: blur(var(--fb-overlay-blur));
+			transform: translate(var(--fb-overlay-blur) / -1, calc(var(--fb-overlay-blur) / -1));
+			pointer-events: none;
+			user-select: none;
+			z-index: -1;
+		}
+	}
+
+	section.positionContainer_f54115 .drawerSizingWrapper_e20f1f {
+		overflow: hidden !important;
+		position: absolute;
+		border-radius: 3px;
+
+		&::before {
+			content: '';
+			background: linear-gradient(var(--tint), var(--tint)), var(--fb-overlay-image);
+			background-position: var(--fb-overlay-position, center);
+			background-size: var(--fb-overlay-size, cover);
+			background-attachment: var(--fb-overlay-attachment, fixed);
+			background-repeat: var(--fb-overlay-repeat, no-repeat);
+			box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness, var(--popout-modal-brightness)));
+			height: calc(100% + var(--fb-overlay-blur) * 5);
+			width: calc(100% + var(--fb-overlay-blur) * 5);
+			top: calc(var(--fb-overlay-blur) / -1 * 2.5);
+			left: calc(var(--fb-overlay-blur) / -1 * 2.5);
 			filter: blur(var(--fb-overlay-blur));
 			transform: translate(var(--fb-overlay-blur) / -1, calc(var(--fb-overlay-blur) / -1));
 			pointer-events: none;
