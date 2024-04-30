@@ -230,7 +230,6 @@ textarea {
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y),
 #app-mount .root-8LYsGj,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd,
-#app-mount section.positionContainer_f54115 .drawerSizingWrapper_e20f1f,
 #app-mount .quickswitcher_b5bb0a,
 #app-mount .root-1gCeng.wrapper-2ZbzR9,
 #app-mount .modalRoot-1Kx4Hb,
@@ -261,7 +260,6 @@ textarea {
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y)::before,
 #app-mount .root-8LYsGj::before,
 #app-mount .subMenuContext-2n_9YM .scrollerWrap-2lJEkd::before,
-#app-mount section.positionContainer_f54115 .drawerSizingWrapper_e20f1f::before,
 #app-mount .quickswitcher_b5bb0a::before,
 #app-mount .root-1gCeng.wrapper-2ZbzR9::before,
 #app-mount .modalRoot-1Kx4Hb::before,
@@ -288,6 +286,31 @@ textarea {
   top: calc(var(--fb-overlay-blur) / -1 * 2.5);
   left: calc(var(--fb-overlay-blur) / -1 * 2.5);
   position: absolute;
+  filter: blur(var(--fb-overlay-blur));
+  transform: translate(var(--fb-overlay-blur)/-1, calc(var(--fb-overlay-blur) / -1));
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  z-index: -1;
+}
+#app-mount section.positionContainer_f54115 .drawerSizingWrapper_e20f1f {
+  overflow: hidden !important;
+  position: absolute;
+  border-radius: 3px;
+}
+#app-mount section.positionContainer_f54115 .drawerSizingWrapper_e20f1f::before {
+  content: "";
+  background: linear-gradient(var(--tint), var(--tint)), var(--fb-overlay-image);
+  background-position: var(--fb-overlay-position, center);
+  background-size: var(--fb-overlay-size, cover);
+  background-attachment: var(--fb-overlay-attachment, fixed);
+  background-repeat: var(--fb-overlay-repeat, no-repeat);
+  box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0, var(--overlay-brightness, var(--popout-modal-brightness)));
+  height: calc(100% + var(--fb-overlay-blur) * 5);
+  width: calc(100% + var(--fb-overlay-blur) * 5);
+  top: calc(var(--fb-overlay-blur) / -1 * 2.5);
+  left: calc(var(--fb-overlay-blur) / -1 * 2.5);
   filter: blur(var(--fb-overlay-blur));
   transform: translate(var(--fb-overlay-blur)/-1, calc(var(--fb-overlay-blur) / -1));
   pointer-events: none;
@@ -829,7 +852,7 @@ textarea {
   background: var(--foreground);
 }
 
-#app-mount .userPopoutOuter__3884e {
+#app-mount .userPopoutOuter_d67f56 {
   box-shadow: none;
   overflow: hidden !important;
   position: relative;
@@ -838,7 +861,7 @@ textarea {
   animation: fadeIn 0.3s ease forwards;
   padding: 0;
 }
-#app-mount .userPopoutOuter__3884e::before {
+#app-mount .userPopoutOuter_d67f56::before {
   content: "";
   background: linear-gradient(var(--tint), var(--tint)), var(--fb-popout-image);
   background-position: var(--fb-popout-position, center);
@@ -859,62 +882,62 @@ textarea {
           user-select: none;
   z-index: -1;
 }
-#app-mount .userPopoutOuter__3884e .userPopoutInner_e90432::before {
+#app-mount .userPopoutOuter_d67f56 .userPopoutInner_e90432::before {
   top: 4px;
   left: 4px;
 }
-#app-mount .userPopoutOuter__3884e .userPopoutInner_e90432:not(.userProfileInnerThemedNonPremium_ed9022) .avatarPositionPremiumBanner-2nq2Fy {
+#app-mount .userPopoutOuter_d67f56 .userPopoutInner_e90432:not(.userProfileInnerThemedNonPremium_ed9022) .avatarPositionPremiumBanner-2nq2Fy {
   top: 73px;
   left: 21px;
 }
-#app-mount .userPopoutOuter__3884e .userPopoutInner_e90432:not(.userProfileInnerThemedNonPremium_ed9022) .bannerSVGWrapper__8a38c {
+#app-mount .userPopoutOuter_d67f56 .userPopoutInner_e90432:not(.userProfileInnerThemedNonPremium_ed9022) .bannerSVGWrapper__8a38c {
   margin: 2px 4px 4px 4px;
   box-sizing: border-box;
   width: calc(100% - 8px);
   min-width: unset !important;
 }
-#app-mount .userPopoutOuter__3884e .userPopoutInner_e90432.userProfileInnerThemedNonPremium_ed9022 .overlayBackground__2666e {
+#app-mount .userPopoutOuter_d67f56 .userPopoutInner_e90432.userProfileInnerThemedNonPremium_ed9022 .overlayBackground__2666e {
   margin: 0 8px 8px;
 }
-#app-mount .userPopoutOuter__3884e .headerNormal-T_seeN {
+#app-mount .userPopoutOuter_d67f56 .headerNormal-T_seeN {
   background: transparent;
 }
-#app-mount .userPopoutOuter__3884e .headerPlaying-j0WQBV {
+#app-mount .userPopoutOuter_d67f56 .headerPlaying-j0WQBV {
   background: var(--gradient-50);
 }
-#app-mount .userPopoutOuter__3884e .headerXbox-3G-4PF {
+#app-mount .userPopoutOuter_d67f56 .headerXbox-3G-4PF {
   background: rgb(var(--discord-xbox), 0.3);
 }
-#app-mount .userPopoutOuter__3884e .headerSpotify-zpWxgT {
+#app-mount .userPopoutOuter_d67f56 .headerSpotify-zpWxgT {
   background: hsl(var(--discord-spotify)/0.3);
 }
-#app-mount .userPopoutOuter__3884e .headerStreaming-2FjmGz {
+#app-mount .userPopoutOuter_d67f56 .headerStreaming-2FjmGz {
   background: rgb(var(--discord-twitch), 0.3);
 }
-#app-mount .userPopoutOuter__3884e .wrapper-1VLyxH::after {
+#app-mount .userPopoutOuter_d67f56 .wrapper-1VLyxH::after {
   border-radius: 3px;
 }
-#app-mount .userPopoutOuter__3884e .activityName_a7b7de,
-#app-mount .userPopoutOuter__3884e .headerTag-2pZJzA,
-#app-mount .userPopoutOuter__3884e .nameNormal-2lqVQK,
-#app-mount .userPopoutOuter__3884e .nameWrap-3Z4G_9,
-#app-mount .userPopoutOuter__3884e .textRow_c835f1 {
+#app-mount .userPopoutOuter_d67f56 .activityName_a7b7de,
+#app-mount .userPopoutOuter_d67f56 .headerTag-2pZJzA,
+#app-mount .userPopoutOuter_d67f56 .nameNormal-2lqVQK,
+#app-mount .userPopoutOuter_d67f56 .nameWrap-3Z4G_9,
+#app-mount .userPopoutOuter_d67f56 .textRow_c835f1 {
   color: var(--text-normal);
 }
-#app-mount .userPopoutOuter__3884e .body-3iLsc4 {
+#app-mount .userPopoutOuter_d67f56 .body-3iLsc4 {
   background: transparent;
 }
-#app-mount .userPopoutOuter__3884e .roles__74a2b {
+#app-mount .userPopoutOuter_d67f56 .roles__74a2b {
   gap: 4px;
 }
-#app-mount .userPopoutOuter__3884e .roleRemoveButton__20c70 {
+#app-mount .userPopoutOuter_d67f56 .roleRemoveButton__20c70 {
   position: unset;
 }
-#app-mount .userPopoutOuter__3884e .roleRemoveButton__20c70 + .roleName__851c9 {
+#app-mount .userPopoutOuter_d67f56 .roleRemoveButton__20c70 + .roleName__851c9 {
   position: relative;
   z-index: 1;
 }
-#app-mount .userPopoutOuter__3884e .role_d81130 {
+#app-mount .userPopoutOuter_d67f56 .role_d81130 {
   margin: 0;
   position: relative;
   border-radius: 10px;
@@ -923,13 +946,13 @@ textarea {
   padding: 6px;
   border: none;
 }
-#app-mount .userPopoutOuter__3884e .roleCircle__61ad8 {
+#app-mount .userPopoutOuter_d67f56 .roleCircle__61ad8 {
   position: unset;
   overflow: visible;
   filter: none;
   margin: 0;
 }
-#app-mount .userPopoutOuter__3884e .roleCircle__61ad8::before {
+#app-mount .userPopoutOuter_d67f56 .roleCircle__61ad8::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -938,38 +961,38 @@ textarea {
   z-index: 0;
   pointer-events: none;
 }
-#app-mount .userPopoutOuter__3884e .roleRemoveIcon_c3913a {
+#app-mount .userPopoutOuter_d67f56 .roleRemoveIcon_c3913a {
   left: 12px;
 }
-#app-mount .userPopoutOuter__3884e .roleName__851c9 {
+#app-mount .userPopoutOuter_d67f56 .roleName__851c9 {
   margin: 0;
   color: var(--text-focus);
 }
-#app-mount .userPopoutOuter__3884e .footer-1fjuF6 {
+#app-mount .userPopoutOuter_d67f56 .footer-1fjuF6 {
   background: transparent;
   border: none;
 }
-#app-mount .userPopoutOuter__3884e .quickMessage-1yeL4E {
+#app-mount .userPopoutOuter_d67f56 .quickMessage-1yeL4E {
   background: var(--background-secondary);
   border: none;
   color: var(--text-normal);
 }
-#app-mount .userPopoutOuter__3884e .quickMessage-1yeL4E::-moz-placeholder {
+#app-mount .userPopoutOuter_d67f56 .quickMessage-1yeL4E::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount .userPopoutOuter__3884e .quickMessage-1yeL4E::placeholder {
+#app-mount .userPopoutOuter_d67f56 .quickMessage-1yeL4E::placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
-#app-mount .userPopoutOuter__3884e .protip-YaFfgO {
+#app-mount .userPopoutOuter_d67f56 .protip-YaFfgO {
   display: none;
 }
-#app-mount .userPopoutOuter__3884e .userProfileInnerNonPremium-1XjSjn .overlayBackground__2666e {
+#app-mount .userPopoutOuter_d67f56 .userProfileInnerNonPremium-1XjSjn .overlayBackground__2666e {
   background: var(--background-secondary);
 }
-#app-mount .userPopoutOuter__3884e.theme-light .inputDefault-3FGxgL::-moz-placeholder {
+#app-mount .userPopoutOuter_d67f56.theme-light .inputDefault-3FGxgL::-moz-placeholder {
   color: #000;
 }
-#app-mount .userPopoutOuter__3884e.theme-light .inputDefault-3FGxgL::placeholder {
+#app-mount .userPopoutOuter_d67f56.theme-light .inputDefault-3FGxgL::placeholder {
   color: #000;
 }
 
