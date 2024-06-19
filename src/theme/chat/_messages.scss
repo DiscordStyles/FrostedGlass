@@ -1,25 +1,25 @@
 #app-mount {
-	.cozy_f5c119 .header-23xsNx {
+	.cozy_ec86aa .header-23xsNx {
 		margin-left: 0;
 		padding-left: 0;
 	}
-	.message_ff43e6 {
+	.message_ddcc45 {
 		background: transparent;
 		box-shadow: none;
 	}
 	// Attachments,pings,codeblocks ect...
-	.message_ccca67 {
+	.message_d5deea {
 		background: transparent !important;
-		.reaction_ef7e09 {
+		.reaction_f61c73 {
 			background: var(--foreground);
-			&.reactionMe__9fc5c {
+			&.reactionMe_f61c73 {
 				background: var(--gradient);
-				.reactionCount_b780c8 {
+				.reactionCount_f61c73 {
 					color: var(--text-normal);
 				}
 			}
 		}
-		.wrapper__4e6b6 {
+		.wrapper_ef319f {
 			background: var(--background-secondary);
 		}
 		.attachment-33OFj0,
@@ -36,13 +36,13 @@
 		color: var(--text-default);
 	}
 	// Mentions
-	.mentioned_fa6fd2 {
+	.mentioned_d5deea {
 		background: var(--gradient-20) !important;
 		&::before {
 			background: var(--gradient);
 		}
 	}
-	.wrapper_f5f4c9 {
+	.wrapper_d4fa29 {
 		background: var(--gradient);
 		color: var(--text-normal);
 	}

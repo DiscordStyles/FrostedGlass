@@ -1,4 +1,4 @@
-#app-mount .userPopoutOuter_d67f56 {
+#app-mount .userPopoutOuter_c69a7b {
 	box-shadow: none;
 	overflow: hidden !important;
 	position: relative;
@@ -27,19 +27,19 @@
 		z-index: -1;
 	}
 
-	.userPopoutInner_e90432 {
+	.userPopoutInner_c69a7b {
 		&::before {
 			top: 4px;
 			left: 4px;
 		}
 
-		&:not(.userProfileInnerThemedNonPremium_ed9022) {
+		&:not(.userProfileInnerThemedNonPremium_c69a7b) {
 			.avatarPositionPremiumBanner-2nq2Fy {
 				top: 73px;
 				left: 21px;
 			}
 
-			.bannerSVGWrapper__8a38c {
+			.bannerSVGWrapper_b32cc2 {
 				margin: 2px 4px 4px 4px;
 				box-sizing: border-box;
 				width: calc(100% - 8px);
@@ -47,8 +47,8 @@
 			}
 		}
 
-		&.userProfileInnerThemedNonPremium_ed9022 {
-			.overlayBackground__2666e {
+		&.userProfileInnerThemedNonPremium_c69a7b {
+			.overlayBackground_c69a7b {
 				margin: 0 8px 8px;
 			}
 		}
@@ -78,11 +78,11 @@
 		border-radius: 3px;
 	}
 
-	.activityName_a7b7de,
+	.activityName_d5089b,
 	.headerTag-2pZJzA,
 	.nameNormal-2lqVQK,
 	.nameWrap-3Z4G_9,
-	.textRow_c835f1 {
+	.textRow_d5089b {
 		color: var(--text-normal);
 	}
 
@@ -90,20 +90,20 @@
 		background: transparent;
 	}
 
-	.roles__74a2b {
+	.roles_fa2f72 {
 		gap: 4px;
 	}
 
-	.roleRemoveButton__20c70 {
+	.roleRemoveButton_e4010c {
 		position: unset;
 
-		& + .roleName__851c9 {
+		& + .roleName_e4010c {
 			position: relative;
 			z-index: 1;
 		}
 	}
 
-	.role_d81130 {
+	.role_f9575e {
 		margin: 0;
 		position: relative;
 		border-radius: 10px;
@@ -113,7 +113,7 @@
 		border: none;
 	}
 
-	.roleCircle__61ad8 {
+	.roleCircle_a26d7b {
 		position: unset;
 		overflow: visible;
 		filter: none;
@@ -130,11 +130,11 @@
 		}
 	}
 
-	.roleRemoveIcon_c3913a {
+	.roleRemoveIcon_e4010c {
 		left: 12px;
 	}
 
-	.roleName__851c9 {
+	.roleName_e4010c {
 		margin: 0;
 		color: var(--text-focus);
 	}
@@ -158,7 +158,7 @@
 		display: none;
 	}
 
-	.userProfileInnerNonPremium-1XjSjn .overlayBackground__2666e {
+	.userProfileInnerNonPremium-1XjSjn .overlayBackground_c69a7b {
 		background: var(--background-secondary);
 	}
 
