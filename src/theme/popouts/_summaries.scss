@@ -1,0 +1,10 @@
+#app-mount {
+    .topicsPillContainer_cf58b5 {
+        //This should never be highly transparent and no color really matches so we will use a custom one
+        background: rgb(0, 0, 0, 0.8);
+    }
+
+    .topicsPillCaret_cf58b5 {
+        background: var(--foreground-double);
+    }
+}
