@@ -20,4 +20,35 @@
 	.changeDetails-bk98pu {
 		background: var(--background-secondary);
 	}
+	//Header from edit role permissions
+	.header_bd05f1 {
+		//Its not the most beautiful but the way the padding is setup we got very few options to make this readable
+		//it still beats being invisible and overlapping
+		border-radius: 5px;
+		background-clip: content-box;
+		background-color: var(--background-secondary);
+		clip-path: content-box;
+
+		&::before{
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			backdrop-filter: blur(var(--background-image-blur));
+			z-index: -1;
+		}
+
+		& > * {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+
+		.titleContainer_c69589{
+			margin-top: 10px;
+		}
+
+		.searchContainer_a73849{
+			margin-bottom: 10px;
+		}
+	}
 }
