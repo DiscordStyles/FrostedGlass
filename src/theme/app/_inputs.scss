@@ -146,6 +146,7 @@
 	.popout_f6639d {
 		backdrop-filter: blur(var(--overlay-blur, 5px));
 		background: rgb(0 0 0 / var(--overlay-brightness));
+		overflow-y: scroll !important;
 	}
 	// Range
 	.bar_c7a159 {

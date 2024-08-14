@@ -36,6 +36,13 @@
 		}
 	}
 }
+
+//Globally fix scrollerbase getting its overflow set to hidden from the backgrounds
+//we need a really powerful selector for this
+html body #app-mount .scrollerBase_c49869 {
+	overflow-y: scroll !important;
+}
+
 ::selection {
 	background: rgb(var(--gradient-primary));
 	color: var(--text-normal);
