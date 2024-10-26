@@ -1,5 +1,8 @@
 #app-mount .guilds_a4d4d9 {
 	background-color: transparent;
+	.footer_aa1bff {
+		background-color: rgb(0, 0, 0, var(--serverlist-brightness));
+	}
 	.scrollerBase_c49869 {
 		background-color: rgb(0, 0, 0, var(--serverlist-brightness));
 		&::-webkit-scrollbar {
