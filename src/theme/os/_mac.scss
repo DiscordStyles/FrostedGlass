@@ -13,4 +13,9 @@ html.platform-osx {
 	.scroller-2TZvBN {
 		padding-top: 15px;
 	}
+	
+	// Added this line. Otherwise, the server list is pushed down and not in line.
+	.wrapper_fea3ef {
+		margin-top: 0px;
+	}
 }
