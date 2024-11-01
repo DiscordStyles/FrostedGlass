@@ -18,6 +18,7 @@
 	.jumpToPresentBar_cf58b5 {
 		border-radius: 8px;
 		background-color: var(--foreground-double);
+		backdrop-filter: blur(10px);
 		padding-bottom: 0;
 		bottom: 10px;
 		&:hover {
