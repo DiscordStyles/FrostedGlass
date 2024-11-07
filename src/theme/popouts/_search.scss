@@ -2,18 +2,25 @@
 	.container_eedf95 {
 		background: transparent;
 		box-shadow: none;
-		.displayedNick-2dDbfG,
-		.filter-5YbOzJ,
-		.header-3A13BX {
+		.displayedNick_b0286e {
 			color: var(--text-normal);
 		}
-		.answer-2fBfuP,
-		.displayUsername-14aOpK {
+		.displayUsername_b0286e {
 			color: var(--text-muted);
 		}
-		.option-2KkUJO {
-			.plusIcon-2V7coV {
+		.option_b0286e {
+			.content_b0286e {
+				--webkit-mask-image: linear-gradient(90deg, white, white 95%, transparent);
+				mask-image: linear-gradient(90deg, white, white 95%, transparent);
+			}
+			.plusIcon_b0286e {
 				color: var(--text-normal);
+			}
+			&:hover {
+				.content_b0286e {
+					--webkit-mask-image: linear-gradient(90deg, white, white 87%, transparent 92%, transparent);
+					mask-image: linear-gradient(90deg, white, white 87%, transparent 92%, transparent);
+				}
 			}
 			&.selected-rZcOL- {
 				background: var(--foreground);
