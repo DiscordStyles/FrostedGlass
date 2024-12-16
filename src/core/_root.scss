@@ -5,8 +5,8 @@
 	/*
 	 * Background image variables
 	 */
-	--background-image: url('https://i.imgur.com/kYW2H5C.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-	--background-image-blur: 5px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
+	--background-image: url('https://i.pinimg.com/736x/81/eb/ba/81ebbaad28a9ecc8cdb992c32548c9ac.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+	--background-image-blur: 10px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
 	--background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
 	--background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
 
@@ -46,8 +46,8 @@
 	/*
 	 * Gradient variables
 	 */
-	--gradient-primary: 103, 58, 183; /* DEFAULT: 103,58,183 */
-	--gradient-secondary: 63, 81, 181; /* DEFAULT: 63,81,181 */
+	--gradient-primary: 39, 45, 45; /* DEFAULT: 103,58,183 */
+	--gradient-secondary: 31, 3, 58; /* DEFAULT: 63,81,181 */
 	--gradient-direction: 320deg; /* DEFAULT: 320deg */
 
 	/*
@@ -59,8 +59,8 @@
 	/*
 	 * Other variables 
 	 */
-	--window-padding: 20px; /* Spacing around the Discord window | DEFAULT: 20px */
-	--window-roundness: 10px; /* Roundness of Discord | DEFAULT: 10px */
+	--window-padding: 10px; /* Spacing around the Discord window | DEFAULT: 20px */
+	--window-roundness: 20px; /* Roundness of Discord | DEFAULT: 10px */
 	--scrollbar-colour: rgb(255, 255, 255, 0.05); /* DEFAULT: rgb(255,255,255,0.05) */
 	--link-colour: #00b0f4; /* DEFAULT: #00b0f4 */
 
