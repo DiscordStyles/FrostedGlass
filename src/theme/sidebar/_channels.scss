@@ -1,20 +1,20 @@
 #app-mount {
-	.containerDefault_f6f816 {
+	.containerDefault_c69b6d {
 		// Unread
-		.modeUnreadImportant_d8bfb3 .link_d8bfb3 {
+		.modeUnreadImportant__2ea32 .link__2ea32 {
 			background: var(--foreground);
 		}
 		// Hover
-		.wrapper-1ucjTd:hover .link_d8bfb3 {
+		.wrapper-1ucjTd:hover .link__2ea32 {
 			background: var(--background-modifier-hover);
-			.icon_d8bfb3 {
+			.icon__2ea32 {
 				color: var(--interactive-hover);
 			}
 		}
 		// Selected
-		&.selected_f6f816 .link_d8bfb3 {
+		&.selected_c69b6d .link__2ea32 {
 			background: var(--gradient) !important;
-			.icon_d8bfb3 {
+			.icon__2ea32 {
 				color: var(--text-normal);
 			}
 		}
@@ -29,7 +29,7 @@
 		padding: 0 5px;
 		width: auto;
 	}
-	.containerUserOver_f6f816::after {
+	.containerUserOver_c69b6d::after {
 		background: var(--gradient-20);
 		border: 2px solid rgb(var(--gradient-primary));
 	}

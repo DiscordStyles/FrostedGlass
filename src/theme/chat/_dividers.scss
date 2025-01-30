@@ -1,6 +1,6 @@
-#app-mount .divider_c2654d {
+#app-mount .divider__908e2 {
 	border: none;
-	.content_c2654d {
+	.content__908e2 {
 		display: flex;
 		width: 100%;
 		justify-content: center;
@@ -21,7 +21,7 @@
 			margin-left: 10px;
 		}
 	}
-	&.isUnread_c2654d {
+	&.isUnread__908e2 {
 		border-top: 1px solid rgb(var(--discord-red));
 	}
 }

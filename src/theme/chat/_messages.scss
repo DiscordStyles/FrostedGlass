@@ -1,25 +1,25 @@
 #app-mount {
-	.cozy_f9f2ca .header-23xsNx {
+	.cozy_c19a55 .header-23xsNx {
 		margin-left: 0;
 		padding-left: 0;
 	}
-	.message_ddcc45 {
+	.message__89466 {
 		background: transparent;
 		box-shadow: none;
 	}
 	// Attachments,pings,codeblocks ect...
-	.message_d5deea {
+	.message__5126c {
 		background: transparent !important;
-		.reaction_f61c73 {
+		.reaction_f8896c {
 			background: var(--foreground);
-			&.reactionMe_f61c73 {
+			&.reactionMe_f8896c {
 				background: var(--gradient);
-				.reactionCount_f61c73 {
+				.reactionCount_f8896c {
 					color: var(--text-normal);
 				}
 			}
 		}
-		.wrapper_f7e168 {
+		.wrapper_f7ecac {
 			background: var(--background-secondary);
 		}
 		.attachment-33OFj0,
@@ -36,7 +36,7 @@
 		color: var(--text-default);
 	}
 	// Mentions
-	.mentioned_d5deea {
+	.mentioned__5126c {
 		background: var(--gradient-20) !important;
 		&::before {
 			background: var(--gradient);

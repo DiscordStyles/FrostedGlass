@@ -1,5 +1,5 @@
 #app-mount {
-	.layer_d4b6c5 {
+	.layer__960e4 {
 		top: var(--window-padding);
 		right: var(--window-padding);
 		bottom: var(--window-padding);
@@ -9,7 +9,7 @@
 		border-radius: var(--window-roundness);
 	}
 	// Container shadow
-	.base_a4d4d9::before {
+	.base_c48ade::before {
 		content: '';
 		position: absolute;
 		height: 5px;
@@ -26,12 +26,12 @@
 		color: var(--text-normal);
 		margin-top: 0;
 	}
-	.botText_a9e77f {
+	.botText__82f07 {
 		font-weight: 600;
 	}
 	.botTagInvert-18-95s {
 		color: rgb(var(--gradient-primary));
-		.botText_a9e77f {
+		.botText__82f07 {
 			font-weight: bold;
 		}
 	}
@@ -39,7 +39,7 @@
 
 //Globally fix scrollerbase getting its overflow set to hidden from the backgrounds
 //we need a really powerful selector for this
-html body #app-mount .scrollerBase_c49869 {
+html body #app-mount .scrollerBase_d125d2 {
 	overflow-y: scroll !important;
 }
 
@@ -48,7 +48,7 @@ html body #app-mount .scrollerBase_c49869 {
 	color: var(--text-normal);
 }
 // Update notice
-#app-mount .app_a01fb1::before {
+#app-mount .app__160d8::before {
 	content: 'Your version of Frosted Glass is outdated. Please redownload';
 	white-space: pre-wrap;
 	display: var(--update-notice-1, block);

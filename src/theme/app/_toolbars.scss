@@ -1,15 +1,15 @@
-#app-mount .title_a7d72e {
+#app-mount .title_f75fb0 {
 	background: transparent;
-	.searchBar_a46bef {
+	.searchBar__97492 {
 		background: var(--background-secondary);
 	}
-	.children_fc4f04::after {
+	.children__9293f::after {
 		content: none;
 	}
 }
 
 // Makes the top bar more easily grabbable
-.titleBar_a934d8 {
+.titleBar__421ed {
 	height: 20px !important;
 	-webkit-app-region: drag;
 	pointer-events: none;

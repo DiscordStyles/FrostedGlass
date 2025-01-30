@@ -1,21 +1,21 @@
 #app-mount {
-	.content_a7d72e::before {
+	.content_f75fb0::before {
 		content: none;
 	}
-	.chat_a7d72e {
+	.chat_f75fb0 {
 		background: rgb(0, 0, 0, var(--middle-brightness));
 	}
 	.messages-3amgkR {
 		background-color: transparent;
 		text-shadow: 0 2px 5px rgb(0, 0, 0, var(--text-shadow));
 	}
-	.newMessagesBar_cf58b5 {
+	.newMessagesBar__0f481 {
 		background: var(--gradient);
 		opacity: 1;
 		box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
 		z-index: 3;
 	}
-	.jumpToPresentBar_cf58b5 {
+	.jumpToPresentBar__0f481 {
 		border-radius: 8px;
 		background-color: var(--foreground-double);
 		backdrop-filter: blur(10px);

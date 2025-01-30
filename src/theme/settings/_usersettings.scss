@@ -1,17 +1,17 @@
-#app-mount .layer_d4b6c5:not(.baseLayer_d4b6c5) {
+#app-mount .layer__960e4:not(.baseLayer__960e4) {
 	// My account
-	.accountProfileCard_b69b77 {
+	.accountProfileCard__1fed1 {
 		background: var(--background-secondary);
 	}
-	.fieldList_b69b77 {
+	.fieldList__1fed1 {
 		background: transparent;
 	}
 	// Authorized apps
-	.authedApp_f0135d {
+	.authedApp__50a54 {
 		background: var(--background-secondary);
 	}
 	// Connections
-	.connection_e2a436 {
+	.connection_c7f964 {
 		position: relative;
 		overflow: hidden;
 		box-shadow: none;
@@ -54,7 +54,7 @@
 		}
 	}
 	// Keybinds
-	.card_ffe375::before {
+	.card_b846e5::before {
 		border-color: transparent;
 		background: var(--foreground);
 	}
