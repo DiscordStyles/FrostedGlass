@@ -1,6 +1,9 @@
 #app-mount .member__5d473 {
 	background: transparent;
 	&.selected__91a9d {
+		.childContainer__91a9d{
+			background: var(--gradient);
+		}
 		.layout__91a9d {
 			background: var(--gradient);
 		}
