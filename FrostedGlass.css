@@ -37,7 +37,7 @@
   --fb-overlay-repeat: var(--popout-modal-repeat, var(--overlay-image-repeat));
 }
 
-.theme-dark {
+.visual-refresh .theme-dark, .theme-dark, .visual-refresh.theme-dark, .visual-refresh {
   --header-primary: #fff;
   --header-secondary: #bbb;
   --text-normal: #fff;
@@ -530,6 +530,7 @@ textarea {
 }
 #app-mount .title_f75fb0 .searchBar__97492 {
   border: none;
+  background: var(--background-secondary);
 }
 #app-mount .title_f75fb0 .children__9293f::after {
   content: none;
@@ -1719,6 +1720,11 @@ textarea {
 }
 #app-mount .changeDetails-bk98pu {
   background: var(--background-secondary);
+}
+#app-mount .contentRegionScroller__23e6b,
+#app-mount .sidebarRegionScroller__23e6b,
+#app-mount .standardSidebarView__23e6b {
+  background: var(--background-primary);
 }
 #app-mount .header_c6bf1b {
   border-radius: 5px;
