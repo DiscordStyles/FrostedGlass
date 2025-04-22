@@ -10,11 +10,11 @@
 	// Attachments,pings,codeblocks ect...
 	.message__5126c {
 		background: transparent !important;
-		.reaction_f8896c {
+		.reaction__23977 {
 			background: var(--foreground);
-			&.reactionMe_f8896c {
+			&.reactionMe__23977 {
 				background: var(--gradient);
-				.reactionCount_f8896c {
+				.reactionCount__23977 {
 					color: var(--text-normal);
 				}
 			}
@@ -22,13 +22,13 @@
 		.wrapper_f7ecac {
 			background: var(--background-secondary);
 		}
-		.attachment-33OFj0,
-		.wrapperAudio-1jDe0Q,
+		.file__0ccae,
+		.wrapperAudio_cf09d8,
 		code {
 			background-color: var(--chat-embed);
 			border: none;
 		}
-		.embedFull-2tM8-- {
+		.embedFull__623de {
 			background-color: var(--chat-embed);
 		}
 	}
@@ -42,10 +42,13 @@
 			background: var(--gradient);
 		}
 	}
-	.wrapper_d4fa29 {
+
+	//Username or channel mention
+	.wrapper_f61d60 {
 		background: var(--gradient);
 		color: var(--text-normal);
 	}
+
 	.popoverReactionHoverBar_f84418 {
 		backdrop-filter: blur(6px);
 	}
