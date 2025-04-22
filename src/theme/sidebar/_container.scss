@@ -6,7 +6,16 @@
 	.scroller__99e7c {
 		background-color: transparent;
 	}
+
 	[role='list'] > div[style='width: 100%; height: 84px; visibility: hidden;'] {
 		height: 120px !important;
+	}
+
+	.sidebarList_c48ade {
+		border: none;
+	}
+	
+	&:after {
+		background: transparent;
 	}
 }

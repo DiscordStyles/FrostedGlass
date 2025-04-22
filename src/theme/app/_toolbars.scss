@@ -1,10 +1,17 @@
 #app-mount .title_f75fb0 {
 	background: transparent;
 	.searchBar__97492 {
-		background: var(--background-secondary);
+		border: none;
 	}
 	.children__9293f::after {
 		content: none;
+	}
+}
+
+// Discords new titlebar
+#app-mount {
+	.bar_c38106 {
+		background-color: rgb(0, 0, 0, var(--serverlist-brightness));
 	}
 }
 

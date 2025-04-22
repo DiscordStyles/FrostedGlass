@@ -1,12 +1,23 @@
 #app-mount .container__133bf {
 	background: rgb(0, 0, 0, var(--middle-brightness));
-	.inset_bf1984 {
-		background-color: var(--background-secondary);
+
+	.tabBody__133bf {
+		background: transparent;
 	}
+
+	.container__9293f {
+		background: transparent;
+	}
+
+	.itemCard__7e549, .card__2eab1, .blockedIgnoredSettingsNotice__6811a {
+		border: none;
+		background: var(--foreground-half)
+	}
+
 	.itemCard__7e549:hover {
 		background: var(--foreground);
 	}
-	.nowPlayingColumn__133bf {
+	.nowPlayingColumn__133bf, .container__7d20c {
 		background: rgb(0, 0, 0, var(--right-brightness));
 	}
 	.scroller__7d20c {

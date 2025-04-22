@@ -48,10 +48,12 @@
 	.container-3a5mk-,
 	.popout__86331,
 	.popout__3f413,
-	.streamPreview__6da2d {
+	.streamPreview__6da2d,
+	.wrapper_f7ecac {
 		overflow: hidden !important;
 		position: relative;
 		border-radius: 3px;
+		border: none;
 
 		&::before {
 			content: '';

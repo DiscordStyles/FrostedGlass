@@ -9,7 +9,7 @@
 		border-radius: var(--window-roundness);
 	}
 	// Container shadow
-	.base_c48ade::before {
+	.subtitleContainer_f75fb0::before {
 		content: '';
 		position: absolute;
 		height: 5px;
@@ -19,7 +19,13 @@
 		top: 48px;
 		pointer-events: none;
 		user-select: none;
+		border: none;
 	}
+
+	.container__9293f, .container__133bf {
+		border: none;
+	}
+
 	// Bot tags
 	.botTagRegular_c89c9a {
 		background: var(--gradient);
