@@ -729,6 +729,10 @@ textarea {
 #app-mount .content_f75fb0::before {
   content: none;
 }
+#app-mount .wrapper_d852db,
+#app-mount .wrapper_fc8177 {
+  background: var(--background-primary);
+}
 #app-mount .chat_f75fb0 {
   border: none;
   background: rgb(0, 0, 0, var(--middle-brightness));
