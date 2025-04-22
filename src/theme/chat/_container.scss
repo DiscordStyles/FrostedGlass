@@ -6,6 +6,12 @@
 	.content_f75fb0::before {
 		content: none;
 	}
+
+	.wrapper_d852db,
+	.wrapper_fc8177 {
+		background: var(--background-primary);
+	}
+
 	.chat_f75fb0 {
 		border: none;
 		background: rgb(0, 0, 0, var(--middle-brightness));
