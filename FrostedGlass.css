@@ -770,25 +770,25 @@ textarea {
 #app-mount .message__5126c {
   background: transparent !important;
 }
-#app-mount .message__5126c .reaction_f8896c {
+#app-mount .message__5126c .reaction__23977 {
   background: var(--foreground);
 }
-#app-mount .message__5126c .reaction_f8896c.reactionMe_f8896c {
+#app-mount .message__5126c .reaction__23977.reactionMe__23977 {
   background: var(--gradient);
 }
-#app-mount .message__5126c .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
+#app-mount .message__5126c .reaction__23977.reactionMe__23977 .reactionCount__23977 {
   color: var(--text-normal);
 }
 #app-mount .message__5126c .wrapper_f7ecac {
   background: var(--background-secondary);
 }
-#app-mount .message__5126c .attachment-33OFj0,
-#app-mount .message__5126c .wrapperAudio-1jDe0Q,
+#app-mount .message__5126c .file__0ccae,
+#app-mount .message__5126c .wrapperAudio_cf09d8,
 #app-mount .message__5126c code {
   background-color: var(--chat-embed);
   border: none;
 }
-#app-mount .message__5126c .embedFull-2tM8-- {
+#app-mount .message__5126c .embedFull__623de {
   background-color: var(--chat-embed);
 }
 #app-mount .hljs {
@@ -800,7 +800,7 @@ textarea {
 #app-mount .mentioned__5126c::before {
   background: var(--gradient);
 }
-#app-mount .wrapper_d4fa29 {
+#app-mount .wrapper_f61d60 {
   background: var(--gradient);
   color: var(--text-normal);
 }
