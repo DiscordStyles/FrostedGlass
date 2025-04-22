@@ -1700,6 +1700,9 @@ textarea {
 #app-mount .layer__960e4:not(.baseLayer__960e4) .item-3eFBNF {
   box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
 }
+#app-mount .layer__960e4:not(.baseLayer__960e4) .cardPrimary__73069 {
+  background: var(--foreground);
+}
 
 #app-mount .contentRegion__23e6b {
   background: rgb(0, 0, 0, var(--middle-brightness));
@@ -1770,6 +1773,14 @@ textarea {
 #app-mount #bd-settings-sidebar .ui-tab-bar-item.selected {
   background: var(--background-modifier-selected);
   color: var(--text-normal);
+}
+
+.vc-addon-card {
+  background-color: var(--background-secondary) !important;
+}
+
+.vc-notification-root {
+  background-color: var(--background-secondary) !important;
 }
 
 html.platform-win .scroller-2TZvBN {
