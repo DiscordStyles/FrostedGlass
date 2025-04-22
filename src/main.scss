@@ -1,2 +1,16 @@
-@import './theme';
-@import './base';
+@use './theme/vars';
+
+@use './theme/app';
+@use './theme/guilds';
+@use './theme/sidebar';
+@use './theme/chat';
+@use './theme/members';
+@use './theme/popouts';
+@use './theme/modals';
+@use './theme/pages';
+@use './theme/settings';
+@use './theme/bd';
+@use './theme/os';
+
+@use './theme/plugins';
+@use './theme/keyframes';
