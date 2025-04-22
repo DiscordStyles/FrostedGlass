@@ -1,15 +1,15 @@
 /**
  * @name Frosted Glass
- * @author Gibbu#1211
+ * @author Gibbu
  * @version 2.2.0
  * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required.
- * @invite ZHthyCw
- * @authorId 174868361040232448
  * @source https://github.com/DiscordStyles/FrostedGlass
- * @website https://gibbu.me/
+ * @invite ZHthyCw
 */
 
-@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/FrostedGlass/FrostedGlass.css');
+
+
 
 /* Old Windows titlebar - remove this @import if you wish to use default titlebar */
 @import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
@@ -79,3 +79,4 @@
    */
   --update-notice-1: none;
 }
+
