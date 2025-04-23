@@ -1,4 +1,5 @@
 #app-mount {
+	//Stuff that should ONLY apply to dedicated emoji/sticker/gif picker
 	.drawerSizingWrapper__08434 {
 		--frostedglass-emojipicker-header-brightness: 50%;
 
@@ -44,15 +45,105 @@
 		.result-3OpoO7 {
 			background-color: var(--foreground) !important;
 		}
-		// Emoji
-		.emojiItemSelected_fc7141 {
-			background: var(--foreground-double);
+
+
+		//Cursed sticker bullsht, why is there a inset, why is it entirely different?
+		//Have to set it to 0 explicitly otherwise stuff breaks and now i have to also
+		//add more padding, i am not sure why it differs greatly from the emoji tab
+		//Watch out with forcing insets though, this could cause spasming and flickering if forced when its JS controlled
+		//Sticker category header ie: Frequently Used, PACK NAME
+		.thin_d125d2 .listItems_affa7e {
+			left: 0px !important;
+			.row_c6367b {
+				//Set the padding left just like on emojis
+				margin-left: 8px;
+			}
 		}
-		.nav__08434 {
+	}
+
+	//Stuff that should only apply to emoji/gif/sticker picker
+	.emojiPicker_c0e32c, .wrapper__8ef02 {
+		box-shadow: none;
+		background: transparent;
+
+		&::before {
+			box-shadow: none;
+			filter: blur(10px);
+		}
+	}
+
+	//Stuff that should only apply to the super reaction picker
+	.appAsidePanelWrapper_a3002d .layerContainer_da8173 .clickTrapContainer_da8173 .layer_da8173 > div:has(.isBurstReactionPicker_c0e32c) {
+		//Set back discord stupid super react effect but on a different layer because otherwise we cannot use a proper background
+		box-shadow: 0 0 0 2px var(--bg-brand);
+		border-radius: var(--custom-emoji-picker-border-radius);
+
+		&::before {
+			box-shadow: 0 0 100px var(--bg-brand);
+			border-radius: var(--custom-emoji-picker-border-radius);
+			content: "";
+			height: 100%;
+			opacity: .5;
+			pointer-events: none;
+			position: absolute;
+			width: 100%;
+		}
+	}
+
+	//Stuff that should only apply to the reaction picker
+	.appAsidePanelWrapper_a3002d .layerContainer_da8173 .clickTrapContainer_da8173:not(:has(.emojiPickerHasTabWrapper_c0e32c)) #emoji-picker-tab-panel {
+		.categoryList_c0e32c {
+			top: 68px;
+		}
+	}
+
+	.isBurstReactionPicker_c0e32c {
+		&::before {
+			//Undo discord its .5 opacity
+			opacity: 1;
+		}
+	}
+
+	//Stuff that should apply to reaction AND emoji/gif/sticker picker
+	.emojiPicker_c0e32c,
+	.wrapper__8ef02,
+	#emoji-picker-tab-panel,
+	.drawerSizingWrapper__08434 {
+		animation: fadeIn 0.3s ease forwards;
+		[class*='header'] {
+			box-shadow: none;
+		}
+
+		.wrapper__14245, .wrapper__4e6ce {
+			background: var(--background-secondary);
+			// backdrop-filter: blur(10px) brightness(var(--frostedglass-emojipicker-header-brightness));
+
+			&::after{
+				content: none;
+			}
+		}
+		.searchBar_c0e32c {
 			background: var(--background-secondary);
 		}
-		.navItem__08434 {
-			color: var(--text-normal);
+
+		.inspector_aeaaeb {
+			border: none;
+			background: var(--background-secondary);
+			// backdrop-filter: brightness(var(--frostedglass-emojipicker-header-brightness));
+		}
+
+		.emojiPickerHasTabWrapper_c0e32c .categoryList_c0e32c,
+		.categoryList__3ad28 {
+			//This crime has to be done because discord thought it was a good idea to create a grid for the elements but have
+			//one of those items live outside of the actual grid and instead absolute/relative position it into a cell
+			//literally why
+			top: 52px;
+		}
+
+		.unicodeShortcut_b9ee0c,
+		.standardStickerShortcut__3ad28 {
+			border: none;
+			background: var(--background-primary);
 		}
 
 		.categoryList_c0e32c,
@@ -83,12 +174,6 @@
 			// backdrop-filter: brightness(var(--frostedglass-emojipicker-header-brightness));
 		}
 
-		.unicodeShortcut_b9ee0c,
-		.standardStickerShortcut__3ad28 {
-			border: none;
-			background: var(--background-primary);
-		}
-
 		.header__14245 {
 			background: rgb(0, 0, 0, 0.6);
 			padding: 2px;
@@ -98,38 +183,20 @@
 		.container_a45028{
 			border: none;
 		}
-	}
 
-	.emojiPicker_c0e32c, .wrapper__8ef02 {
-		box-shadow: none;
-		background: transparent;
-		animation: fadeIn 0.3s ease forwards;
-		[class*='header'] {
-			box-shadow: none;
+		// Emoji
+		.emojiItemSelected_fc7141 {
+			background: var(--foreground-double);
 		}
-
-		.wrapper__14245, .wrapper__4e6ce {
-			background: var(--background-secondary);
-			// backdrop-filter: blur(10px) brightness(var(--frostedglass-emojipicker-header-brightness));
-
-			&::after{
-				content: none;
-			}
-		}
-		.searchBar_c0e32c {
+		.nav__08434 {
 			background: var(--background-secondary);
 		}
-
-		.inspector_aeaaeb {
-			border: none;
-			background: var(--background-secondary);
-			// backdrop-filter: brightness(var(--frostedglass-emojipicker-header-brightness));
+		.navItem__08434 {
+			color: var(--text-normal);
 		}
 
-		&::before {
-			box-shadow: none;
-			filter: blur(10px);
+		.diversitySelectorOptions_a45a2a {
+			background: var(--background-secondary);
 		}
 	}
-	
 }
