@@ -233,6 +233,7 @@ textarea {
 #app-mount .container__56cd1,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG),
 #app-mount .contentWrapper__08434,
+#app-mount .appAsidePanelWrapper_a3002d .layerContainer_da8173 .clickTrapContainer_da8173 #emoji-picker-tab-panel,
 #app-mount .messagesPopoutWrap__45690,
 #app-mount .modal__7f8f5:not(.slide-2pHaq5),
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y),
@@ -266,6 +267,7 @@ textarea {
 #app-mount .container__56cd1::before,
 #app-mount .contextMenu-HLZMGh:not(.scroller-2FKFPG)::before,
 #app-mount .contentWrapper__08434::before,
+#app-mount .appAsidePanelWrapper_a3002d .layerContainer_da8173 .clickTrapContainer_da8173 #emoji-picker-tab-panel::before,
 #app-mount .messagesPopoutWrap__45690::before,
 #app-mount .modal__7f8f5:not(.slide-2pHaq5)::before,
 #app-mount .root-1gCeng:not(.fullscreenOnMobile-1bD22y)::before,
@@ -1157,72 +1159,191 @@ textarea {
 #app-mount .drawerSizingWrapper__08434 .result-3OpoO7 {
   background-color: var(--foreground) !important;
 }
-#app-mount .drawerSizingWrapper__08434 .emojiItemSelected_fc7141 {
-  background: var(--foreground-double);
+#app-mount .drawerSizingWrapper__08434 .thin_d125d2 .listItems_affa7e {
+  left: 0px !important;
 }
-#app-mount .drawerSizingWrapper__08434 .nav__08434 {
-  background: var(--background-secondary);
+#app-mount .drawerSizingWrapper__08434 .thin_d125d2 .listItems_affa7e .row_c6367b {
+  margin-left: 8px;
 }
-#app-mount .drawerSizingWrapper__08434 .navItem__08434 {
-  color: var(--text-normal);
+#app-mount .emojiPicker_c0e32c, #app-mount .wrapper__8ef02 {
+  box-shadow: none;
+  background: transparent;
 }
-#app-mount .drawerSizingWrapper__08434 .categoryList_c0e32c,
-#app-mount .drawerSizingWrapper__08434 .categoryList__3ad28 {
-  background: var(--background-secondary);
+#app-mount .emojiPicker_c0e32c::before, #app-mount .wrapper__8ef02::before {
+  box-shadow: none;
+  filter: blur(10px);
 }
-#app-mount .drawerSizingWrapper__08434 .categoryList_c0e32c .scroller_affa7e,
-#app-mount .drawerSizingWrapper__08434 .categoryList__3ad28 .scroller_affa7e {
-  height: calc(100% - var(--custom-emoji-picker-constants-unicode-category-shortcut-height));
+#app-mount .appAsidePanelWrapper_a3002d .layerContainer_da8173 .clickTrapContainer_da8173 .layer_da8173 > div:has(.isBurstReactionPicker_c0e32c) {
+  box-shadow: 0 0 0 2px var(--bg-brand);
+  border-radius: var(--custom-emoji-picker-border-radius);
 }
-#app-mount .drawerSizingWrapper__08434 .categoryList_c0e32c:has(.unicodeShortcutInvisible_b9ee0c) .scroller_affa7e,
-#app-mount .drawerSizingWrapper__08434 .categoryList__3ad28:not(:has(.standardStickerShortcut__3ad28)) .scroller_affa7e {
+#app-mount .appAsidePanelWrapper_a3002d .layerContainer_da8173 .clickTrapContainer_da8173 .layer_da8173 > div:has(.isBurstReactionPicker_c0e32c)::before {
+  box-shadow: 0 0 100px var(--bg-brand);
+  border-radius: var(--custom-emoji-picker-border-radius);
+  content: "";
   height: 100%;
+  opacity: 0.5;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
 }
-#app-mount .drawerSizingWrapper__08434 .container_fed6d3 {
-  background: var(--background-primary);
+#app-mount .appAsidePanelWrapper_a3002d .layerContainer_da8173 .clickTrapContainer_da8173:not(:has(.emojiPickerHasTabWrapper_c0e32c)) #emoji-picker-tab-panel .categoryList_c0e32c {
+  top: 68px;
 }
-#app-mount .drawerSizingWrapper__08434 .header_c0e32c, #app-mount .drawerSizingWrapper__08434 .header__8ef02, #app-mount .drawerSizingWrapper__08434 .header_fed6d3 {
-  border-radius: 0px;
+#app-mount .isBurstReactionPicker_c0e32c::before {
+  opacity: 1;
+}
+#app-mount .emojiPicker_c0e32c,
+#app-mount .wrapper__8ef02,
+#app-mount #emoji-picker-tab-panel,
+#app-mount .drawerSizingWrapper__08434 {
+  animation: fadeIn 0.3s ease forwards;
+}
+#app-mount .emojiPicker_c0e32c [class*=header],
+#app-mount .wrapper__8ef02 [class*=header],
+#app-mount #emoji-picker-tab-panel [class*=header],
+#app-mount .drawerSizingWrapper__08434 [class*=header] {
+  box-shadow: none;
+}
+#app-mount .emojiPicker_c0e32c .wrapper__14245, #app-mount .emojiPicker_c0e32c .wrapper__4e6ce,
+#app-mount .wrapper__8ef02 .wrapper__14245,
+#app-mount .wrapper__8ef02 .wrapper__4e6ce,
+#app-mount #emoji-picker-tab-panel .wrapper__14245,
+#app-mount #emoji-picker-tab-panel .wrapper__4e6ce,
+#app-mount .drawerSizingWrapper__08434 .wrapper__14245,
+#app-mount .drawerSizingWrapper__08434 .wrapper__4e6ce {
+  background: var(--background-secondary);
+}
+#app-mount .emojiPicker_c0e32c .wrapper__14245::after, #app-mount .emojiPicker_c0e32c .wrapper__4e6ce::after,
+#app-mount .wrapper__8ef02 .wrapper__14245::after,
+#app-mount .wrapper__8ef02 .wrapper__4e6ce::after,
+#app-mount #emoji-picker-tab-panel .wrapper__14245::after,
+#app-mount #emoji-picker-tab-panel .wrapper__4e6ce::after,
+#app-mount .drawerSizingWrapper__08434 .wrapper__14245::after,
+#app-mount .drawerSizingWrapper__08434 .wrapper__4e6ce::after {
+  content: none;
+}
+#app-mount .emojiPicker_c0e32c .searchBar_c0e32c,
+#app-mount .wrapper__8ef02 .searchBar_c0e32c,
+#app-mount #emoji-picker-tab-panel .searchBar_c0e32c,
+#app-mount .drawerSizingWrapper__08434 .searchBar_c0e32c {
+  background: var(--background-secondary);
+}
+#app-mount .emojiPicker_c0e32c .inspector_aeaaeb,
+#app-mount .wrapper__8ef02 .inspector_aeaaeb,
+#app-mount #emoji-picker-tab-panel .inspector_aeaaeb,
+#app-mount .drawerSizingWrapper__08434 .inspector_aeaaeb {
   border: none;
   background: var(--background-secondary);
 }
+#app-mount .emojiPicker_c0e32c .emojiPickerHasTabWrapper_c0e32c .categoryList_c0e32c,
+#app-mount .emojiPicker_c0e32c .categoryList__3ad28,
+#app-mount .wrapper__8ef02 .emojiPickerHasTabWrapper_c0e32c .categoryList_c0e32c,
+#app-mount .wrapper__8ef02 .categoryList__3ad28,
+#app-mount #emoji-picker-tab-panel .emojiPickerHasTabWrapper_c0e32c .categoryList_c0e32c,
+#app-mount #emoji-picker-tab-panel .categoryList__3ad28,
+#app-mount .drawerSizingWrapper__08434 .emojiPickerHasTabWrapper_c0e32c .categoryList_c0e32c,
+#app-mount .drawerSizingWrapper__08434 .categoryList__3ad28 {
+  top: 52px;
+}
+#app-mount .emojiPicker_c0e32c .unicodeShortcut_b9ee0c,
+#app-mount .emojiPicker_c0e32c .standardStickerShortcut__3ad28,
+#app-mount .wrapper__8ef02 .unicodeShortcut_b9ee0c,
+#app-mount .wrapper__8ef02 .standardStickerShortcut__3ad28,
+#app-mount #emoji-picker-tab-panel .unicodeShortcut_b9ee0c,
+#app-mount #emoji-picker-tab-panel .standardStickerShortcut__3ad28,
 #app-mount .drawerSizingWrapper__08434 .unicodeShortcut_b9ee0c,
 #app-mount .drawerSizingWrapper__08434 .standardStickerShortcut__3ad28 {
   border: none;
   background: var(--background-primary);
 }
+#app-mount .emojiPicker_c0e32c .categoryList_c0e32c,
+#app-mount .emojiPicker_c0e32c .categoryList__3ad28,
+#app-mount .wrapper__8ef02 .categoryList_c0e32c,
+#app-mount .wrapper__8ef02 .categoryList__3ad28,
+#app-mount #emoji-picker-tab-panel .categoryList_c0e32c,
+#app-mount #emoji-picker-tab-panel .categoryList__3ad28,
+#app-mount .drawerSizingWrapper__08434 .categoryList_c0e32c,
+#app-mount .drawerSizingWrapper__08434 .categoryList__3ad28 {
+  background: var(--background-secondary);
+}
+#app-mount .emojiPicker_c0e32c .categoryList_c0e32c .scroller_affa7e,
+#app-mount .emojiPicker_c0e32c .categoryList__3ad28 .scroller_affa7e,
+#app-mount .wrapper__8ef02 .categoryList_c0e32c .scroller_affa7e,
+#app-mount .wrapper__8ef02 .categoryList__3ad28 .scroller_affa7e,
+#app-mount #emoji-picker-tab-panel .categoryList_c0e32c .scroller_affa7e,
+#app-mount #emoji-picker-tab-panel .categoryList__3ad28 .scroller_affa7e,
+#app-mount .drawerSizingWrapper__08434 .categoryList_c0e32c .scroller_affa7e,
+#app-mount .drawerSizingWrapper__08434 .categoryList__3ad28 .scroller_affa7e {
+  height: calc(100% - var(--custom-emoji-picker-constants-unicode-category-shortcut-height));
+}
+#app-mount .emojiPicker_c0e32c .categoryList_c0e32c:has(.unicodeShortcutInvisible_b9ee0c) .scroller_affa7e,
+#app-mount .emojiPicker_c0e32c .categoryList__3ad28:not(:has(.standardStickerShortcut__3ad28)) .scroller_affa7e,
+#app-mount .wrapper__8ef02 .categoryList_c0e32c:has(.unicodeShortcutInvisible_b9ee0c) .scroller_affa7e,
+#app-mount .wrapper__8ef02 .categoryList__3ad28:not(:has(.standardStickerShortcut__3ad28)) .scroller_affa7e,
+#app-mount #emoji-picker-tab-panel .categoryList_c0e32c:has(.unicodeShortcutInvisible_b9ee0c) .scroller_affa7e,
+#app-mount #emoji-picker-tab-panel .categoryList__3ad28:not(:has(.standardStickerShortcut__3ad28)) .scroller_affa7e,
+#app-mount .drawerSizingWrapper__08434 .categoryList_c0e32c:has(.unicodeShortcutInvisible_b9ee0c) .scroller_affa7e,
+#app-mount .drawerSizingWrapper__08434 .categoryList__3ad28:not(:has(.standardStickerShortcut__3ad28)) .scroller_affa7e {
+  height: 100%;
+}
+#app-mount .emojiPicker_c0e32c .container_fed6d3,
+#app-mount .wrapper__8ef02 .container_fed6d3,
+#app-mount #emoji-picker-tab-panel .container_fed6d3,
+#app-mount .drawerSizingWrapper__08434 .container_fed6d3 {
+  background: var(--background-primary);
+}
+#app-mount .emojiPicker_c0e32c .header_c0e32c, #app-mount .emojiPicker_c0e32c .header__8ef02, #app-mount .emojiPicker_c0e32c .header_fed6d3,
+#app-mount .wrapper__8ef02 .header_c0e32c,
+#app-mount .wrapper__8ef02 .header__8ef02,
+#app-mount .wrapper__8ef02 .header_fed6d3,
+#app-mount #emoji-picker-tab-panel .header_c0e32c,
+#app-mount #emoji-picker-tab-panel .header__8ef02,
+#app-mount #emoji-picker-tab-panel .header_fed6d3,
+#app-mount .drawerSizingWrapper__08434 .header_c0e32c,
+#app-mount .drawerSizingWrapper__08434 .header__8ef02,
+#app-mount .drawerSizingWrapper__08434 .header_fed6d3 {
+  border-radius: 0px;
+  border: none;
+  background: var(--background-secondary);
+}
+#app-mount .emojiPicker_c0e32c .header__14245,
+#app-mount .wrapper__8ef02 .header__14245,
+#app-mount #emoji-picker-tab-panel .header__14245,
 #app-mount .drawerSizingWrapper__08434 .header__14245 {
   background: rgba(0, 0, 0, 0.6);
   padding: 2px;
   border-radius: 3px;
 }
+#app-mount .emojiPicker_c0e32c .container_a45028,
+#app-mount .wrapper__8ef02 .container_a45028,
+#app-mount #emoji-picker-tab-panel .container_a45028,
 #app-mount .drawerSizingWrapper__08434 .container_a45028 {
   border: none;
 }
-#app-mount .emojiPicker_c0e32c, #app-mount .wrapper__8ef02 {
-  box-shadow: none;
-  background: transparent;
-  animation: fadeIn 0.3s ease forwards;
+#app-mount .emojiPicker_c0e32c .emojiItemSelected_fc7141,
+#app-mount .wrapper__8ef02 .emojiItemSelected_fc7141,
+#app-mount #emoji-picker-tab-panel .emojiItemSelected_fc7141,
+#app-mount .drawerSizingWrapper__08434 .emojiItemSelected_fc7141 {
+  background: var(--foreground-double);
 }
-#app-mount .emojiPicker_c0e32c [class*=header], #app-mount .wrapper__8ef02 [class*=header] {
-  box-shadow: none;
-}
-#app-mount .emojiPicker_c0e32c .wrapper__14245, #app-mount .emojiPicker_c0e32c .wrapper__4e6ce, #app-mount .wrapper__8ef02 .wrapper__14245, #app-mount .wrapper__8ef02 .wrapper__4e6ce {
+#app-mount .emojiPicker_c0e32c .nav__08434,
+#app-mount .wrapper__8ef02 .nav__08434,
+#app-mount #emoji-picker-tab-panel .nav__08434,
+#app-mount .drawerSizingWrapper__08434 .nav__08434 {
   background: var(--background-secondary);
 }
-#app-mount .emojiPicker_c0e32c .wrapper__14245::after, #app-mount .emojiPicker_c0e32c .wrapper__4e6ce::after, #app-mount .wrapper__8ef02 .wrapper__14245::after, #app-mount .wrapper__8ef02 .wrapper__4e6ce::after {
-  content: none;
+#app-mount .emojiPicker_c0e32c .navItem__08434,
+#app-mount .wrapper__8ef02 .navItem__08434,
+#app-mount #emoji-picker-tab-panel .navItem__08434,
+#app-mount .drawerSizingWrapper__08434 .navItem__08434 {
+  color: var(--text-normal);
 }
-#app-mount .emojiPicker_c0e32c .searchBar_c0e32c, #app-mount .wrapper__8ef02 .searchBar_c0e32c {
+#app-mount .emojiPicker_c0e32c .diversitySelectorOptions_a45a2a,
+#app-mount .wrapper__8ef02 .diversitySelectorOptions_a45a2a,
+#app-mount #emoji-picker-tab-panel .diversitySelectorOptions_a45a2a,
+#app-mount .drawerSizingWrapper__08434 .diversitySelectorOptions_a45a2a {
   background: var(--background-secondary);
-}
-#app-mount .emojiPicker_c0e32c .inspector_aeaaeb, #app-mount .wrapper__8ef02 .inspector_aeaaeb {
-  border: none;
-  background: var(--background-secondary);
-}
-#app-mount .emojiPicker_c0e32c::before, #app-mount .wrapper__8ef02::before {
-  box-shadow: none;
-  filter: blur(10px);
 }
 
 #app-mount #guild-header-popout .item-1tOPte.colorPremium-p4p7qO {
