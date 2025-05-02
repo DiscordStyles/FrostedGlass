@@ -1,36 +1,48 @@
-#app-mount {
-	.containerDefault_c69b6d {
-		// Unread
-		.modeUnreadImportant__2ea32 .link__2ea32 {
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region Channel list
+	#{cls('sidebar.channel.container')} {
+		//Unread
+		#{cls('sidebar.channel.unread sidebar.channel.link')} {
 			background: var(--foreground);
 		}
-		// Hover
-		.wrapper-1ucjTd:hover .link__2ea32 {
+
+		//Hover
+		#{cls('sidebar.channel.wrapper')}:hover #{cls('sidebar.channel.link')} {
 			background: var(--background-modifier-hover);
-			.icon__2ea32 {
+			#{cls('sidebar.channel.icon')} {
 				color: var(--interactive-hover);
 			}
 		}
-		// Selected
-		&.selected_c69b6d .link__2ea32 {
+
+		//Selected
+		&#{cls('sidebar.channel.containerSelected sidebar.channel.link')} {
 			background: var(--gradient) !important;
-			.icon__2ea32 {
+			#{cls('sidebar.channel.icon')} {
 				color: var(--text-normal);
 			}
 		}
+
+		//#region VC with user limit
+		//FIXME: This is still very much broken visually and i have no idea what containerUserOver_c69b6d is
+		#{cls('sidebar.channel.users')} {
+			background: var(--foreground);
+			padding: 0 5px;
+			width: auto;
+		}
+
+		#{cls('sidebar.channel.total')} {
+			background: var(--foreground-double);
+			padding: 0 5px;
+			width: auto;
+		}
+
+		.containerUserOver_c69b6d::after {
+			background: var(--gradient-20);
+			border: 2px solid rgb(var(--gradient-primary));
+		}
+		//#endregion VC with user limit
 	}
-	.users-i_3-kL {
-		background: var(--foreground);
-		padding: 0 5px;
-		width: auto;
-	}
-	.total-3tKGEB {
-		background: var(--foreground-double);
-		padding: 0 5px;
-		width: auto;
-	}
-	.containerUserOver_c69b6d::after {
-		background: var(--gradient-20);
-		border: 2px solid rgb(var(--gradient-primary));
-	}
+	//#endregion Channel list
 }

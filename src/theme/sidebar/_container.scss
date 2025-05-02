@@ -1,21 +1,27 @@
-#app-mount .sidebar_c48ade {
-	border-radius: 0;
-	background: rgb(0, 0, 0, var(--left-brightness));
-	.container__2637a,
-	.privateChannels__35e86,
-	.scroller__99e7c {
-		background-color: transparent;
-	}
+@use '@discordstyles/classes' as *;
 
-	[role='list'] > div[style='width: 100%; height: 84px; visibility: hidden;'] {
-		height: 120px !important;
-	}
+#{cls('mount')} {
+	//#region Sidebar
+	#{cls('sidebar.sidebar')} {
+		border-radius: 0;
+		background: rgb(0, 0, 0, var(--left-brightness));
 
-	.sidebarList_c48ade {
-		border: none;
-	}
+		&:after {
+			background: transparent;
+		}
+
+		#{cls('sidebar.container,sidebar.dms.container,sidebar.dms.scroller')} {
+			background-color: transparent;
+		}
 	
-	&:after {
-		background: transparent;
+		//FIXME: Document whatever this is
+		[role='list'] > div[style='width: 100%; height: 84px; visibility: hidden;'] {
+			height: 120px !important;
+		}
+	
+		#{cls('sidebar.sidebarList')} {
+			border: none;
+		}
 	}
+	//#endregion Sidebar
 }
