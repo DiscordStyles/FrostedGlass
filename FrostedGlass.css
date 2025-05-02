@@ -642,9 +642,10 @@ textarea {
   border-radius: 0;
   background: rgb(0, 0, 0, var(--left-brightness));
 }
-#app-mount .sidebar_c48ade .container__2637a,
-#app-mount .sidebar_c48ade .privateChannels__35e86,
-#app-mount .sidebar_c48ade .scroller__99e7c {
+#app-mount .sidebar_c48ade:after {
+  background: transparent;
+}
+#app-mount .sidebar_c48ade .container__2637a, #app-mount .sidebar_c48ade .privateChannels__35e86, #app-mount .sidebar_c48ade .scroller__99e7c {
   background-color: transparent;
 }
 #app-mount .sidebar_c48ade [role=list] > div[style="width: 100%; height: 84px; visibility: hidden;"] {
@@ -652,9 +653,6 @@ textarea {
 }
 #app-mount .sidebar_c48ade .sidebarList_c48ade {
   border: none;
-}
-#app-mount .sidebar_c48ade:after {
-  background: transparent;
 }
 
 #app-mount .header-2o-2hj {
@@ -673,10 +671,10 @@ textarea {
 #app-mount .containerDefault_c69b6d .modeUnreadImportant__2ea32 .link__2ea32 {
   background: var(--foreground);
 }
-#app-mount .containerDefault_c69b6d .wrapper-1ucjTd:hover .link__2ea32 {
+#app-mount .containerDefault_c69b6d .wrapper__2ea32:hover .link__2ea32 {
   background: var(--background-modifier-hover);
 }
-#app-mount .containerDefault_c69b6d .wrapper-1ucjTd:hover .link__2ea32 .icon__2ea32 {
+#app-mount .containerDefault_c69b6d .wrapper__2ea32:hover .link__2ea32 .icon__2ea32 {
   color: var(--interactive-hover);
 }
 #app-mount .containerDefault_c69b6d.selected_c69b6d .link__2ea32 {
@@ -685,22 +683,22 @@ textarea {
 #app-mount .containerDefault_c69b6d.selected_c69b6d .link__2ea32 .icon__2ea32 {
   color: var(--text-normal);
 }
-#app-mount .users-i_3-kL {
+#app-mount .containerDefault_c69b6d .users__260e1 {
   background: var(--foreground);
   padding: 0 5px;
   width: auto;
 }
-#app-mount .total-3tKGEB {
+#app-mount .containerDefault_c69b6d .total__260e1 {
   background: var(--foreground-double);
   padding: 0 5px;
   width: auto;
 }
-#app-mount .containerUserOver_c69b6d::after {
+#app-mount .containerDefault_c69b6d .containerUserOver_c69b6d::after {
   background: var(--gradient-20);
   border: 2px solid rgb(var(--gradient-primary));
 }
 
-#app-mount .channel__972a0 .selected-3veCBZ {
+#app-mount .channel__972a0 .selected_bf202d {
   background: var(--gradient);
 }
 
@@ -1514,6 +1512,9 @@ textarea {
 
 #app-mount .topicsPillContainer__0f481 {
   background: rgba(0, 0, 0, 0.8);
+}
+#app-mount .topicsDropdownBase__0f481 {
+  border: none;
 }
 #app-mount .topicsPillCaret__0f481 {
   background: var(--foreground-double);
