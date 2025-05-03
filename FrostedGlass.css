@@ -655,14 +655,12 @@ textarea {
   border: none;
 }
 
-#app-mount .header-2o-2hj {
+#app-mount .header_f37cb1 {
   background: transparent;
   box-shadow: none;
-}
-#app-mount .header_f37cb1 {
   border: none;
 }
-#app-mount .animatedContainer-1pJv5C {
+#app-mount .animatedContainer_f37cb1 {
   -webkit-mask: linear-gradient(rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0) 100%) !important;
   top: 48px;
   background: transparent;
@@ -705,21 +703,37 @@ textarea {
 #app-mount .panels_c48ade {
   background: transparent;
 }
-#app-mount .panels_c48ade .lookFilled__201d5.colorBrand__201d5, #app-mount .panels_c48ade .container__37e49 {
+#app-mount .panels_c48ade .button_e131a9, #app-mount .panels_c48ade .container__37e49 {
   background: var(--foreground);
+  margin-left: 0px !important;
 }
-#app-mount .panels_c48ade .lookFilled__201d5.colorBrand__201d5:hover, #app-mount .panels_c48ade .container__37e49:hover {
+#app-mount .panels_c48ade .button_e131a9:hover, #app-mount .panels_c48ade .container__37e49:hover {
   background: var(--foreground-double);
 }
-#app-mount .panels_c48ade .lookFilled__201d5.colorBrand__201d5:active, #app-mount .panels_c48ade .container__37e49:active {
+#app-mount .panels_c48ade .button_e131a9:active, #app-mount .panels_c48ade .container__37e49:active {
   background: var(--foreground-triple);
+}
+#app-mount .wrapper_e131a9 {
+  background: var(--foreground);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 #app-mount .container_e131a9 {
   border-bottom: none;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
-#app-mount .unread-1xRYoj {
+#app-mount .bar__7aaec:not(.mentionsBar__7aaec) {
   background: var(--gradient);
+  border: none;
+}
+#app-mount .mentionsBar__7aaec {
+  border: none;
 }
 
 #app-mount .chatContent_f75fb0 {
@@ -1796,22 +1810,13 @@ textarea {
   background: rgb(0, 0, 0, var(--middle-brightness));
 }
 
-#app-mount .layer__960e4:not(.baseLayer__960e4) .standardSidebarView__23e6b {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .standardSidebarView__23e6b {
   top: 0;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .sidebarRegionScroller__23e6b {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .sidebarRegionScroller__23e6b {
   background-color: rgb(0, 0, 0, var(--left-brightness));
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .multiInput-1e2xJ7 .input-2g-os5 {
-  background: transparent;
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .description-3_Ncsb,
-#app-mount .layer__960e4:not(.baseLayer__960e4) .h5-18_1nd:not(.isEnabled-2qCZy8),
-#app-mount .layer__960e4:not(.baseLayer__960e4) .labelDescriptor-1PqHgD,
-#app-mount .layer__960e4:not(.baseLayer__960e4) .viewBody-2Qz-jg {
-  color: var(--text-normal);
-}
-#app-mount .layer__960e4:not(.baseLayer__960e4) .info__2debe .colorMuted-20987_:first-child::before {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .info__2debe .line__2debe:first-child::before {
   content: var(--version);
   display: block;
 }
@@ -1883,27 +1888,24 @@ textarea {
 #app-mount .contentRegion__23e6b {
   background: rgb(0, 0, 0, var(--middle-brightness));
 }
-#app-mount .auditLog-3jNbM6 {
-  border: none;
-  border-radius: 3px;
-  overflow: hidden;
-}
-#app-mount .header-GwIGlr {
-  background: var(--background-secondary);
-}
-#app-mount .timestamp-1mruiI {
-  color: var(--text-muted);
-}
-#app-mount .divider-1pnAR2 {
-  display: none;
-}
-#app-mount .changeDetails-bk98pu {
-  background: var(--background-secondary);
-}
 #app-mount .contentRegionScroller__23e6b,
 #app-mount .sidebarRegionScroller__23e6b,
 #app-mount .standardSidebarView__23e6b {
   background: var(--background-primary);
+}
+#app-mount .auditLog__43dab {
+  border: none;
+  border-radius: 3px;
+  overflow: hidden;
+}
+#app-mount .header__43dab {
+  background: var(--background-secondary);
+}
+#app-mount .timestamp__43dab {
+  color: var(--text-muted);
+}
+#app-mount .changeDetails__43dab {
+  background: var(--background-secondary);
 }
 #app-mount .header_c6bf1b {
   border-radius: 5px;
