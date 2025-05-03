@@ -1,16 +1,17 @@
-#app-mount {
-	.header-2o-2hj {
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region Server header
+	#{cls('sidebar.head.header')} {
 		background: transparent;
 		box-shadow: none;
-	}
-
-	.header_f37cb1 {
 		border: none;
 	}
 
-	.animatedContainer-1pJv5C {
+	#{cls('sidebar.head.animatedContainer')} {
 		-webkit-mask: linear-gradient(rgb(0, 0, 0, 0.9) 60%, rgb(0, 0, 0, 0) 100%) !important;
 		top: 48px;
 		background: transparent;
 	}
+	//#endregion Server header
 }

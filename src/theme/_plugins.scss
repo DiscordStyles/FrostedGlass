@@ -1,4 +1,6 @@
-#app-mount {
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
 	// XenoLib Notifications
 	.xenoLib-notifications {
 		padding: calc(var(--window-padding) * 2 + 48px) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2) calc(var(--window-padding) * 2);

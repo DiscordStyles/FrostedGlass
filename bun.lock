@@ -13,7 +13,7 @@
     },
   },
   "packages": {
-    "@discordstyles/classes": ["@discordstyles/classes@1.0.0", "", {}, "sha512-Ob9oksc8YB6FkOzd+QHJzyZbWliZTl0Zfod+d9yID+MPzvAE4k7bUaxWu9epRxvt9p8TBxcnSUMIJ8QyxSHVJQ=="],
+    "@discordstyles/classes": ["@discordstyles/classes@1.0.1", "", {}, "sha512-yuH9Tph8rrmCRn+u6xeRh6eTixOOSSLGns5B2UO/zy46VJsfzt6QUFO7ZYlrxSo6e82RaCo1FCUh/KKaVIaKUQ=="],
 
     "@parcel/watcher": ["@parcel/watcher@2.5.1", "", { "dependencies": { "detect-libc": "^1.0.3", "is-glob": "^4.0.3", "micromatch": "^4.0.5", "node-addon-api": "^7.0.0" }, "optionalDependencies": { "@parcel/watcher-android-arm64": "2.5.1", "@parcel/watcher-darwin-arm64": "2.5.1", "@parcel/watcher-darwin-x64": "2.5.1", "@parcel/watcher-freebsd-x64": "2.5.1", "@parcel/watcher-linux-arm-glibc": "2.5.1", "@parcel/watcher-linux-arm-musl": "2.5.1", "@parcel/watcher-linux-arm64-glibc": "2.5.1", "@parcel/watcher-linux-arm64-musl": "2.5.1", "@parcel/watcher-linux-x64-glibc": "2.5.1", "@parcel/watcher-linux-x64-musl": "2.5.1", "@parcel/watcher-win32-arm64": "2.5.1", "@parcel/watcher-win32-ia32": "2.5.1", "@parcel/watcher-win32-x64": "2.5.1" } }, "sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg=="],
 

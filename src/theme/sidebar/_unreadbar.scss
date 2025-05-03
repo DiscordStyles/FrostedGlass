@@ -1,3 +1,14 @@
-#app-mount .unread-1xRYoj {
-	background: var(--gradient);
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region Unread bar
+	#{cls('sidebar.channels.unreadBar!sidebar.channels.unreadMentionsBar')} {
+		background: var(--gradient);
+		border: none;
+	}
+
+	#{cls('sidebar.channels.unreadMentionsBar')} {
+		border: none;
+	}
+	//#endregion Unread bar
 }

@@ -1,17 +1,40 @@
-#app-mount {
-	.panels_c48ade {
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region User panel
+	#{cls('sidebar.panels.container')} {
 		background: transparent;
-		.lookFilled__201d5.colorBrand__201d5, .container__37e49 {
+
+		#{cls('sidebar.connected.actions.button,sidebar.panels.user.container')} {
 			background: var(--foreground);
+			margin-left: 0px !important;
+
 			&:hover {
 				background: var(--foreground-double);
 			}
+
 			&:active {
 				background: var(--foreground-triple);
 			}
 		}
 	}
-	.container_e131a9 {
-		border-bottom: none;
+
+	//#region Connected to VC
+	#{cls('sidebar.connected.wrapper')} {
+		background: var(--foreground);
+		border-top-left-radius: inherit;
+		border-top-right-radius: inherit;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
 	}
+
+	#{cls('sidebar.connected.container')} {
+		border-bottom: none;
+		border-top-left-radius: inherit;
+		border-top-right-radius: inherit;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	//#endregion Connected to VC
+	//#endregion User panel
 }

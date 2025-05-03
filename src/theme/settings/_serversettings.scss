@@ -1,33 +1,40 @@
-#app-mount {
-	// Audit log
-	.contentRegion__23e6b {
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region Settings
+	#{cls('settings.content')} {
 		background: rgb(0, 0, 0, var(--middle-brightness));
 	}
-	.auditLog-3jNbM6 {
+
+	#{cls('settings.scroller')},
+	#{cls('settings.sidebar.scroller')},
+	#{cls('settings.sidebar.wrapper')} {
+		background: var(--background-primary);
+	}
+	//#endregion Settings
+
+	//#region Audit log
+	#{cls('settings.server.auditLog')} {
 		border: none;
 		border-radius: 3px;
 		overflow: hidden;
 	}
-	.header-GwIGlr {
-		background: var(--background-secondary);
-	}
-	.timestamp-1mruiI {
-		color: var(--text-muted);
-	}
-	.divider-1pnAR2 {
-		display: none;
-	}
-	.changeDetails-bk98pu {
+
+	#{cls('settings.server.auditLogHeader')} {
 		background: var(--background-secondary);
 	}
 
-	.contentRegionScroller__23e6b,
-	.sidebarRegionScroller__23e6b,
-	.standardSidebarView__23e6b {
-		background: var(--background-primary);
+	#{cls('settings.server.auditLogTimestamp')} {
+		color: var(--text-muted);
 	}
-	//Header from edit role permissions
-	.header_c6bf1b {
+
+	#{cls('settings.server.auditLogChangeDetails')} {
+		background: var(--background-secondary);
+	}
+	//#endregion Audit log
+
+	//#region Header from edit role permissions
+	#{cls('settings.server.roleEditPermissionsHeader')} {
 		//Its not the most beautiful but the way the padding is setup we got very few options to make this readable
 		//it still beats being invisible and overlapping
 		border-radius: 5px;
@@ -49,12 +56,13 @@
 			margin-right: 10px;
 		}
 
-		.titleContainer__81b3e{
+		#{cls('settings.server.roleEditPermissionsTitleContainer')} {
 			margin-top: 10px;
 		}
 
-		.searchContainer__16663{
+		#{cls('settings.server.roleEditPermissionsSearchBarContainer')} {
 			margin-bottom: 10px;
 		}
 	}
+	//#endregion Header from edit role permissions
 }
