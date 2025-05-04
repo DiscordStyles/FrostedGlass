@@ -1,9 +1,16 @@
-#app-mount #bd-settingspane-container {
-	h3 {
-		color: var(--text-normal);
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region BetterDiscord settings pane
+	#bd-settingspane-container {
+		h3 {
+			color: var(--text-normal);
+		}
+
+		.style-description {
+			color: var(--text-default);
+			border-color: var(--background-modifier-accent);
+		}
 	}
-	.style-description {
-		color: var(--text-default);
-		border-color: var(--background-modifier-accent);
-	}
-}
+	//#endregion BetterDiscord settings pane
+} 

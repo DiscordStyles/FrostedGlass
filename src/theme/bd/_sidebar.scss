@@ -1,11 +1,19 @@
-#app-mount #bd-settings-sidebar .ui-tab-bar-item {
-	color: var(--text-muted);
-	&:hover {
-		color: var(--text-normal);
-		background-color: var(--background-modifier-hover);
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region BetterDiscord settings tab bar
+	#bd-settings-sidebar .ui-tab-bar-item {
+		color: var(--text-muted);
+
+		&:hover {
+			color: var(--text-normal);
+			background-color: var(--background-modifier-hover);
+		}
+
+		&.selected {
+			background: var(--background-modifier-selected);
+			color: var(--text-normal);
+		}
 	}
-	&.selected {
-		background: var(--background-modifier-selected);
-		color: var(--text-normal);
-	}
+	//#endregion BetterDiscord settings tab bar
 }

@@ -1,29 +1,42 @@
-#app-mount .form_f75fb0 {
-	margin-top: 0;
-	.themedBackground__74017 {
-		background: transparent;
-	}
-	.attachButton__0923f {
-		padding: 10px;
-	}
-	.placeholder__443e5,
-	.slateTextArea_ec4baf {
-		padding-left: 5px;
-	}
-	.channelTextArea_f75fb0 {
-		background: var(--channeltextarea-background);
-		border: none;
-	}
+@use '@discordstyles/classes' as *;
 
-	.channelAttachmentArea_b77158 {
-		background: transparent;
-	}
+#{cls('mount')} {
+	#{cls('chat.textbox.container')} {
+		margin-top: 0;
 
-	.upload_aa605f {
-		background-color: var(--foreground);
-	}
+		//FIXME: Find out what this is
+		.themedBackground__74017 {
+			background: transparent;
+		}
 
-	.wrapper_f7ecac {
-		background-color: var(--foreground);
+		//#region Textbox
+		#{cls('chat.textbox.attach.button')} {
+			padding: 10px;
+		}
+
+		#{cls('chat.textbox.placeholder')},
+		#{cls('chat.textbox.slate')} {
+			padding-left: 5px;
+		}
+
+		#{cls('chat.textbox.channelTextarea')} {
+			background: var(--channeltextarea-background);
+			border: none;
+		}
+		//#endregion Textbox
+
+		//#region Attachments
+		#{cls('chat.bars.attachments.container')} {
+			background: transparent;
+		}
+
+		#{cls('chat.bars.attachments.item')} {
+			background-color: var(--foreground);
+		}
+
+		#{cls('chat.bars.attachments.actionBar')} {
+			background-color: var(--foreground);
+		}
+		//#endregion Attachments
 	}
 }

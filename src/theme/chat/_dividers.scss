@@ -1,28 +1,38 @@
-#app-mount .divider__908e2 {
-	border: none;
-	.content__908e2 {
-		background: transparent;
-		display: flex;
-		width: 100%;
-		justify-content: center;
-		align-items: center;
-		color: var(--text-muted);
-		&::before,
-		&::after {
-			content: '';
-			flex: 1;
-			height: 1px;
-			display: block;
-			background: var(--background-modifier-accent);
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region Chat dividers
+	#{cls('chat.divider.container')} {
+		border: none;
+
+		#{cls('chat.divider.content')} {
+			background: transparent;
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+			color: var(--text-muted);
+			&::before,
+			&::after {
+				content: '';
+				flex: 1;
+				height: 1px;
+				display: block;
+				background: var(--background-modifier-accent);
+			}
+
+			&::before {
+				margin-right: 10px;
+			}
+
+			&::after {
+				margin-left: 10px;
+			}
 		}
-		&::before {
-			margin-right: 10px;
-		}
-		&::after {
-			margin-left: 10px;
+
+		&#{cls('chat.divider.unread')} {
+			border-top: 1px solid rgb(var(--discord-red));
 		}
 	}
-	&.isUnread__908e2 {
-		border-top: 1px solid rgb(var(--discord-red));
-	}
+	//#endregion Chat dividers
 }

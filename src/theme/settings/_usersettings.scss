@@ -1,74 +1,109 @@
-#app-mount .layer__960e4:not(.baseLayer__960e4) {
-	// My account
-	.accountProfileCard__1fed1 {
-		background: var(--background-secondary);
-	}
-	.fieldList__1fed1 {
-		background: transparent;
-	}
-	// Authorized apps
-	.authedApp__50a54 {
-		background: var(--background-secondary);
-	}
-	// Connections
-	.connection_c7f964 {
-		position: relative;
-		overflow: hidden;
-		box-shadow: none;
-		.integration-3kMeY4 {
-			background: var(--foreground);
-			border: none;
-		}
-	}
-	.connectionHeader-2rV1ze {
-		background: transparent;
-		border: none;
-		margin-bottom: 0;
-	}
-	.connectionDelete-XXTMqE {
-		border: none;
-		background: var(--foreground);
-		transition: 0.2s ease;
-		&::after,
-		&::before {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			width: 2px;
-			height: 16px;
-		}
-		&::before {
-			transform: translate(-50%, -50%) rotate(45deg);
-		}
-		&::after {
-			transform: translate(-50%, -50%) rotate(-45deg);
-		}
-		span {
-			display: none;
-		}
-		&:hover {
-			background: var(--foreground-double);
-		}
-		&:active {
-			background: var(--foreground-triple);
-		}
-	}
-	// Keybinds
-	.card_b846e5::before {
-		border-color: transparent;
-		background: var(--foreground);
-	}
-	// Game Activity
-	.game-3x3aDt {
-		box-shadow: 0 1px 0 0 var(--background-modifier-accent);
-	}
-	// Language
-	.item-3eFBNF {
-		box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
-	}
+@use '@discordstyles/classes' as *;
 
-	// Generic cards ussually at the top
-	.cardPrimary__73069 {
-		background: var(--foreground);
+#{cls('mount')} {
+	#{cls('settings.layer')} {
+		//#region My account
+		#{cls('settings.misc.accountProfileCard')} {
+			background: var(--background-secondary);
+		}
+
+		#{cls('settings.misc.fieldList')} {
+			background: transparent;
+		}
+		//#endregion My account
+
+		//#region Authorized apps
+		#{cls('settings.misc.authedApp')} {
+			background: var(--background-secondary);
+		}
+		//#endregion Authorized apps
+
+		//#region Connections
+		#{cls('settings.connections.base')} {
+			position: relative;
+			overflow: hidden;
+			box-shadow: none;
+			//FIXME: What is a integration?? really old class
+			.integration-3kMeY4 {
+				background: var(--foreground);
+				border: none;
+			}
+		}
+
+		#{cls('settings.connections.header')} {
+			background: transparent;
+			border: none;
+			margin-bottom: 0;
+		}
+
+		//TODO: Find out what all this crazy styling even does, i just added a bit to make it look good for now
+		#{cls('settings.connections.delete')} {
+			border: none;
+			background: var(--foreground);
+			transition: 0.2s ease;
+			border-radius: 100%;
+			padding: 5px;
+
+			&::after,
+			&::before {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: 2px;
+				height: 16px;
+			}
+
+			&::before {
+				transform: translate(-50%, -50%) rotate(45deg);
+			}
+
+			&::after {
+				transform: translate(-50%, -50%) rotate(-45deg);
+			}
+
+			span {
+				display: none;
+			}
+
+			svg {
+				display: block;
+			}
+
+			&:hover {
+				background: var(--foreground-double);
+			}
+
+			&:active {
+				background: var(--foreground-triple);
+			}
+		}
+		//#endregion Connections
+
+		//#region Keybinds
+		//FIXME: fix this, i dont have desktop discord
+		.card_b846e5::before {
+			border-color: transparent;
+			background: var(--foreground);
+		}
+		//#endregion Keybinds
+
+		//#region Game Activity
+		//FIXME: fix this, i dont have desktop discord
+		.game-3x3aDt {
+			box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+		}
+		//#endregion Game Activity
+
+		//#region Language
+		#{cls('settings.misc.language')} {
+			box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
+		}
+		//#endregion Language
+
+		//#region Generic cards ussually at the top
+		#{cls('settings.misc.primaryCard')} {
+			background: var(--foreground);
+		}
+		//#endregion Generic cards ussually at the top
 	}
 }

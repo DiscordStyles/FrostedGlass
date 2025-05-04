@@ -1,32 +1,37 @@
-#app-mount {
-	.chatContent_f75fb0 {
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region Chat
+	#{cls('chat.messages.container')} {
 		background: transparent;
 	}
 
-	.content_f75fb0::before {
+	#{cls('chat.content')}::before {
 		content: none;
 	}
 
-	.wrapper_d852db,
-	.wrapper_fc8177 {
+	#{cls('chat.skeleton')} {
 		background: var(--background-primary);
 	}
 
-	.chat_f75fb0 {
+	#{cls('chat.container')} {
 		border: none;
 		background: rgb(0, 0, 0, var(--middle-brightness));
 	}
-	.messages-3amgkR {
+
+	#{cls('chat.messages.container')} {
 		background-color: transparent;
 		text-shadow: 0 2px 5px rgb(0, 0, 0, var(--text-shadow));
 	}
-	.newMessagesBar__0f481 {
+
+	#{cls('chat.bars.newMessages.container')} {
 		background: var(--gradient);
 		opacity: 1;
 		box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
 		z-index: 3;
 	}
-	.jumpToPresentBar__0f481 {
+
+	#{cls('chat.bars.jumpTo')} {
 		border-radius: 8px;
 		background-color: var(--foreground-double);
 		backdrop-filter: blur(10px);
@@ -36,4 +41,5 @@
 			background-color: var(--foreground-triple);
 		}
 	}
+	//#endregion Chat
 }
