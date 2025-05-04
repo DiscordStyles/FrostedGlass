@@ -742,15 +742,14 @@ textarea {
 #app-mount .content_f75fb0::before {
   content: none;
 }
-#app-mount .wrapper_d852db,
-#app-mount .wrapper_fc8177 {
+#app-mount .wrapper_d852db, #app-mount .wrapper_fc8177 {
   background: var(--background-primary);
 }
 #app-mount .chat_f75fb0 {
   border: none;
   background: rgb(0, 0, 0, var(--middle-brightness));
 }
-#app-mount .messages-3amgkR {
+#app-mount .chatContent_f75fb0 {
   background-color: transparent;
   text-shadow: 0 2px 5px rgb(0, 0, 0, var(--text-shadow));
 }
@@ -831,7 +830,7 @@ textarea {
 #app-mount .form_f75fb0 .attachButton__0923f {
   padding: 10px;
 }
-#app-mount .form_f75fb0 .placeholder__443e5,
+#app-mount .form_f75fb0 .placeholder__1b31f,
 #app-mount .form_f75fb0 .slateTextArea_ec4baf {
   padding-left: 5px;
 }
@@ -845,14 +844,14 @@ textarea {
 #app-mount .form_f75fb0 .upload_aa605f {
   background-color: var(--foreground);
 }
-#app-mount .form_f75fb0 .wrapper_f7ecac {
+#app-mount .form_f75fb0 .actionBar_aa605f.wrapper_f7ecac {
   background-color: var(--foreground);
 }
 
-#app-mount .divider__908e2 {
+#app-mount .divider__5126c {
   border: none;
 }
-#app-mount .divider__908e2 .content__908e2 {
+#app-mount .divider__5126c .content__908e2 {
   background: transparent;
   display: flex;
   width: 100%;
@@ -860,20 +859,20 @@ textarea {
   align-items: center;
   color: var(--text-muted);
 }
-#app-mount .divider__908e2 .content__908e2::before, #app-mount .divider__908e2 .content__908e2::after {
+#app-mount .divider__5126c .content__908e2::before, #app-mount .divider__5126c .content__908e2::after {
   content: "";
   flex: 1;
   height: 1px;
   display: block;
   background: var(--background-modifier-accent);
 }
-#app-mount .divider__908e2 .content__908e2::before {
+#app-mount .divider__5126c .content__908e2::before {
   margin-right: 10px;
 }
-#app-mount .divider__908e2 .content__908e2::after {
+#app-mount .divider__5126c .content__908e2::after {
   margin-left: 10px;
 }
-#app-mount .divider__908e2.isUnread__908e2 {
+#app-mount .divider__5126c.isUnread__908e2 {
   border-top: 1px solid rgb(var(--discord-red));
 }
 
@@ -1821,67 +1820,72 @@ textarea {
   display: block;
 }
 
-#app-mount .layer__960e4:not(.baseLayer__960e4) .accountProfileCard__1fed1 {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .accountProfileCard__1fed1 {
   background: var(--background-secondary);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .fieldList__1fed1 {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .fieldList__1fed1 {
   background: transparent;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .authedApp__50a54 {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .authedAppV2__50a54 {
   background: var(--background-secondary);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connection_c7f964 {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connection_c7f964 {
   position: relative;
   overflow: hidden;
   box-shadow: none;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connection_c7f964 .integration-3kMeY4 {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connection_c7f964 .integration-3kMeY4 {
   background: var(--foreground);
   border: none;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionHeader-2rV1ze {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionHeader_c7f964 {
   background: transparent;
   border: none;
   margin-bottom: 0;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionDelete_c7f964 {
   border: none;
   background: var(--foreground);
   transition: 0.2s ease;
+  border-radius: 100%;
+  padding: 5px;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE::after, #app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE::before {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionDelete_c7f964::after, #app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionDelete_c7f964::before {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 2px;
   height: 16px;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE::before {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionDelete_c7f964::before {
   transform: translate(-50%, -50%) rotate(45deg);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE::after {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionDelete_c7f964::after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE span {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionDelete_c7f964 span {
   display: none;
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE:hover {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionDelete_c7f964 svg {
+  display: block;
+}
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionDelete_c7f964:hover {
   background: var(--foreground-double);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .connectionDelete-XXTMqE:active {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .connectionDelete_c7f964:active {
   background: var(--foreground-triple);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .card_b846e5::before {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .card_b846e5::before {
   border-color: transparent;
   background: var(--foreground);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .game-3x3aDt {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .game-3x3aDt {
   box-shadow: 0 1px 0 0 var(--background-modifier-accent);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .item-3eFBNF {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .item__001a7 {
   box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
 }
-#app-mount .layer__960e4:not(.baseLayer__960e4) .cardPrimary__73069 {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .cardPrimary__73069 {
   background: var(--foreground);
 }
 
