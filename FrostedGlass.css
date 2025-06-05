@@ -152,6 +152,22 @@ html body #app-mount .scrollerBase_d125d2 {
   text-shadow: 0 2px 3px rgb(0, 0, 0, var(--text-shadow));
 }
 
+html:not(.theme-dark) #app-mount .app__160d8::before,
+html.custom-theme-background #app-mount .app__160d8::before {
+  content: "Unsupported native theme selected, please change your theme to Dark in Settings -> Appearance";
+  white-space: pre-wrap;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background: red;
+  text-shadow: none;
+  font-weight: 700;
+  font-size: larger;
+  z-index: 9000;
+}
+
 ::-webkit-scrollbar {
   width: 8px !important;
   height: 8px !important;
@@ -589,13 +605,6 @@ textarea {
 }
 #app-mount .guilds_c48ade .tree_ef3116::-webkit-scrollbar {
   display: none;
-}
-
-#app-mount .guilds_c48ade [class*=expandedFolderBackground] {
-  background: var(--foreground);
-}
-#app-mount .guilds_c48ade [class*=folder] {
-  background: transparent;
 }
 
 #app-mount .guilds_c48ade .tutorialContainer__1f388 .childWrapper_a6ce15 {
