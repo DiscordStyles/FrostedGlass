@@ -1,8 +1,9 @@
 #app-mount .guilds_c48ade {
-	[class*='expandedFolderBackground'] {
-		background: var(--foreground);
-	}
-	[class*='folder'] {
-		background: transparent;
-	}
+	// This is disabled for now as the background is transparent by default so the coloring actually looks nice by default
+	// [class*='expandedFolderBackground'] {
+	// 	background: var(--foreground);
+	// }
+	// [class*='folder'] {
+	// 	background: transparent;
+	// }
 }
