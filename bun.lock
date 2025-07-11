@@ -4,7 +4,7 @@
     "": {
       "name": "frostedglass",
       "dependencies": {
-        "@discordstyles/classes": "^1.0.1",
+        "@discordstyles/classes": "^1.0.2",
         "bd-scss": "^3.0.5",
       },
       "devDependencies": {
