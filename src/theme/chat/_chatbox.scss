@@ -9,15 +9,15 @@
 			background: transparent;
 		}
 
-		//#region Textbox
-		#{cls('chat.textbox.attach.button')} {
-			padding: 10px;
-		}
+		// //#region Textbox
+		// #{cls('chat.textbox.attach.button')} {
+		// 	padding: 10px;
+		// }
 
-		#{cls('chat.textbox.placeholder')},
-		#{cls('chat.textbox.slate')} {
-			padding-left: 5px;
-		}
+		// #{cls('chat.textbox.placeholder')},
+		// #{cls('chat.textbox.slate')} {
+		// 	padding-left: 5px;
+		// }
 
 		#{cls('chat.textbox.channelTextarea')} {
 			background: var(--channeltextarea-background);
