@@ -553,10 +553,6 @@ textarea {
   content: none;
 }
 
-#app-mount .bar_c38106 {
-  background-color: rgb(0, 0, 0, var(--serverlist-brightness));
-}
-
 .titleBar__421ed {
   height: 20px !important;
   -webkit-app-region: drag;
@@ -779,6 +775,9 @@ textarea {
 #app-mount .jumpToPresentBar__0f481:hover {
   background-color: var(--foreground-triple);
 }
+#app-mount .chatGradientBase__36d07 {
+  display: none;
+}
 
 #app-mount .cozy_c19a55 .header-23xsNx {
   margin-left: 0;
@@ -835,13 +834,6 @@ textarea {
 }
 #app-mount .form_f75fb0 .themedBackground__74017 {
   background: transparent;
-}
-#app-mount .form_f75fb0 .attachButton__0923f {
-  padding: 10px;
-}
-#app-mount .form_f75fb0 .placeholder__1b31f,
-#app-mount .form_f75fb0 .slateTextArea_ec4baf {
-  padding-left: 5px;
 }
 #app-mount .form_f75fb0 .channelTextArea_f75fb0 {
   background: var(--channeltextarea-background);
