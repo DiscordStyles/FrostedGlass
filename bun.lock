@@ -4,16 +4,16 @@
     "": {
       "name": "frostedglass",
       "dependencies": {
-        "@discordstyles/classes": "latest",
-        "bd-scss": "latest",
+        "@discordstyles/classes": "^1.0.3",
+        "bd-scss": "^3.0.7",
       },
       "devDependencies": {
-        "prettier": "latest",
+        "prettier": "^3.6.2",
       },
     },
   },
   "packages": {
-    "@discordstyles/classes": ["@discordstyles/classes@1.0.3", "", {}, "sha512-WRrIT64lEZW7MsOavV2l4ieCDfA1HsYoEWmwGrppFvRXkggqJSlyOp1JxnCnIYFi3Sgf0tIKjc1StEkLzIC7GQ=="],
+    "@discordstyles/classes": ["@discordstyles/classes@1.0.4", "", {}, "sha512-EHektoH0uJDouew6Nv7BvUpWGcKVLw5Dulr1DysAGpirPgeItpWxVtMTjkseMqz3JMibccY3rBDD4DmgYoEWCQ=="],
 
     "@parcel/watcher": ["@parcel/watcher@2.5.1", "", { "dependencies": { "detect-libc": "^1.0.3", "is-glob": "^4.0.3", "micromatch": "^4.0.5", "node-addon-api": "^7.0.0" }, "optionalDependencies": { "@parcel/watcher-android-arm64": "2.5.1", "@parcel/watcher-darwin-arm64": "2.5.1", "@parcel/watcher-darwin-x64": "2.5.1", "@parcel/watcher-freebsd-x64": "2.5.1", "@parcel/watcher-linux-arm-glibc": "2.5.1", "@parcel/watcher-linux-arm-musl": "2.5.1", "@parcel/watcher-linux-arm64-glibc": "2.5.1", "@parcel/watcher-linux-arm64-musl": "2.5.1", "@parcel/watcher-linux-x64-glibc": "2.5.1", "@parcel/watcher-linux-x64-musl": "2.5.1", "@parcel/watcher-win32-arm64": "2.5.1", "@parcel/watcher-win32-ia32": "2.5.1", "@parcel/watcher-win32-x64": "2.5.1" } }, "sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg=="],
 
