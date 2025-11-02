@@ -643,20 +643,20 @@ textarea {
   color: var(--text-normal);
 }
 
-#app-mount .sidebar_c48ade {
+#app-mount .sidebar__5e434 {
   border-radius: 0;
   background: rgb(0, 0, 0, var(--left-brightness));
 }
-#app-mount .sidebar_c48ade:after {
+#app-mount .sidebar__5e434:after {
   background: transparent;
 }
-#app-mount .sidebar_c48ade .container__2637a, #app-mount .sidebar_c48ade .privateChannels__35e86, #app-mount .sidebar_c48ade .scroller__99e7c {
+#app-mount .sidebar__5e434 .container__2637a, #app-mount .sidebar__5e434 .privateChannels_e6b769, #app-mount .sidebar__5e434 .scroller__99e7c {
   background-color: transparent;
 }
-#app-mount .sidebar_c48ade [role=list] > div[style="width: 100%; height: 84px; visibility: hidden;"] {
+#app-mount .sidebar__5e434 [role=list] > div[style="width: 100%; height: 84px; visibility: hidden;"] {
   height: 120px !important;
 }
-#app-mount .sidebar_c48ade .sidebarList_c48ade {
+#app-mount .sidebar__5e434 .sidebarList__5e434 {
   border: none;
 }
 
@@ -705,17 +705,17 @@ textarea {
   background: var(--gradient);
 }
 
-#app-mount .panels_c48ade {
+#app-mount .panels__5e434 {
   background: transparent;
 }
-#app-mount .panels_c48ade .button_e131a9, #app-mount .panels_c48ade .container__37e49 {
+#app-mount .panels__5e434 .button_e131a9, #app-mount .panels__5e434 .container__37e49 {
   background: var(--foreground);
   margin-left: 0px !important;
 }
-#app-mount .panels_c48ade .button_e131a9:hover, #app-mount .panels_c48ade .container__37e49:hover {
+#app-mount .panels__5e434 .button_e131a9:hover, #app-mount .panels__5e434 .container__37e49:hover {
   background: var(--foreground-double);
 }
-#app-mount .panels_c48ade .button_e131a9:active, #app-mount .panels_c48ade .container__37e49:active {
+#app-mount .panels__5e434 .button_e131a9:active, #app-mount .panels__5e434 .container__37e49:active {
   background: var(--foreground-triple);
 }
 #app-mount .wrapper_e131a9 {
@@ -747,7 +747,7 @@ textarea {
 #app-mount .content_f75fb0::before {
   content: none;
 }
-#app-mount .wrapper_d852db, #app-mount .wrapper_fc8177 {
+#app-mount .wrapper_cdf8a9, #app-mount .wrapper_fc8177 {
   background: var(--background-primary);
 }
 #app-mount .chat_f75fb0 {
@@ -1883,7 +1883,7 @@ textarea {
 #app-mount .layer__960e4 :not(.baseLayer__960e4) .game-3x3aDt {
   box-shadow: 0 1px 0 0 var(--background-modifier-accent);
 }
-#app-mount .layer__960e4 :not(.baseLayer__960e4) .item__001a7 {
+#app-mount .layer__960e4 :not(.baseLayer__960e4) .item__88a69 {
   box-shadow: inset 0 -1px 0 0 var(--background-modifier-accent);
 }
 #app-mount .layer__960e4 :not(.baseLayer__960e4) .cardPrimary__73069 {
